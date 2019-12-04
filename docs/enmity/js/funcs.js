@@ -78,30 +78,22 @@ let isPet = (entity) => {
   return entity.OwnerID != 0;
 };
 
-Vue.filter('jobrole', function(entity) {
-  if (!entity)
-    return 'UNKNOWN';
-  if (isPet(entity))
-    return 'Pet';
-  if (entity.isMe)
-    return 'YOU';
+Vue.filter('jobrole', function (entity) {
   let jobName = jobEnumToName[entity.Job];
   let role = jobNameToRole[jobName];
-  if (role != null)
-    return role;
+  if (!entity) return 'UNKNOWN';
+  if (entity.isMe) return 'YOU';
+  if (isPet(entity)) return 'Pet';
+  if (role != null) return role;
   return 'UNKNOWN';
 });
 
-Vue.filter('jobname', function(entity) {
-  if (!entity)
-    return 'UNKNOWN';
-  if (isPet(entity))
-    return 'Pet';
-  if (entity.isMe)
-    return 'YOU';
+Vue.filter('jobname', function (entity) {
   let jobName = jobEnumToName[entity.Job];
-  if (jobName != null)
-    return jobName;
+  if (!entity) return 'UNKNOWN';
+  if (entity.isMe) return 'YOU';
+  if (isPet(entity)) return 'Pet';
+  if (jobName != null) return jobName;
   return 'UNKNOWN';
 });
 
@@ -113,7 +105,7 @@ let hpPercentString = (entity) => {
   return (100.0 * entity.CurrentHP / entity.MaxHP).toFixed(2);
 };
 
-Vue.filter('hpcolor', function(entity) {
+Vue.filter('hpcolor', function (entity) {
   let percent = 100.0 * entity.CurrentHP / entity.MaxHP;
   if (percent > 75) return 'green';
   if (percent > 50) return 'yellow';
@@ -121,18 +113,18 @@ Vue.filter('hpcolor', function(entity) {
   return 'red';
 });
 
-Vue.filter('hppercent', function(entity) {
+Vue.filter('hppercent', function (entity) {
   return hpPercentString(entity);
 });
 
-Vue.filter('hatecolor', function(entity) {
+Vue.filter('hatecolor', function (entity) {
   if (entity.HateRate == 100) return 'red';
   if (entity.HateRate > 75) return 'orange';
   if (entity.HateRate > 50) return 'yellow';
   return 'green';
 });
 
-Vue.filter('you', function(entity) {
+Vue.filter('you', function (entity) {
   return entity.isMe ? 'YOU' : entity.Name;
 });
 

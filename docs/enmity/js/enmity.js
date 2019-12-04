@@ -52,6 +52,16 @@ let enmity = new Vue({
     window.removeOverlayListener('EnmityTargetData', this.update);
     document.removeEventListener('onOverlayStateUpdate', this.updateState);
   },
+  filters:{
+    jobrole: function (entity) {
+      let jobName = jobEnumToName[entity.Job];
+      let role = jobNameToRole[jobName];
+      if (!entity) return 'UNKNOWN';
+      if (isPet(entity)) return 'Pet';
+      if (role != null) return role;
+      return 'UNKNOWN';
+    }
+  },
   methods: {
     update: function(enmity) {
       if (enmity.Entries === null)
