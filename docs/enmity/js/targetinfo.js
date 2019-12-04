@@ -25,34 +25,38 @@ let localeStrings = {
   },
 };
 
-let targetinfo = new Vue({
-  el: '#targetinfo',
+let vue = new Vue({
+  el: '#vue',
   data: {
     updated: false,
+    hide: false,
     locked: false,
     collapsed: false,
     targets: [],
     strings: {},
   },
-  attached: function() {
-    window.callOverlayHandler({ call: 'getLanguage' }).then((msg) => {
-      if (msg.language in localeStrings)
-        this.strings = localeStrings[msg.language];
-      else
-        this.strings = localStrings['English'];
+  mounted: function () {
+    this.$nextTick(function () {
+      window.callOverlayHandler({ call: 'getLanguage' }).then((msg) => {
+        if (msg.language in localeStrings)
+          this.strings = localeStrings[msg.language];
+        else
+          this.strings = localStrings['English'];
 
-      window.addOverlayListener('EnmityTargetData', this.update);
-      document.addEventListener('onOverlayStateUpdate', this.updateState);
-      window.startOverlayEvents();
+        window.addOverlayListener('EnmityTargetData', this.update);
+        document.addEventListener('onOverlayStateUpdate', this.updateState);
+        window.startOverlayEvents();
+      });
     });
   },
-  detached: function() {
-    window.addOverlayListener('EnmityTargetData', this.update);
-    document.removeEventListener('onOverlayStateUpdate', this.updateState);
+  destroyed: function () {
+    this.$nextTick(function () {
+      window.addOverlayListener('EnmityTargetData', this.update);
+      document.removeEventListener('onOverlayStateUpdate', this.updateState);
+    });
   },
   methods: {
-    update: function(enmity) {
-      this.updated = true;
+    update: function (enmity) {
       this.targets = [];
       for (let k of targets) {
         let t = enmity[k];
@@ -67,11 +71,17 @@ let targetinfo = new Vue({
         t.Key = this.strings.titles[k];
         this.targets.push(t);
       }
+      this.updated = true;
     },
-    updateState: function(e) {
+    updateState: function (e) {
       this.locked = e.detail.isLocked;
     },
-    toggleCollapse: function() {
+    hppercent: function (entity) {
+      if (!entity) return '--';
+      if (entity.MaxHP <= 0) return '0.00';
+      return (100.0 * entity.CurrentHP / entity.MaxHP).toFixed(2);
+    },
+    toggleCollapse: function () {
       this.collapsed = !this.collapsed;
     },
   },

@@ -6,90 +6,92 @@
   <link rel="stylesheet" href="css/aggrolist.css">
 </head>
 
-<body id="aggrolist" v-class="resize-handle: !locked">
+<body>
+  <!-- Vue -->
+  <div id="vue" v-bind:class="{ 'resize-handle': !locked }">
+    <!-- outer -->
+    <div v-cloak class="outer" v-bind:class="[ hide ? 'hide' : '' ]">
+      <!-- innner -->
+      <div v-if="updated" class="inner">
+        <div class="background"></div>
 
-  <!-- outer -->
-  <div class="outer {{hide ? 'hide' : ''}}">
-    <!-- innner -->
-    <div v-if="updated" class="inner">
-      <div class="background"></div>
-
-      <!-- Combatants Table -->
-      <table id="combatants" v-show="!collapsed">
-        <!-- Table Header -->
-        <thead class="gold">
-          <tr>
-            <th class="text-center">Hate</th>
-            <th class="test-center">Target</th>
-            <th class="text-left">Name</th>
-            <th class="text-right" style="padding-right: 4px">HPP</th>
-            <th class="text-right" style="padding-right: 4px">Effects</th>
-          </tr>
-        </thead>
-        <!-- Table Body -->
-        <tbody class="blue">
-          <!-- Vue Repeat Template -->
-          <template v-repeat="combatant: combatants">
-            <tr class="{{combatant.isCurrentTarget ? '' : ''}}">
-              <!-- Hate -->
-              <td class="hate text-right">
-                <div style="height: 30px; line-height: 30px;" class="hate {{combatant | hatecolor}}"><span
-                    style="position:absolute; left:12px;">{{combatant.isCurrentTarget ? "▶" : ""}}</span><span>{{combatant.HateRate}}%</span>
-                </div>
-              </td>
-              <!-- Target -->
-              <td class="target text-center">
-                <div style="height: 30px; line-height: 30px;" class="target {{combatant.Target | jobrole}}">
-                  {{combatant.Target | jobname}}
-                </div>
-              </td>
-
-              <!-- Name & HPP -->
-              <td class="text-left" colspan="2">
-                <div class="box">
-                  <div class="content" style="width: 100%;">
-                    <span
-                      style="position:absolute; right:2px; line-height: 24px;">{{combatant | hppercent | round}}%</span>
-                    <table class="blue" style="width:100%;">
-                      <tr>
-                        <td style="text-align: left;">
-                          <span class="content" style="text-overflow: ellipsis;">{{combatant.Name}}</span>
-                        </td>
-                        <td style="min-width: 36px"></td>
-                      </tr>
-                    </table>
-                  </div>
-                  <div class="gauge {{combatant | hpcolor}}"
-                    style="height: 8px; bottom: -6px; width: {{combatant | hppercent}}%" />
-                </div>
-              </td>
-              <!-- Effects -->
-              <td style="white-space: nowrap; text-align: left; padding-left: 2px; min-width: 60px;">
-                <template v-repeat="effect: combatant.Effects">
-                  <div style="position: relative; display: inline-block; white-space: normal; font-size: 0;">
-                    <img src={{effect.Icon}} style="height: 28px; width: 21px; margin-right: 3px;">
-                    <span
-                      style="position: absolute; bottom:-4px; right: 2px; font-size: 10px;">{{Math.ceil(effect.Timer)}}</span>
-                  </div>
-
-
-
-
-                </template>
-              </td>
+        <!-- Combatants Table -->
+        <table id="combatants" v-show="!collapsed">
+          <!-- Table Header -->
+          <thead class="gold">
+            <tr>
+              <th class="text-center">Hate</th>
+              <th class="test-center">Target</th>
+              <th class="text-left">Name</th>
+              <th class="text-right" style="padding-right: 4px">HPP</th>
+              <th class="text-right" style="padding-right: 4px">Effects</th>
             </tr>
-          </template>
-          <!-- end of Vue Repeat Template -->
-        </tbody>
-      </table>
-      <!-- end of Combatant Table -->
+          </thead>
+          <!-- Table Body -->
+          <tbody class="blue">
+            <!-- Vue Repeat Template -->
+            <template v-for="combatant in combatants">
+              <tr v-bind:class="[ combatant.isCurrentTarget ? '' : '' ]">
+                <!-- Hate -->
+                <td class="hate text-right">
+                  <div style="height: 30px; line-height: 30px;" class="hate" v-bind:class="combatant | hatecolor">
+                    <span style="position:absolute; left:12px;">{{combatant.isCurrentTarget ? "▶" : ""}}</span>
+                    <span>{{combatant.HateRate}}%</span>
+                  </div>
+                </td>
+                <!-- Target -->
+                <td class="target text-center">
+                  <div style="height: 30px; line-height: 30px;" class="target"
+                    v-bind:class="combatant.Target | jobrole">
+                    {{combatant.Target | jobname}}
+                  </div>
+                </td>
 
+                <!-- Name & HPP -->
+                <td class="text-left" colspan="2">
+                  <div class="box">
+                    <div class="content" style="width: 100%;">
+                      <span
+                        style="position:absolute; right:2px; line-height: 24px;">{{combatant | hppercent | round}}%</span>
+                      <table class="blue" style="width:100%;">
+                        <tr>
+                          <td style="text-align: left;">
+                            <span class="content" style="text-overflow: ellipsis;">{{combatant.Name}}</span>
+                          </td>
+                          <td style="min-width: 36px"></td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="gauge" v-bind:class="combatant | hpcolor" style="height: 8px; bottom: -6px;"
+                      v-bind:style="{ width: hppercent(combatant)) + '%' }"></div>
+                  </div>
+                </td>
+                <!-- Effects -->
+                <td style="white-space: nowrap; text-align: left; padding-left: 2px; min-width: 60px;">
+                  <template v-for="effect in combatant.Effects">
+                    <div style="position: relative; display: inline-block; white-space: normal; font-size: 0;">
+                      <img v-bind:src="effect.Icon" style="height: 28px; width: 21px; margin-right: 3px;">
+                      <span
+                        style="position: absolute; bottom:-4px; right: 2px; font-size: 10px;">{{Math.ceil(effect.Timer)}}</span>
+                    </div>
+                  </template>
+                </td>
+
+              </tr>
+            </template>
+            <!-- end of Vue Repeat Template -->
+          </tbody>
+        </table>
+        <!-- end of Combatant Table -->
+
+      </div>
+      <!-- end of inner -->
     </div>
-    <!-- end of inner -->
+    <!-- end of outer -->
   </div>
-  <!-- end of outer -->
+  <!-- end of Vue -->
 
-  <script src="https://unpkg.com/vue@0.12.7/dist/vue.min.js"></script>
+  <script src="https://unpkg.com/vue@2.6.10/dist/vue.js"></script>
   <script src="../miniparse_common.js"></script>
   <script src="js/common.js"></script>
   <script src="js/aggrolist_effects.js"></script>

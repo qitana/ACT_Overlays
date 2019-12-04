@@ -87,9 +87,9 @@ let formatNum = (num) => {
 //
 
 Vue.filter('jobrole', function (entity) {
+  if (!entity) return 'UNKNOWN';
   let jobName = jobEnumToName[entity.Job];
   let role = jobNameToRole[jobName];
-  if (!entity) return 'UNKNOWN';
   if (entity.isMe) return 'YOU';
   if (isPet(entity)) return 'Pet';
   if (role != null) return role;
@@ -97,8 +97,8 @@ Vue.filter('jobrole', function (entity) {
 });
 
 Vue.filter('jobname', function (entity) {
-  let jobName = jobEnumToName[entity.Job];
   if (!entity) return 'UNKNOWN';
+  let jobName = jobEnumToName[entity.Job];
   if (entity.isMe) return 'YOU';
   if (isPet(entity)) return 'Pet';
   if (jobName != null) return jobName;
@@ -131,7 +131,6 @@ Vue.filter('you', function (entity) {
 });
 
 Vue.filter('round', (x) => Math.round(x));
-
 
 Vue.filter('numformat', (num) => {
   if (num == 0) return '--';
