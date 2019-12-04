@@ -6,43 +6,46 @@
   <link rel="stylesheet" href="css/enmity.css">
 </head>
 
-<body id="enmity" v-class="resize-handle: !locked">
+<body>
+  <!-- Vue -->
+  <div id="vue" v-bind:class="{ 'resize-handle': !locked }">
+    <!-- outer -->
+    <div v-cloak class="outer" v-bind:class="[ hide ? 'hide' : '' ]">
+      <!-- innner -->
+      <div v-if="updated" class="inner" v-bind:class="[ target.Type != 2 ? 'hide' : '' ]">
+        <div class="background"></div>
 
-  <!-- outer -->
-  <div class="outer {{hide ? 'hide' : ''}}">
-    <!-- innner -->
-    <div v-if="updated" class="inner {{target.Type != 2 ? 'hide' : ''}}">
-      <div class="background"></div>
-
-      <!-- Target -->
-      <div>
-        <div id="target">
-          <span class="value">{{target.Name}}</span>
-        </div>
-      </div>
-      <!-- end of Target -->
-
-      <!-- Enmity Entries -->
-      <div>
-        <div id="entries" class="box" v-repeat="e: entries">
-          <!-- Name -->
-          <div class="content">
-            <span class="name {{e.isMe ? 'me' : '' }}">{{$index + 1}}.{{e | you}}</span>
-            <span class="enmity">{{e.RelativeEnmity | relnumformat}}</span>
+        <!-- Target -->
+        <div>
+          <div id="target">
+            <span class="value">{{target.Name}}</span>
           </div>
-          <!-- Gauge -->
-          <div class="gauge {{e | jobrole}}" style="width: {{e.HateRate}}%"></div>
         </div>
-      </div>
-      <!-- end of Enmity Entries -->
+        <!-- end of Target -->
 
+        <!-- Enmity Entries -->
+        <div>
+          <div id="entries" class="box" v-for="(e, i) in entries">
+            <!-- Name -->
+            <div class="content">
+              <span class="name" v-bind:class="[ e.isMe ? 'me' : '' ]">{{i + 1}}.{{e | you}}</span>
+              <span class="enmity">{{e.RelativeEnmity | relnumformat}}</span>
+            </div>
+            <!-- Gauge -->
+            <div class="gauge" v-bind:class="e | jobrole" v-bind:style="{ width: e.HateRate + '%' }"></div>
+          </div>
+        </div>
+        <!-- end of Enmity Entries -->
+
+      </div>
+      <!-- end of inner -->
     </div>
-    <!-- end of inner -->
+    <!-- end of outer -->
   </div>
-  <!-- end of outer -->
+  <!-- end of Vue -->
 
   <!-- load js -->
-  <script src="https://unpkg.com/vue@0.12.7/dist/vue.min.js"></script>
+  <script src="https://unpkg.com/vue@2.6.10/dist/vue.js"></script>
   <script src="../miniparse_common.js"></script>
   <script src="js/common.js"></script>
   <script src="js/enmity.js"></script>

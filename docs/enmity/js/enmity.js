@@ -24,8 +24,8 @@ let localeStrings = {
   },
 };
 
-let enmity = new Vue({
-  el: '#enmity',
+let vue = new Vue({
+  el: '#vue',
   data: {
     updated: false,
     locked: false,
@@ -36,33 +36,37 @@ let enmity = new Vue({
     hide: false,
     strings: {},
   },
-  attached: function () {
-    document.addEventListener('onOverlayStateUpdate', this.updateState);
-    window.callOverlayHandler({ call: 'getLanguage' }).then((msg) => {
-      if (msg.language in localeStrings) {
-        this.strings = localeStrings[msg.language];
-      } else {
-        this.strings = localStrings['English'];
-      }
+  mounted: function () {
+    this.$nextTick(function () {
+      document.addEventListener('onOverlayStateUpdate', this.updateState);
+      window.callOverlayHandler({ call: 'getLanguage' }).then((msg) => {
+        if (msg.language in localeStrings) {
+          this.strings = localeStrings[msg.language];
+        } else {
+          this.strings = localStrings['English'];
+        }
 
-      window.addOverlayListener('EnmityTargetData', this.update);
-      window.startOverlayEvents();
+        window.addOverlayListener('EnmityTargetData', this.update);
+        window.startOverlayEvents();
+      });
     });
   },
-  detached: function () {
-    window.removeOverlayListener('EnmityTargetData', this.update);
-    document.removeEventListener('onOverlayStateUpdate', this.updateState);
+  destroyed: function () {
+    this.$nextTick(function () {
+      window.removeOverlayListener('EnmityTargetData', this.update);
+      document.removeEventListener('onOverlayStateUpdate', this.updateState);
+    });
   },
   filters: {
     // Override Global 'jobrole' Filter
     jobrole: function (entity) {
+      if (!entity) return 'UNKNOWN';
       let jobName = jobEnumToName[entity.Job];
       let role = jobNameToRole[jobName];
-      if (!entity) return 'UNKNOWN';
       if (isPet(entity)) return 'Pet';
       if (role != null) return role;
       return 'UNKNOWN';
-    }
+    },
   },
   methods: {
     update: function (enmity) {
@@ -96,12 +100,17 @@ let enmity = new Vue({
       this.entries = enmity.Entries;
       this.target = enmity.Target ? enmity.Target : noTarget;
       if (this.hide)
-        document.getElementById('enmity').style.visibility = 'hidden';
+        document.getElementById('vue').style.visibility = 'hidden';
       else
-        document.getElementById('enmity').style.visibility = 'visible';
+        document.getElementById('vue').style.visibility = 'visible';
     },
     updateState: function (e) {
       this.locked = e.detail.isLocked;
+    },
+    hppercent: function (entity) {
+      if (!entity) return '--';
+      if (entity.MaxHP <= 0) return '0.00';
+      return (100.0 * entity.CurrentHP / entity.MaxHP).toFixed(2);
     },
     toggleCollapse: function () {
       this.collapsed = !this.collapsed;

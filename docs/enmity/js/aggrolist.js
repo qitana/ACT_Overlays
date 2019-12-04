@@ -1,7 +1,7 @@
 'use strict'
 
-let aggrolist = new Vue({
-  el: '#aggrolist',
+let vue = new Vue({
+  el: '#vue',
   data: {
     updated: false,
     locked: false,
@@ -9,27 +9,36 @@ let aggrolist = new Vue({
     combatants: null,
     hide: false,
   },
-  attached: function() {
-    window.addOverlayListener('EnmityAggroList', this.update);
-    document.addEventListener('onOverlayStateUpdate', this.updateState);
-    window.startOverlayEvents();
+  mounted: function () {
+    this.$nextTick(function () {
+      window.addOverlayListener('EnmityAggroList', this.update);
+      document.addEventListener('onOverlayStateUpdate', this.updateState);
+      window.startOverlayEvents();
+    });
   },
-  detached: function() {
-    window.removeOverlayListener('EnmityAggroList', this.update);
-    document.removeEventListener('onOverlayStateUpdate', this.updateState);
+  destroyed: function () {
+    this.$nextTick(function () {
+      window.removeOverlayListener('EnmityAggroList', this.update);
+      document.removeEventListener('onOverlayStateUpdate', this.updateState);
+    });
   },
   methods: {
-    update: function(enmity) {
+    update: function (enmity) {
       this.updated = true;
       this.combatants = enmity.AggroList || [];
 
       // Sort by aggro, descending.
       this.combatants.sort((a, b) => b.HateRate - a.HateRate);
     },
-    updateState: function(e) {
+    updateState: function (e) {
       this.locked = e.detail.isLocked;
     },
-    toggleCollapse: function() {
+    hppercent: function (entity) {
+      if (!entity) return '--';
+      if (entity.MaxHP <= 0) return '0.00';
+      return (100.0 * entity.CurrentHP / entity.MaxHP).toFixed(2);
+    },
+    toggleCollapse: function () {
       this.collapsed = !this.collapsed;
     },
   },
