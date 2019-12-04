@@ -78,6 +78,14 @@ let isPet = (entity) => {
   return entity.OwnerID != 0;
 };
 
+let formatNum = (num) => {
+  return num.toString().replace(/(\d)(?=(\d{3})+$)/g, '$1,');
+}
+
+//
+// Vue Global Filters
+//
+
 Vue.filter('jobrole', function (entity) {
   let jobName = jobEnumToName[entity.Job];
   let role = jobNameToRole[jobName];
@@ -97,14 +105,6 @@ Vue.filter('jobname', function (entity) {
   return 'UNKNOWN';
 });
 
-let hpPercentString = (entity) => {
-  if (!entity)
-    return '--';
-  if (entity.MaxHP <= 0)
-    return '0.00';
-  return (100.0 * entity.CurrentHP / entity.MaxHP).toFixed(2);
-};
-
 Vue.filter('hpcolor', function (entity) {
   let percent = 100.0 * entity.CurrentHP / entity.MaxHP;
   if (percent > 75) return 'green';
@@ -114,7 +114,9 @@ Vue.filter('hpcolor', function (entity) {
 });
 
 Vue.filter('hppercent', function (entity) {
-  return hpPercentString(entity);
+  if (!entity) return '--';
+  if (entity.MaxHP <= 0) return '0.00';
+  return (100.0 * entity.CurrentHP / entity.MaxHP).toFixed(2);
 });
 
 Vue.filter('hatecolor', function (entity) {
@@ -130,18 +132,13 @@ Vue.filter('you', function (entity) {
 
 Vue.filter('round', (x) => Math.round(x));
 
-function formatNum(num) {
-  return num.toString().replace(/(\d)(?=(\d{3})+$)/g, '$1,');
-}
 
 Vue.filter('numformat', (num) => {
-  if (num == 0)
-    return '--';
+  if (num == 0) return '--';
   return formatNum(num);
 });
 
 Vue.filter('relnumformat', (num) => {
-  if (num == 0)
-    return '--';
+  if (num == 0) return '--';
   return (num > 0 ? '+' : '') + formatNum(num);
 });
