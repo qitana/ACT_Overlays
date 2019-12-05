@@ -14,47 +14,44 @@
       <!-- innner -->
       <div v-if="updated" class="inner" v-bind:class="[ target.Type != 2 ? 'hide' : '' ]">
         <div class="background"></div>
-
         <!-- Target -->
         <div id="target">
           <!-- Target Name area-->
           <div class="box">
             <div class="gauge" v-bind:class="target | hpcolor" v-bind:style="{ width: hppercent(target) + '%' }"></div>
             <div class="name">
-              <span class="header">{{strings.target}}: </span>
-              <span class="value">{{target.Name}}</span>
+              <span class="header">{{ strings.target }}: </span>
+              <span class="value">{{ target.Name }}</span>
             </div>
           </div>
           <!-- HP and Gauge area-->
           <div>
             <span class="header">HP: </span>
             <span
-              class="value">{{target | hppercent}}%&emsp;({{target.CurrentHP.toLocaleString()}}/{{target.MaxHP.toLocaleString()}})</span>
+              class="value">{{ target | hppercent }}%&emsp;({{ target.CurrentHP.toLocaleString() }}/{{ target.MaxHP.toLocaleString() }})</span>
           </div>
           <!-- Time-to-Death and Distance area -->
           <div>
             <span class="header">Time to Death: </span>
-            <span class="value">{{target.TimeToDeath}}</span>
+            <span class="value">{{ target.TimeToDeath }}</span>
             <div style="float: right">
-              <span class="header">{{strings.distance}}: </span>
-              <span class="value">{{target.Distance}}m ({{target.EffectiveDistance}}m</span>
+              <span class="header">{{ strings.distance }}: </span>
+              <span class="value">{{ target.Distance }}m ({{ target.EffectiveDistance }}m)</span>
             </div>
           </div>
         </div>
         <!-- end of Target -->
-
         <!-- Enmity Entries -->
         <div id="entries" class="box" v-for="(e, i) in entries">
           <!-- Name -->
           <div class="content">
-            <span class="name" v-bind:class="[ e.isMe ? 'me' : '' ]">{{i + 1}}.{{e | you}}</span>
-            <span class="enmity">{{e.Enmity | numformat}}</span>
+            <span class="name" v-bind:class="[ e.isMe ? 'me' : '' ]">{{ i + 1 }}.{{ e | you }}</span>
+            <span class="enmity">{{ e.Enmity | numformat }}</span>
           </div>
           <!-- Gauge -->
           <div class="gauge" v-bind:class="e | jobrole" v-bind:style="{ width: e.HateRate + '%' }"></div>
         </div>
         <!-- end of Enmity Entries -->
-
       </div>
       <!-- end of inner -->
     </div>
@@ -63,7 +60,7 @@
   <!-- end of Vue -->
 
   <!-- load js -->
-  <script src="https://unpkg.com/vue@2.6.10/dist/vue.js"></script>
+  <script src="https://unpkg.com/vue@2.6.10/dist/vue.min.js"></script>
   <script src="../miniparse_common.js"></script>
   <script src="js/common.js"></script>
   <script src="js/enmity.js"></script>
