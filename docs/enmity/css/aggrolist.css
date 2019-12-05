@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+[v-cloak] {
+  display: none;
+}
+
 html {
   height: 100%;
   overflow: hidden;
@@ -53,19 +57,19 @@ td { text-align: right; }
   box-sizing: border-box;
 }
 
-#aggrolist .hide { display: none; }
+.hide { display: none; }
 
-#aggrolist .outer {
+div.outer {
   height: 100%;
   padding: 10px;
 }
 
-#aggrolist .inner {
+div.inner {
   position: relative;
   padding: 10px;
 }
 
-#aggrolist .inner .background {
+div.inner .background {
   position: absolute;
   left: 0;
   right: 0;

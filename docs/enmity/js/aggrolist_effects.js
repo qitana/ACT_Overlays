@@ -14,11 +14,9 @@ xmlHttpRequest.open('GET', '../data/json/effects.json', true);
 xmlHttpRequest.responseType = 'json';
 xmlHttpRequest.send(null);
 
-
-
 // init Vue
-let aggrolist = new Vue({
-  el: '#aggrolist',
+let vue = new Vue({
+  el: '#vue',
   data: {
     updated: false,
     locked: false,
@@ -26,24 +24,26 @@ let aggrolist = new Vue({
     combatants: null,
     hide: false,
   },
-  attached: function () {
-    window.addOverlayListener('EnmityAggroList', this.update);
-    document.addEventListener('onOverlayStateUpdate', this.updateState);
-    window.startOverlayEvents();
+  mounted: function () {
+    this.$nextTick(function () {
+      window.addOverlayListener('EnmityAggroList', this.update);
+      document.addEventListener('onOverlayStateUpdate', this.updateState);
+      window.startOverlayEvents();
+    });
   },
-  detached: function () {
-    window.removeOverlayListener('EnmityAggroList', this.update);
-    document.removeEventListener('onOverlayStateUpdate', this.updateState);
+  destroyed: function () {
+    this.$nextTick(function () {
+      window.removeOverlayListener('EnmityAggroList', this.update);
+      document.removeEventListener('onOverlayStateUpdate', this.updateState);
+    });
   },
   methods: {
     update: function (enmity) {
-      this.updated = true;
-
       if (enmity && enmity.AggroList) {
         enmity.AggroList.forEach(aggro => {
           aggro.Effects.forEach(effect => {
             if (effect.BuffID > 0) {
-              
+
               if (effect.Stack == 0) {
                 effect.Icon = '../data/' + effectsDatabase.find(x => x.id == effect.BuffID).icon;
               } else {
@@ -57,8 +57,8 @@ let aggrolist = new Vue({
             }
           })
           aggro.Effects.sort((a, b) => {
-            if(a.isOwner == true && b.isOwner == false) return -1
-            if(a.isOwner == false && b.isOwner == true) return 1
+            if (a.isOwner == true && b.isOwner == false) return -1
+            if (a.isOwner == false && b.isOwner == true) return 1
             return b.Timer - a.Timer
           })
         })
@@ -74,9 +74,16 @@ let aggrolist = new Vue({
 
       // Sort by aggro, descending.
       this.combatants.sort((a, b) => b.HateRate - a.HateRate);
+
+      this.updated = true;
     },
     updateState: function (e) {
       this.locked = e.detail.isLocked;
+    },
+    hppercent: function (entity) {
+      if (!entity) return '--';
+      if (entity.MaxHP <= 0) return '0.00';
+      return (100.0 * entity.CurrentHP / entity.MaxHP).toFixed(2);
     },
     toggleCollapse: function () {
       this.collapsed = !this.collapsed;

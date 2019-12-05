@@ -78,42 +78,34 @@ let isPet = (entity) => {
   return entity.OwnerID != 0;
 };
 
-Vue.filter('jobrole', function(entity) {
-  if (!entity)
-    return 'UNKNOWN';
-  if (isPet(entity))
-    return 'Pet';
-  if (entity.isMe)
-    return 'YOU';
+let formatNum = (num) => {
+  return num.toString().replace(/(\d)(?=(\d{3})+$)/g, '$1,');
+}
+
+//
+// Vue Global Filters
+//
+
+Vue.filter('jobrole', function (entity) {
+  if (!entity) return 'UNKNOWN';
   let jobName = jobEnumToName[entity.Job];
   let role = jobNameToRole[jobName];
-  if (role != null)
-    return role;
+  if (entity.isMe) return 'YOU';
+  if (isPet(entity)) return 'Pet';
+  if (role != null) return role;
   return 'UNKNOWN';
 });
 
-Vue.filter('jobname', function(entity) {
-  if (!entity)
-    return 'UNKNOWN';
-  if (isPet(entity))
-    return 'Pet';
-  if (entity.isMe)
-    return 'YOU';
+Vue.filter('jobname', function (entity) {
+  if (!entity) return 'UNKNOWN';
   let jobName = jobEnumToName[entity.Job];
-  if (jobName != null)
-    return jobName;
+  if (entity.isMe) return 'YOU';
+  if (isPet(entity)) return 'Pet';
+  if (jobName != null) return jobName;
   return 'UNKNOWN';
 });
 
-let hpPercentString = (entity) => {
-  if (!entity)
-    return '--';
-  if (entity.MaxHP <= 0)
-    return '0.00';
-  return (100.0 * entity.CurrentHP / entity.MaxHP).toFixed(2);
-};
-
-Vue.filter('hpcolor', function(entity) {
+Vue.filter('hpcolor', function (entity) {
   let percent = 100.0 * entity.CurrentHP / entity.MaxHP;
   if (percent > 75) return 'green';
   if (percent > 50) return 'yellow';
@@ -121,35 +113,31 @@ Vue.filter('hpcolor', function(entity) {
   return 'red';
 });
 
-Vue.filter('hppercent', function(entity) {
-  return hpPercentString(entity);
+Vue.filter('hppercent', function (entity) {
+  if (!entity) return '--';
+  if (entity.MaxHP <= 0) return '0.00';
+  return (100.0 * entity.CurrentHP / entity.MaxHP).toFixed(2);
 });
 
-Vue.filter('hatecolor', function(entity) {
+Vue.filter('hatecolor', function (entity) {
   if (entity.HateRate == 100) return 'red';
   if (entity.HateRate > 75) return 'orange';
   if (entity.HateRate > 50) return 'yellow';
   return 'green';
 });
 
-Vue.filter('you', function(entity) {
+Vue.filter('you', function (entity) {
   return entity.isMe ? 'YOU' : entity.Name;
 });
 
 Vue.filter('round', (x) => Math.round(x));
 
-function formatNum(num) {
-  return num.toString().replace(/(\d)(?=(\d{3})+$)/g, '$1,');
-}
-
 Vue.filter('numformat', (num) => {
-  if (num == 0)
-    return '--';
+  if (num == 0) return '--';
   return formatNum(num);
 });
 
 Vue.filter('relnumformat', (num) => {
-  if (num == 0)
-    return '--';
+  if (num == 0) return '--';
   return (num > 0 ? '+' : '') + formatNum(num);
 });
