@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+[v-cloak] {
+  display: none;
+}
+
 html {
   height: 100%;
   overflow: hidden;
@@ -42,19 +46,19 @@ body {
   box-sizing: border-box;
 }
 
-#enmity .hide { display: none; }
+.hide { display: none; }
 
-#enmity .outer {
+div.outer {
   height: 100%;
   padding: 10px;
 }
 
-#enmity .inner {
+div.inner {
   position: relative;
   padding: 10px;
 }
 
-#enmity .inner .background {
+div.inner .background {
   position: absolute;
   left: 0;
   right: 0;
