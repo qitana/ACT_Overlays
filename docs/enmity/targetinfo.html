@@ -14,22 +14,21 @@
       <!-- innner -->
       <div v-if="updated" class="inner">
         <div class="background"></div>
-
         <!-- Target (repeat) -->
         <div id="target" v-for="t in targets">
           <div class="box">
             <div class="gauge" v-bind:class="t | hpcolor" v-bind:style="{ width: hppercent(t) + '%' }"></div>
             <div class="name">
-              <span class="header">{{t.Key}}: </span>
-              <span class="value">{{t.Name}}</span>
+              <span class="header">{{ t.Key }}: </span>
+              <span class="value">{{ t.Name }}</span>
             </div>
           </div>
           <div>
             <span class="header">HP: </span>
-            <span class="value">{{t | hppercent}}% ({{t.CurrentHP}}/{{t.MaxHP}})</span>
+            <span class="value">{{ t | hppercent }}% ({{ t.CurrentHP }}/{{ t.MaxHP }})</span>
             <div style="float: right">
-              <span class="header">{{strings.distance}}: </span>
-              <span class="value">{{t.Distance}}m ({{t.EffectiveDistance}}m)</span>
+              <span class="header">{{ strings.distance }}: </span>
+              <span class="value">{{ t.Distance }}m ({{ t.EffectiveDistance }}m)</span>
             </div>
           </div>
         </div>
@@ -42,7 +41,7 @@
   <!-- Vue -->
 
   <!-- load js -->
-  <script src="https://unpkg.com/vue@2.6.10/dist/vue.js"></script>
+  <script src="https://unpkg.com/vue@2.6.10/dist/vue.min.js"></script>
   <script src="../miniparse_common.js"></script>
   <script src="js/common.js"></script>
   <script src="js/targetinfo.js"></script>

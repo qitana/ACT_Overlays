@@ -14,7 +14,6 @@
       <!-- innner -->
       <div v-if="updated" class="inner">
         <div class="background"></div>
-
         <!-- Combatants Table -->
         <table id="combatants" v-show="!collapsed">
           <!-- Table Header -->
@@ -34,11 +33,11 @@
                 <td class="hate2">
                   <div class="hate text-right" v-bind:class="combatant.hatecolor"
                     style="margin-top: 0px; padding: 0px 6px 0px 2px">
-                    <span style="position:absolute; left:12px;">{{combatant.isCurrentTarget ? "▶" : ""}}</span>
-                    <span>{{combatant.HateRate}}%</span>
+                    <span style="position:absolute; left:12px;">{{ combatant.isCurrentTarget ? "▶" : "" }}</span>
+                    <span>{{ combatant.HateRate }}%</span>
                   </div>
                   <div class="target text-center" v-bind:class="combatant.Target | jobrole" style="padding: 1px 4px;">
-                    {{combatant.Target | jobname}}
+                    {{ combatant.Target | jobname }}
                   </div>
                 </td>
                 <!-- Name & HPP -->
@@ -49,18 +48,18 @@
                         <tr style="vertical-align: top; border:none;">
                           <td style="text-align: left; vertical-align: top; min-width: 40px; max-width: 60px;">
                             <span class="content"
-                              style="white-space: nowrap; text-overflow: clip;">{{combatant.Name}}</span>
+                              style="white-space: nowrap; text-overflow: clip;">{{ combatant.Name }}</span>
                           </td>
                           <td style="min-width: 18px"></td>
                         </tr>
                       </table>
-                      <span style="position:absolute; top: 1px; right:2px;">{{combatant | hppercent | round}}%</span>
+                      <span style="position:absolute; top: 1px; right:2px;">{{ combatant | hppercent | round }}%</span>
                     </div>
                     <div class="status2">
                       <template v-for="effect in combatant.Effects">
                         <span class="status-icon">
                           <img class="small-1" v-bind:src="effect.Icon" v-bind:title="effect.name"></img>
-                          <span v-bind:class="'isOwner-' + effect.isOwner">{{Math.ceil(effect.Timer)}}</span>
+                          <span v-bind:class="'isOwner-' + effect.isOwner">{{ Math.ceil(effect.Timer) }}</span>
                         </span>
                       </template>
                     </div>
@@ -74,7 +73,6 @@
           </tbody>
         </table>
         <!-- end of Combatant Table -->
-
       </div>
       <!-- end of inner -->
     </div>
@@ -82,7 +80,7 @@
   </div>
   <!-- end of Vue -->
 
-  <script src="https://unpkg.com/vue@2.6.10/dist/vue.js"></script>
+  <script src="https://unpkg.com/vue@2.6.10/dist/vue.min.js"></script>
   <script src="../miniparse_common.js"></script>
   <script src="js/common.js"></script>
   <script src="js/aggrolist_effects.js"></script>
