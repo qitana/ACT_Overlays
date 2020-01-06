@@ -6,7 +6,8 @@ xmlHttpRequest.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     if (this.response) {
       effectsDatabase = this.response;
-      console.log('Loaded: effects.json');
+    } else {
+      console.log('Error: Failed to load effects.json');
     }
   }
 }
@@ -23,6 +24,7 @@ let vue = new Vue({
     collapsed: false,
     combatants: null,
     hide: false,
+    synced: false,
   },
   mounted: function () {
     this.$nextTick(function () {
@@ -71,6 +73,9 @@ let vue = new Vue({
       } else {
         this.hide = false;
       }
+
+      // HUD-synced?
+      this.synced = enmity.EnmityHudList ? true : false;
 
       // Sort by aggro, descending.
       this.combatants.sort((a, b) => {
