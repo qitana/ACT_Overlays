@@ -8,6 +8,7 @@ let vue = new Vue({
     collapsed: false,
     combatants: null,
     hide: false,
+    synced: false,
   },
   mounted: function () {
     this.$nextTick(function () {
@@ -26,6 +27,9 @@ let vue = new Vue({
     update: function (enmity) {
       this.updated = true;
       this.combatants = enmity.AggroList || [];
+
+      // HUD-synced?
+      this.synced = enmity.EnmityHudList ? true : false;
 
       // Sort by aggro, descending.
       this.combatants.sort((a, b) => {
