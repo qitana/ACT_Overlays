@@ -97,12 +97,12 @@ Vue.filter('jobrole', function (entity) {
 });
 
 Vue.filter('jobname', function (entity) {
-  if (!entity) return 'UNKNOWN';
+  if (!entity) return '???';
   let jobName = jobEnumToName[entity.Job];
   if (entity.isMe) return 'YOU';
   if (isPet(entity)) return 'Pet';
   if (jobName != null) return jobName;
-  return 'UNKNOWN';
+  return '???';
 });
 
 Vue.filter('hpcolor', function (entity) {
