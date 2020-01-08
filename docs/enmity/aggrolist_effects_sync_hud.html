@@ -19,7 +19,7 @@
           <!-- Table Header -->
           <thead class="gold">
             <tr>
-              <!--<th class="text-center">Hate</th>-->
+              <th class="text-center">Hate</th>
               <th class="test-center">Target</th>
               <th class="text-left pl-20px">Name</th>
               <th class="text-left width-100pc pl-4px">Effects</th>
@@ -31,24 +31,16 @@
             <template v-for="(combatant, index) in combatants">
               <tr v-bind:class="[ combatant.isCurrentTarget ? '' : '' ]">
                 <!-- Hate -->
-                <!--
                 <td class="hate text-right">
                   <div class="hate" v-bind:class="combatant | hatecolor">
-                    <span class="arrow" style="position:absolute; left:12px;">{{ combatant.isCurrentTarget ? "▶" : "" }}</span>
+                    <span class="arrow">{{ combatant.isCurrentTarget ? "▶" : "" }}</span>
                     <span>{{ combatant.HateRate }}%</span>
                   </div>
                 </td>
-                -->
                 <!-- Target -->
-                <td class="target with-arrow text-right">
-                  <div class="target box">
-                    <span class="arrow">{{ combatant.isCurrentTarget ? "▶" : "" }}</span>
-                    <div class="upper-box" v-bind:class="combatant | hatecolor">
-                      <span class="font-12px ellipsis">{{ combatant.HateRate }}%</span>
-                    </div>
-                    <div class="lower-box" v-bind:class="combatant.Target | jobrole">
-                      <span class="font-14px ellipsis">{{ combatant.Target | jobname }}</span>
-                    </div>
+                <td class="target text-right">
+                  <div class="target">
+                    <span class="font-14px ellipsis">{{ combatant.Target | jobname }}</span>
                   </div>
                 </td>
                 <!-- Name -->
