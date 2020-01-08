@@ -160,6 +160,11 @@ table#combatants td.hate div.hate {
   padding: 1px 4px 1px 1px;
 }
 
+table#combatants td.hate div.hate span.arrow {
+  position:absolute; 
+  left:12px;
+}
+
 /* Table Combatants - Target */
 
 table#combatants td.target {
