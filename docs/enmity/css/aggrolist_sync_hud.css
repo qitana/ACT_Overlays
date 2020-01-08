@@ -20,6 +20,14 @@ body {
   padding: 0;
 }
 
+.resize-handle {
+  background-image: url(handle.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+.hide { display: none; }
 
 /* Role Colors */
 .TANK { background-color: rgba(52,67,150,0.6); }
@@ -40,6 +48,12 @@ td { text-align: right; }
 .text-uppercase { text-transform: uppercase; }
 .text-capitalize { text-transform: capitalize; }
 
+.ellipsis {
+  overflow: hidden; 
+  white-space: nowrap; 
+  text-overflow: ellipsis;
+}
+
 .blue {
   color: #E2EBF5;
   text-shadow: -1px 0 3px #217AA2, 0 1px 3px #217AA2, 1px 0 3px #217AA2, 0 -1px 3px #217AA2;
@@ -50,21 +64,41 @@ td { text-align: right; }
   text-shadow: -1px 0 2px #795516, 0 1px 2px #795516, 1px 0 2px #795516, 0 -1px 2px #795516;
 }
 
+/* font-size */
 .font-10px {
   font-size: 10px;
 }
 
-.w-100pc {
-  width: 100%;
-}
-.resize-handle {
-  background-image: url(handle.png);
-  background-position: bottom right;
-  background-repeat: no-repeat;
-  box-sizing: border-box;
+.font-12px {
+  font-size: 12px;
 }
 
-.hide { display: none; }
+.font-14px {
+  font-size: 14px;
+}
+
+/* width and height */
+.width-100pc {
+  width: 100%;
+}
+
+.height-100pc {
+  height: 100%;
+}
+
+/* padding */
+.pl-4px {
+  padding-left: 4px;
+}
+
+.pl-20px {
+  padding-left: 20px;
+}
+
+.pr-4px {
+  padding-right: 4px;
+}
+
 
 div.outer {
   height: 100%;
@@ -82,11 +116,6 @@ div.inner .background {
   right: 0;
   top: 0;
   bottom: 0;
-}
-
-#toggle-collapse {
-  cursor: pointer;
-  float: right;
 }
 
 /* Table Combatants */
@@ -134,8 +163,13 @@ table#combatants td.hate div.hate {
 /* Table Combatants - Target */
 
 table#combatants td.target {
-  min-width: 56px;
-  width: 56px;
+  min-width: 50px;
+  width: 50px;
+}
+
+table#combatants td.target.with-arrow {
+  min-width: 56px !important;
+  width: 56px !important;
 }
 
 table#combatants td.target div.target {
@@ -144,6 +178,25 @@ table#combatants td.target div.target {
   line-height: 30px;
   margin: 0px 0px 1px 0px;
   padding: 1px 1px 1px 1px;
+}
+
+table#combatants td.target div.target span.arrow {
+  position:absolute; 
+  top: 9px; 
+  left: 4px;
+}
+
+table#combatants td.target div.target.box div.upper-box {
+  height: 14px; 
+  padding-right: 4px; 
+  line-height: 14px; 
+  padding-top: 1px;
+}
+
+table#combatants td.target div.target.box div.lower-box {
+  height: 18px; 
+  padding-right: 6px; 
+  line-height: 18px;
 }
 
 /* Table Combatants - Name */
@@ -160,6 +213,13 @@ table#combatants td.name div.name {
 
 table#combatants td.name div.name span.name-text{
   margin-left: 30px;
+}
+
+table#combatants td.name div.name div.hpp-label{
+  width: 60px; 
+  position: absolute; 
+  top: 19px;
+  right: 140px;
 }
 
 /* Table Combatants - Effects */
@@ -267,8 +327,3 @@ table#combatants td div.box {
   text-shadow: -1px 0 3px #001b00, 0 1px 3px #001b00, 1px 0 3px #001b00, 0 -1px 3px #001b00;
 }
 
-.ellipsis {
-  overflow: hidden; 
-  white-space: nowrap; 
-  text-overflow: ellipsis;
-}
