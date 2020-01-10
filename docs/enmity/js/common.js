@@ -1,7 +1,7 @@
 'use strict'
 
 let jobEnumToName = {
-  0: 'UNKNOWN',
+  0: '???',
   1: 'GLA',
   2: 'PGL',
   3: 'MRD',
