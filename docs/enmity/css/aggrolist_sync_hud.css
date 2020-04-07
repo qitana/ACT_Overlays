@@ -1,0 +1,334 @@
+* {
+  font-family: "Meiryo";
+  font-size: 12px;
+  font-weight: normal;
+  box-sizing: border-box;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+html {
+  height: 100%;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.resize-handle {
+  background-image: url(handle.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+.hide { display: none; }
+
+/* Role Colors */
+.TANK { background-color: rgba(52,67,150,0.6); }
+.HEALER { background-color: rgba(57,101,39,0.6); }
+.DPS { background-color: rgba(101, 50, 50, 0.6); }
+.Pet { background-color: rgba(150,147,52,0.6); }
+.UNKNOWN { background-color: rgba(211,211,211,0.6); }
+.YOU { background-color: rgba(255, 45, 45, 0.60);; }
+
+th { text-align: center; }
+td { text-align: right; }
+
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+.text-lowercase { text-transform: lowercase; }
+.text-uppercase { text-transform: uppercase; }
+.text-capitalize { text-transform: capitalize; }
+
+.ellipsis {
+  overflow: hidden; 
+  white-space: nowrap; 
+  text-overflow: ellipsis;
+}
+
+.blue {
+  color: #E2EBF5;
+  text-shadow: -1px 0 3px #217AA2, 0 1px 3px #217AA2, 1px 0 3px #217AA2, 0 -1px 3px #217AA2;
+}
+
+.gold {
+  color: #DED7BE;
+  text-shadow: -1px 0 2px #795516, 0 1px 2px #795516, 1px 0 2px #795516, 0 -1px 2px #795516;
+}
+
+/* font-size */
+.font-10px {
+  font-size: 10px;
+}
+
+.font-12px {
+  font-size: 12px;
+}
+
+.font-14px {
+  font-size: 14px;
+}
+
+/* width and height */
+.width-100pc {
+  width: 100%;
+}
+
+.height-100pc {
+  height: 100%;
+}
+
+/* padding */
+.pl-4px {
+  padding-left: 4px;
+}
+
+.pl-20px {
+  padding-left: 20px;
+}
+
+.pr-4px {
+  padding-right: 4px;
+}
+
+
+div.outer {
+  height: 100%;
+  padding: 10px;
+}
+
+div.inner {
+  position: relative;
+  padding: 10px;
+}
+
+div.inner .background {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+/* Table Combatants */
+
+table#combatants {
+  table-layout: auto;
+  border-collapse: collapse;
+}
+
+/* Table Combatants - Header */
+
+table#combatants th {
+  white-space: nowrap;
+}
+
+table#combatants td {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 20ex;
+  padding: 0px;
+}
+
+table#combatants thead {
+  border-bottom: 1px solid #DED7BE;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Table Combatants - Hate (Enmity) */
+
+table#combatants td.hate {
+  white-space: nowrap;
+  min-width: 54px;
+  width: 54px;
+}
+
+table#combatants td.hate div.hate {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  margin: 0px 0px 1px 0px;
+  padding: 1px 4px 1px 1px;
+}
+
+table#combatants td.hate div.hate span.arrow {
+  position:absolute; 
+  left:12px;
+}
+
+/* Table Combatants - Target */
+
+table#combatants td.target {
+  min-width: 50px;
+  width: 50px;
+}
+
+table#combatants td.target.with-arrow {
+  min-width: 56px !important;
+  width: 56px !important;
+}
+
+table#combatants td.target div.target {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  margin: 0px 0px 1px 0px;
+  padding: 1px 1px 1px 1px;
+}
+
+table#combatants td.target div.target span.arrow {
+  position:absolute; 
+  top: 9px; 
+  left: 4px;
+}
+
+table#combatants td.target div.target.box div.upper-box {
+  height: 14px; 
+  padding-right: 4px; 
+  line-height: 14px; 
+  padding-top: 1px;
+}
+
+table#combatants td.target div.target.box div.lower-box {
+  height: 18px; 
+  padding-right: 6px; 
+  line-height: 18px;
+}
+
+/* Table Combatants - Name */
+
+table#combatants td.name {
+  min-width: 210px;
+  width: 210px;
+}
+
+table#combatants td.name div.name {
+  width: 100%;
+  height: 30px;
+}
+
+table#combatants td.name div.name span.name-text{
+  margin-left: 30px;
+}
+
+table#combatants td.name div.name div.hpp-label{
+  width: 60px; 
+  position: absolute; 
+  top: 19px;
+  right: 140px;
+}
+
+/* Table Combatants - Effects */
+
+table#combatants td.effects {
+  background: -webkit-linear-gradient(right, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.25));
+  background: linear-gradient(90deg,rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.25));
+  white-space: nowrap;
+  text-align: left; 
+  padding-left: 2px; 
+  min-width: 60px;
+}
+
+table#combatants td.effects div.effects {
+  position: relative; 
+  display: inline-block; 
+  white-space: normal; 
+  font-size: 0;
+}
+
+table#combatants td.effects div.effects img {
+  height: 28px; 
+  width: 21px; 
+  margin-right: 3px;
+}
+
+table#combatants td.effects div.effects span.effect-timer {
+  position: absolute; 
+  bottom:-4px; 
+  right: 2px; 
+  font-size: 10px;
+}
+
+
+table#combatants td div.green, td.green {
+ background-color: rgba(38, 214, 70, 0.60);
+}
+table#combatants td div.yellow, td.yellow {
+  background-color: rgba(201, 204, 36, 0.60);
+}
+table#combatants td div.orange, td.orange {
+  background-color: rgba(239, 151, 43, 0.60);
+}
+table#combatants td div.red, td.red {
+  background-color: rgba(255, 45, 45, 0.60);
+}
+
+table#combatants tr.current {
+  border-color: #E2EBF5;
+  border: 1px dotted;
+}
+
+table#combatants td div.content {
+  position: relative;
+  margin-bottom: 3px;
+  height: 1.2em;
+  clear: both;
+}
+
+table#combatants td div.gauge {
+  position: absolute;
+  display: block;
+  z-index: -1;
+  height: 7px; 
+  left: 18px; 
+  bottom: 5px;
+}
+
+table#combatants td div.box {
+  position: relative;
+  margin-left: 5px;
+}
+
+.status-icon {
+  display: inline-block;
+  width: 24px;
+  position: relative;
+}
+
+.status-icon img {
+  width: 24px;
+  height: 32px;
+}
+
+.status-icon img.small-1 {
+  width: 21px;
+  height: 28px;
+}
+
+.status-icon img.small-2 {
+  width: 18px;
+  height: 24px;
+}
+
+.status-icon span {
+  text-align: right;
+  position: absolute;
+  bottom: -4px;
+  right: 0px;
+  font-size: 12px;
+}
+
+.isOwner-true {
+  color: rgb(70, 255, 70);
+  text-shadow: -1px 0 3px #001b00, 0 1px 3px #001b00, 1px 0 3px #001b00, 0 -1px 3px #001b00;
+}
+
