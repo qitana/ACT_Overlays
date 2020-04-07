@@ -7782,7 +7782,7 @@
     },
     {
         "id":  567,
-        "name":  "6 Fulms Under",
+        "name":  "Six Fulms Under",
         "stackIcons":  [
 
                        ],
@@ -29352,12 +29352,12 @@
     },
     {
         "id":  2246,
-        "name":  "",
+        "name":  "Slow",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay are increased.",
+        "icon":  "icon/015000/015009.png",
         "stack":  0
     },
     {
@@ -29671,11 +29671,11 @@
     },
     {
         "id":  2276,
-        "name":  "着ぐるみ着用",
+        "name":  "In Costume",
         "stackIcons":  [
 
                        ],
-        "description":  "特殊な着ぐるみを着用している状態。",
+        "description":  "Unusually attired.",
         "icon":  "icon/016000/016214.png",
         "stack":  0
     },
@@ -29771,12 +29771,12 @@
     },
     {
         "id":  2283,
-        "name":  "",
+        "name":  "Collective Unconscious",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "An area of mind attunement is created, reducing damage taken for all who enter.",
+        "icon":  "icon/013000/013227.png",
         "stack":  0
     },
     {
@@ -29791,12 +29791,12 @@
     },
     {
         "id":  2285,
-        "name":  "",
+        "name":  "Fetters",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Unable to execute actions and sustaining damage over time.",
+        "icon":  "icon/015000/015545.png",
         "stack":  0
     },
     {
