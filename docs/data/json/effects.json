@@ -425,7 +425,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Maximum HP, damage dealt, and HP recovered via healing magic are increased.",
+        "description":  "Maximum HP, damage dealt, and HP recovered via healing magic and actions are increased.",
         "icon":  "icon/016000/016207.png",
         "stack":  0
     },
@@ -2292,7 +2292,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Able to locate unspoiled mature trees and lush vegetation.",
+        "description":  "Able to locate unspoiled, legendary, and clouded mature trees and lush vegetation.",
         "icon":  "icon/011000/011057.png",
         "stack":  0
     },
@@ -2302,7 +2302,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Able to locate unspoiled mineral deposits and rocky outcrops.",
+        "description":  "Able to locate unspoiled, legendary, and clouded mineral deposits and rocky outcrops.",
         "icon":  "icon/011000/011007.png",
         "stack":  0
     },
@@ -2472,7 +2472,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Maximum HP and damage dealt are increased.",
+        "description":  "Maximum HP, damage dealt, and HP recovered via healing magic and actions are increased.",
         "icon":  "icon/016000/016207.png",
         "stack":  0
     },
@@ -7782,7 +7782,7 @@
     },
     {
         "id":  567,
-        "name":  "6 Fulms Under",
+        "name":  "Six Fulms Under",
         "stackIcons":  [
 
                        ],
@@ -12467,122 +12467,122 @@
     },
     {
         "id":  881,
-        "name":  "Traders\u0027 Favor (Coerthas Western Highlands)",
+        "name":  "",
         "stackIcons":  [
 
                        ],
-        "description":  "Concealed gathering points are now discoverable while mining mineral deposits or rocky outcrops in the Coerthas western highlands.",
-        "icon":  "icon/011000/011013.png",
+        "description":  "",
+        "icon":  "",
         "stack":  0
     },
     {
         "id":  882,
-        "name":  "Traders\u0027 Favor (Dravanian Forelands)",
+        "name":  "",
         "stackIcons":  [
 
                        ],
-        "description":  "Concealed gathering points are now discoverable while mining mineral deposits or rocky outcrops in the Dravanian forelands.",
-        "icon":  "icon/011000/011013.png",
+        "description":  "",
+        "icon":  "",
         "stack":  0
     },
     {
         "id":  883,
-        "name":  "Traders\u0027 Favor (Dravanian Hinterlands)",
+        "name":  "",
         "stackIcons":  [
 
                        ],
-        "description":  "Concealed gathering points are now discoverable while mining mineral deposits or rocky outcrops in the Dravanian hinterlands.",
-        "icon":  "icon/011000/011013.png",
+        "description":  "",
+        "icon":  "",
         "stack":  0
     },
     {
         "id":  884,
-        "name":  "Traders\u0027 Favor (The Churning Mists)",
+        "name":  "",
         "stackIcons":  [
 
                        ],
-        "description":  "Concealed gathering points are now discoverable while mining mineral deposits or rocky outcrops in the Churning Mists.",
-        "icon":  "icon/011000/011013.png",
+        "description":  "",
+        "icon":  "",
         "stack":  0
     },
     {
         "id":  885,
-        "name":  "Traders\u0027 Favor (The Sea of Clouds)",
+        "name":  "",
         "stackIcons":  [
 
                        ],
-        "description":  "Concealed gathering points are now discoverable while mining mineral deposits or rocky outcrops in the Sea of Clouds.",
-        "icon":  "icon/011000/011013.png",
+        "description":  "",
+        "icon":  "",
         "stack":  0
     },
     {
         "id":  886,
-        "name":  "Traders\u0027 Favor (Azys Lla)",
+        "name":  "",
         "stackIcons":  [
 
                        ],
-        "description":  "Concealed gathering points are now discoverable while mining mineral deposits or rocky outcrops in Azys Lla.",
-        "icon":  "icon/011000/011013.png",
+        "description":  "",
+        "icon":  "",
         "stack":  0
     },
     {
         "id":  887,
-        "name":  "Matron\u0027s Favor (Coerthas Western Highlands)",
+        "name":  "",
         "stackIcons":  [
 
                        ],
-        "description":  "Concealed gathering points are now discoverable while harvesting at mature trees or patches of lush vegetation in the Coerthas western highlands.",
-        "icon":  "icon/011000/011058.png",
+        "description":  "",
+        "icon":  "",
         "stack":  0
     },
     {
         "id":  888,
-        "name":  "Matron\u0027s Favor (Dravanian Forelands)",
+        "name":  "",
         "stackIcons":  [
 
                        ],
-        "description":  "Concealed gathering points are now discoverable while harvesting at mature trees or patches of lush vegetation in the Dravanian forelands.",
-        "icon":  "icon/011000/011058.png",
+        "description":  "",
+        "icon":  "",
         "stack":  0
     },
     {
         "id":  889,
-        "name":  "Matron\u0027s Favor (Dravanian Hinterlands)",
+        "name":  "",
         "stackIcons":  [
 
                        ],
-        "description":  "Concealed gathering points are now discoverable while harvesting at mature trees or patches of lush vegetation in the Dravanian hinterlands.",
-        "icon":  "icon/011000/011058.png",
+        "description":  "",
+        "icon":  "",
         "stack":  0
     },
     {
         "id":  890,
-        "name":  "Matron\u0027s Favor (The Churning Mists)",
+        "name":  "",
         "stackIcons":  [
 
                        ],
-        "description":  "Concealed gathering points are now discoverable while harvesting at mature trees or patches of lush vegetation in the Churning Mists.",
-        "icon":  "icon/011000/011058.png",
+        "description":  "",
+        "icon":  "",
         "stack":  0
     },
     {
         "id":  891,
-        "name":  "Matron\u0027s Favor (The Sea of Clouds)",
+        "name":  "",
         "stackIcons":  [
 
                        ],
-        "description":  "Concealed gathering points are now discoverable while harvesting at mature trees or patches of lush vegetation in the Sea of Clouds.",
-        "icon":  "icon/011000/011058.png",
+        "description":  "",
+        "icon":  "",
         "stack":  0
     },
     {
         "id":  892,
-        "name":  "Matron\u0027s Favor (Azys Lla)",
+        "name":  "",
         "stackIcons":  [
 
                        ],
-        "description":  "Concealed gathering points are now discoverable while harvesting at mature trees or patches of lush vegetation in Azys Lla.",
-        "icon":  "icon/011000/011058.png",
+        "description":  "",
+        "icon":  "",
         "stack":  0
     },
     {
@@ -20882,7 +20882,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Maximum HP, damage dealt, and HP recovered via healing magic are increased.",
+        "description":  "Maximum HP, damage dealt, and HP recovered via healing magic and actions are increased.",
         "icon":  "icon/015000/015869.png",
         "stack":  0
     },
@@ -23006,7 +23006,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Potency of next magic attack is increased.",
+        "description":  "Potency of next offensive spell is increased.",
         "icon":  "icon/013000/013503.png",
         "stack":  0
     },
@@ -25529,11 +25529,18 @@
         "id":  1915,
         "name":  "Summon Order",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/019000/019701.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/019000/019702.png",
+                               "stack":  2
+                           }
                        ],
         "description":  "Pet has been issued an action command.",
-        "icon":  "icon/012000/012686.png",
-        "stack":  0
+        "icon":  "icon/019000/019701.png",
+        "stack":  2
     },
     {
         "id":  1916,
@@ -26045,31 +26052,52 @@
         "id":  1964,
         "name":  "Summon Order II",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/019000/019711.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/019000/019712.png",
+                               "stack":  2
+                           }
                        ],
         "description":  "Pet has been issued an action command.",
-        "icon":  "icon/012000/012687.png",
-        "stack":  0
+        "icon":  "icon/019000/019711.png",
+        "stack":  2
     },
     {
         "id":  1965,
         "name":  "Summon Order III",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/019000/019721.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/019000/019722.png",
+                               "stack":  2
+                           }
                        ],
         "description":  "Pet has been issued an action command.",
-        "icon":  "icon/012000/012688.png",
-        "stack":  0
+        "icon":  "icon/019000/019721.png",
+        "stack":  2
     },
     {
         "id":  1966,
         "name":  "Summon Order IV",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/019000/019731.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/019000/019732.png",
+                               "stack":  2
+                           }
                        ],
         "description":  "Pet has been issued an action command.",
-        "icon":  "icon/012000/012689.png",
-        "stack":  0
+        "icon":  "icon/019000/019731.png",
+        "stack":  2
     },
     {
         "id":  1967,
@@ -26238,7 +26266,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Attacks generate HP equal to a portion of damage dealt.",
+        "description":  "Attacks generate HP equal to the amount of physical damage dealt.",
         "icon":  "icon/013000/013913.png",
         "stack":  0
     },
@@ -26670,7 +26698,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Caught up in the dance and only able to execute step actions, additional actions, \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eHead Graze\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eBolt\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eRearward Potion\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eStandard Finish\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, and \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eEn Avant\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e.",
+        "description":  "Caught up in the dance and only able to execute step actions, additional actions, \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eHead Graze\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eBolt\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eMedical Kit\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eStandard Finish\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, and \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eEn Avant\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e.",
         "icon":  "icon/013000/013705.png",
         "stack":  0
     },
@@ -26930,7 +26958,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Caught up in the dance and only able to execute step actions, additional actions, \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eTechnical Finish\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eEn Avant\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eHead Graze\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eBolt\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, and \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eRearward Potion\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e.",
+        "description":  "Caught up in the dance and only able to execute step actions, additional actions, \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eTechnical Finish\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eEn Avant\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eHead Graze\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eBolt\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, and \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eMedical Kit\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e.",
         "icon":  "icon/013000/013706.png",
         "stack":  0
     },
@@ -27060,7 +27088,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Receiving 100% of all HP absorbed by the warrior who granted this status via \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eNascent Flash\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e.",
+        "description":  "Damage taken is reduced, and receiving 100% of all HP absorbed by the warrior who granted this status via \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eNascent Flash\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e.",
         "icon":  "icon/012000/012559.png",
         "stack":  0
     },
@@ -27130,7 +27158,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Spell cast and recast times are reduced.",
+        "description":  "HP recovered via healing magic and actions is increased.",
         "icon":  "icon/012000/012805.png",
         "stack":  0
     },
@@ -28697,62 +28725,62 @@
     },
     {
         "id":  2206,
-        "name":  "",
+        "name":  "Atlas",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Resisting the weight of a falling star. When this effect expires, impact will result in KO.",
+        "icon":  "icon/015000/015231.png",
         "stack":  0
     },
     {
         "id":  2207,
-        "name":  "",
+        "name":  "Unwavering Will",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Protected by an unseen aegis, rendering all attacks ineffective.",
+        "icon":  "icon/015000/015024.png",
         "stack":  0
     },
     {
         "id":  2208,
-        "name":  "",
+        "name":  "Blind to Rage",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "So consumed by inner rage that the feelings of others pale by comparison. Attacks of players under a Pall of Rage are ineffective.",
+        "icon":  "icon/015000/015232.png",
         "stack":  0
     },
     {
         "id":  2209,
-        "name":  "",
+        "name":  "Blind to Grief",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "So consumed by inner grief that the feelings of others pale by comparison. Attacks of players under a Pall of Grief are ineffective.",
+        "icon":  "icon/015000/015233.png",
         "stack":  0
     },
     {
         "id":  2210,
-        "name":  "",
+        "name":  "Pall of Rage",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Afflicted with an unaccountable feeling of anger. Attacks are ineffective against targets Blind to Rage.",
+        "icon":  "icon/015000/015234.png",
         "stack":  0
     },
     {
         "id":  2211,
-        "name":  "",
+        "name":  "Pall of Grief",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Afflicted with an unaccountable feeling of loss. Attacks are ineffective against targets Blind to Grief.",
+        "icon":  "icon/015000/015235.png",
         "stack":  0
     },
     {
@@ -29023,12 +29051,12 @@
     },
     {
         "id":  2226,
-        "name":  "",
+        "name":  "Veneration",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Efficiency of \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eSynthesis\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e actions is increased.",
+        "icon":  "icon/016000/016126.png",
         "stack":  0
     },
     {
@@ -29043,63 +29071,164 @@
     },
     {
         "id":  2228,
-        "name":  "",
+        "name":  "Surge Protection",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/017000/017011.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/017000/017012.png",
+                               "stack":  2
+                           },
+                           {
+                               "icon":  "icon/017000/017013.png",
+                               "stack":  3
+                           },
+                           {
+                               "icon":  "icon/017000/017014.png",
+                               "stack":  4
+                           }
                        ],
-        "description":  "",
-        "icon":  "",
-        "stack":  0
+        "description":  "Your body is covered in conductive matter, reducing the damage of certain attacks.",
+        "icon":  "icon/017000/017011.png",
+        "stack":  4
     },
     {
         "id":  2229,
-        "name":  "",
+        "name":  "Static Condensation",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Excess electricity is stored within your body, reducing HP recovery.",
+        "icon":  "icon/015000/015229.png",
         "stack":  0
     },
     {
         "id":  2230,
-        "name":  "",
+        "name":  "パニック",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "パニックに陥った状態。ラムウから遠ざかるように移動してしまう。",
+        "icon":  "icon/015000/015605.png",
         "stack":  0
     },
     {
         "id":  2231,
-        "name":  "",
+        "name":  "Fury\u0027s Bolt",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/019000/019741.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/019000/019742.png",
+                               "stack":  2
+                           },
+                           {
+                               "icon":  "icon/019000/019743.png",
+                               "stack":  3
+                           },
+                           {
+                               "icon":  "icon/019000/019744.png",
+                               "stack":  4
+                           },
+                           {
+                               "icon":  "icon/019000/019745.png",
+                               "stack":  5
+                           },
+                           {
+                               "icon":  "icon/019000/019746.png",
+                               "stack":  6
+                           },
+                           {
+                               "icon":  "icon/019000/019747.png",
+                               "stack":  7
+                           },
+                           {
+                               "icon":  "icon/019000/019748.png",
+                               "stack":  8
+                           },
+                           {
+                               "icon":  "icon/019000/019749.png",
+                               "stack":  9
+                           },
+                           {
+                               "icon":  "icon/019000/019750.png",
+                               "stack":  10
+                           },
+                           {
+                               "icon":  "icon/019000/019751.png",
+                               "stack":  11
+                           },
+                           {
+                               "icon":  "icon/019000/019752.png",
+                               "stack":  12
+                           },
+                           {
+                               "icon":  "icon/019000/019753.png",
+                               "stack":  13
+                           },
+                           {
+                               "icon":  "icon/019000/019754.png",
+                               "stack":  14
+                           }
                        ],
-        "description":  "",
-        "icon":  "",
-        "stack":  0
+        "description":  "Overcharged with electricity. Next attack will deal increased damage or differ in range.",
+        "icon":  "icon/019000/019741.png",
+        "stack":  14
     },
     {
         "id":  2232,
-        "name":  "",
+        "name":  "System Shock",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Being electrified has weakened your heart. Further electrification will prove fatal, resulting in KO. ",
+        "icon":  "icon/015000/015230.png",
         "stack":  0
     },
     {
         "id":  2233,
-        "name":  "",
+        "name":  "Electrified",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/017000/017051.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/017000/017052.png",
+                               "stack":  2
+                           },
+                           {
+                               "icon":  "icon/017000/017053.png",
+                               "stack":  3
+                           },
+                           {
+                               "icon":  "icon/017000/017054.png",
+                               "stack":  4
+                           },
+                           {
+                               "icon":  "icon/017000/017055.png",
+                               "stack":  5
+                           },
+                           {
+                               "icon":  "icon/017000/017056.png",
+                               "stack":  6
+                           },
+                           {
+                               "icon":  "icon/017000/017057.png",
+                               "stack":  7
+                           },
+                           {
+                               "icon":  "icon/017000/017058.png",
+                               "stack":  8
+                           }
                        ],
-        "description":  "",
-        "icon":  "",
-        "stack":  0
+        "description":  "Wracked by electricity. Nearby players will also be Electrified when the effect ends and the charge disperses.",
+        "icon":  "icon/017000/017051.png",
+        "stack":  8
     },
     {
         "id":  2234,
@@ -29113,146 +29242,335 @@
     },
     {
         "id":  2235,
-        "name":  "",
+        "name":  "Hated of the Vortex",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "The accursed taunt of the winds spurs you to fight only Garuda. Damage against all other targets is nullified.",
+        "icon":  "icon/015000/015226.png",
         "stack":  0
     },
     {
         "id":  2236,
-        "name":  "",
+        "name":  "Hated of Embers",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "The accursed spitting of the flames spurs you to fight only Ifrit. Damage against all other targets is nullified.",
+        "icon":  "icon/015000/015227.png",
         "stack":  0
     },
     {
         "id":  2237,
-        "name":  "",
+        "name":  "Irons of Purgatory",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Manacled to burning chains. Will suffer damage if separated from similarly enchained party members.",
+        "icon":  "icon/015000/015666.png",
         "stack":  0
     },
     {
         "id":  2238,
-        "name":  "",
+        "name":  "Astral Effect",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Due to a severe disruption in aetherial balance, damage taken from astrally charged attacks is increased. Damage taken from umbrally charged attacks is decreased, and will result in the Umbral Effect.",
+        "icon":  "icon/015000/015236.png",
         "stack":  0
     },
     {
         "id":  2239,
-        "name":  "",
+        "name":  "Umbral Effect",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Due to a severe disruption in aetherial balance, damage taken from umbrally charged attacks is increased. Damage taken from astrally charged attacks is decreased, and will result in the Astral Effect.",
+        "icon":  "icon/015000/015237.png",
         "stack":  0
     },
     {
         "id":  2240,
-        "name":  "",
+        "name":  "Forward with Thee",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Affected by displacement magicks. When this effect ends, you will be stunned, then forcibly moved forward.",
+        "icon":  "icon/015000/015246.png",
         "stack":  0
     },
     {
         "id":  2241,
-        "name":  "",
+        "name":  "Back with Thee",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Affected by displacement magicks. When this effect ends, you will be stunned, then forcibly moved backward.",
+        "icon":  "icon/015000/015247.png",
         "stack":  0
     },
     {
         "id":  2242,
-        "name":  "",
+        "name":  "Left with Thee",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Affected by displacement magicks. When this effect ends, you will be stunned, then forcibly moved leftward.",
+        "icon":  "icon/015000/015248.png",
         "stack":  0
     },
     {
         "id":  2243,
-        "name":  "",
+        "name":  "Right with Thee",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Affected by displacement magicks. When this effect ends, you will be stunned, then forcibly moved rightward.",
+        "icon":  "icon/015000/015249.png",
         "stack":  0
     },
     {
         "id":  2244,
-        "name":  "",
+        "name":  "Anemomorph",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "The flock of sin eaters have assumed the form of a cyclone.",
+        "icon":  "icon/015000/015671.png",
         "stack":  0
     },
     {
         "id":  2245,
-        "name":  "",
+        "name":  "Hated of Levin",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Ramuh has cursed you to discharge a burst of lightning-aspected damage at regular intervals. When this effect expires, you will Panic.",
+        "icon":  "icon/015000/015252.png",
         "stack":  0
     },
     {
         "id":  2246,
-        "name":  "",
+        "name":  "Slow",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay are increased.",
+        "icon":  "icon/015000/015009.png",
         "stack":  0
     },
     {
         "id":  2247,
-        "name":  "",
+        "name":  "Waymark",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "A lodestone by which the flock of sin eaters will chart their course. When this effect expires, you will be stunned.",
+        "icon":  "icon/015000/015026.png",
         "stack":  0
     },
     {
         "id":  2248,
-        "name":  "",
+        "name":  "Blunt Resistance Down",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Blunt resistance is reduced.",
+        "icon":  "icon/015000/015064.png",
         "stack":  0
     },
     {
         "id":  2249,
+        "name":  "Unstable",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Unable to keep your balance. Damage taken is increased.",
+        "icon":  "icon/015000/015225.png",
+        "stack":  0
+    },
+    {
+        "id":  2250,
+        "name":  "Lightheaded",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Experiencing dizziness. Certain attacks will cause Concussion.",
+        "icon":  "icon/015000/015228.png",
+        "stack":  0
+    },
+    {
+        "id":  2251,
+        "name":  "Freezing",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Your body is slowly turning to ice. When this effect expires, you will experience a Deep Freeze.",
+        "icon":  "icon/015000/015238.png",
+        "stack":  0
+    },
+    {
+        "id":  2252,
+        "name":  "Deep Freeze",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Your body is encased in ice, preventing action.",
+        "icon":  "icon/015000/015637.png",
+        "stack":  0
+    },
+    {
+        "id":  2253,
+        "name":  "Refulgent Chain",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Bound with chains of light. Your Refulgent Fate will be sealed when this effect expires.",
+        "icon":  "icon/015000/015239.png",
+        "stack":  0
+    },
+    {
+        "id":  2254,
+        "name":  "Refulgent Chain",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Bound with chains of light. Your Refulgent Fate will be sealed when this effect expires.",
+        "icon":  "icon/015000/015239.png",
+        "stack":  0
+    },
+    {
+        "id":  2255,
+        "name":  "Refulgent Fate",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Cursed by binding light. If the distance between you and the player to whom you are bound becomes too great or too small, you will deal unaspected damage to those nearby.",
+        "icon":  "icon/015000/015240.png",
+        "stack":  0
+    },
+    {
+        "id":  2256,
+        "name":  "Refulgent Fate",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Cursed by binding light. If the distance between you and the player to whom you are bound becomes too great or too small, you will deal unaspected damage to those nearby.",
+        "icon":  "icon/015000/015240.png",
+        "stack":  0
+    },
+    {
+        "id":  2257,
+        "name":  "Lightsteeped",
+        "stackIcons":  [
+                           {
+                               "icon":  "icon/017000/017091.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/017000/017092.png",
+                               "stack":  2
+                           },
+                           {
+                               "icon":  "icon/017000/017093.png",
+                               "stack":  3
+                           },
+                           {
+                               "icon":  "icon/017000/017094.png",
+                               "stack":  4
+                           },
+                           {
+                               "icon":  "icon/017000/017095.png",
+                               "stack":  5
+                           }
+                       ],
+        "description":  "Overflowing with astral energy. Upon accumulating 5 stacks, you will deal unaspected damage to those nearby.",
+        "icon":  "icon/017000/017091.png",
+        "stack":  5
+    },
+    {
+        "id":  2258,
+        "name":  "Wyrmclaw",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Shredded by draconic talons. KO will occur when countdown reaches 0.",
+        "icon":  "icon/015000/015241.png",
+        "stack":  0
+    },
+    {
+        "id":  2259,
+        "name":  "Wyrmfang",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Torn by draconic teeth. KO will occur when countdown reaches 0.",
+        "icon":  "icon/015000/015242.png",
+        "stack":  0
+    },
+    {
+        "id":  2260,
+        "name":  "Hated of Frost",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Cursed by the lady herself. Damage from Hraesvelgr is increased.",
+        "icon":  "icon/015000/015243.png",
+        "stack":  0
+    },
+    {
+        "id":  2261,
+        "name":  "Hated of the Wyrm",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Cursed by the great wyrm himself. Damage from Shiva is increased.",
+        "icon":  "icon/015000/015244.png",
+        "stack":  0
+    },
+    {
+        "id":  2262,
+        "name":  "Grace of Light",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Blessed by Light. Damage dealt is increased.",
+        "icon":  "icon/015000/015245.png",
+        "stack":  0
+    },
+    {
+        "id":  2263,
+        "name":  "Shock Spikes",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Elemental spikes are dealing lightning damage to attackers.",
+        "icon":  "icon/015000/015502.png",
+        "stack":  0
+    },
+    {
+        "id":  2264,
+        "name":  "Braced",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Ready and able to \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eStand Firm\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e.",
+        "icon":  "icon/015000/015251.png",
+        "stack":  0
+    },
+    {
+        "id":  2265,
+        "name":  "Standing Firm",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Unbowed even by relentless onslaught.",
+        "icon":  "icon/015000/015250.png",
+        "stack":  0
+    },
+    {
+        "id":  2266,
         "name":  "",
         "stackIcons":  [
 
@@ -29262,7 +29580,467 @@
         "stack":  0
     },
     {
-        "id":  2250,
+        "id":  2267,
+        "name":  "Meat Shield",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Subjects are serving as defense. All damage is nullified.",
+        "icon":  "icon/015000/015024.png",
+        "stack":  0
+    },
+    {
+        "id":  2268,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2269,
+        "name":  "FATE Participant",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Actively participating in a FATE. Actions restricted to FATEs are available, though certain standard actions are unavailable. ",
+        "icon":  "icon/016000/016214.png",
+        "stack":  0
+    },
+    {
+        "id":  2270,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2271,
+        "name":  "Panic",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Excessively afeared. Overcome with the urge to flee from particular foes.",
+        "icon":  "icon/015000/015253.png",
+        "stack":  0
+    },
+    {
+        "id":  2272,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2273,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2274,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2275,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2276,
+        "name":  "In Costume",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Unusually attired.",
+        "icon":  "icon/016000/016214.png",
+        "stack":  0
+    },
+    {
+        "id":  2277,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2278,
+        "name":  "Light Resistance Down",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Light resistance is reduced.",
+        "icon":  "icon/015000/015599.png",
+        "stack":  0
+    },
+    {
+        "id":  2279,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2280,
+        "name":  "Enlarged",
+        "stackIcons":  [
+                           {
+                               "icon":  "icon/019000/019541.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/019000/019542.png",
+                               "stack":  2
+                           },
+                           {
+                               "icon":  "icon/019000/019543.png",
+                               "stack":  3
+                           }
+                       ],
+        "description":  "Body has grown to a massive size.",
+        "icon":  "icon/019000/019541.png",
+        "stack":  3
+    },
+    {
+        "id":  2281,
+        "name":  "Fully Enlarged",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Body has grown to maximum size.",
+        "icon":  "icon/015000/015971.png",
+        "stack":  0
+    },
+    {
+        "id":  2282,
+        "name":  "Embolden",
+        "stackIcons":  [
+                           {
+                               "icon":  "icon/018000/018921.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/018000/018922.png",
+                               "stack":  2
+                           },
+                           {
+                               "icon":  "icon/018000/018923.png",
+                               "stack":  3
+                           },
+                           {
+                               "icon":  "icon/018000/018924.png",
+                               "stack":  4
+                           },
+                           {
+                               "icon":  "icon/018000/018925.png",
+                               "stack":  5
+                           }
+                       ],
+        "description":  "Damage dealt is increased.",
+        "icon":  "icon/018000/018921.png",
+        "stack":  5
+    },
+    {
+        "id":  2283,
+        "name":  "Collective Unconscious",
+        "stackIcons":  [
+
+                       ],
+        "description":  "An area of mind attunement is created, reducing damage taken for all who enter.",
+        "icon":  "icon/013000/013227.png",
+        "stack":  0
+    },
+    {
+        "id":  2284,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2285,
+        "name":  "Fetters",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Unable to execute actions and sustaining damage over time.",
+        "icon":  "icon/015000/015545.png",
+        "stack":  0
+    },
+    {
+        "id":  2286,
+        "name":  "Fetters",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Unable to execute actions.",
+        "icon":  "icon/015000/015545.png",
+        "stack":  0
+    },
+    {
+        "id":  2287,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2288,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2289,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2290,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2291,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2292,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2293,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2294,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2295,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2296,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2297,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2298,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2299,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2300,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2301,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2302,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2303,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2304,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2305,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2306,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2307,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2308,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2309,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2310,
         "name":  "",
         "stackIcons":  [
 
