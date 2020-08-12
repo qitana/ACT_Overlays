@@ -68,7 +68,7 @@ let vue = new Vue({
               }
             }
           })
-          //aggro.Effects = aggro.Effects.filter(x => x.icon);
+          aggro.Effects = aggro.Effects.filter(x => x.Icon);
           aggro.Effects.sort((a, b) => {
             if (a.isOwner == true && b.isOwner == false) return -1
             if (a.isOwner == false && b.isOwner == true) return 1
