@@ -45,19 +45,30 @@ let vue = new Vue({
         enmity.AggroList.forEach(aggro => {
           aggro.Effects.forEach(effect => {
             if (effect.BuffID > 0) {
-
+              let effectData = effectsDatabase.find(x => x.id == effect.BuffID);
               if (effect.Stack == 0) {
-                effect.Icon = '../data/' + effectsDatabase.find(x => x.id == effect.BuffID).icon;
+                if (effectData && effectData.icon) {
+                  effect.Icon = '../data/' + effectData.icon;
+                }
               } else {
-                let stackIcons = effectsDatabase.find(x => x.id == effect.BuffID).stackIcons;
+                let stackIcons = [];
+                if (effectData && effectData.stackIcons) {
+                  stackIcons = effectData.stackIcons;
+                }
                 if (stackIcons.length == 0) {
-                  effect.Icon = '../data/' + effectsDatabase.find(x => x.id == effect.BuffID).icon;
+                  if (effectData && effectData.icon) {
+                    effect.Icon = '../data/' + effectData.icon;
+                  }
                 } else {
-                  effect.Icon = '../data/' + effectsDatabase.find(x => x.id == effect.BuffID).stackIcons.find(x => x.stack == effect.Stack).icon;
+                  let stackIcon = effectData.stackIcons.find(x => x.stack == effect.Stack);
+                  if (stackIcon) {
+                    effect.Icon = '../data/' + stackIcon.icon;
+                  }
                 }
               }
             }
           })
+          aggro.Effects = aggro.Effects.filter(x => x.icon);
           aggro.Effects.sort((a, b) => {
             if (a.isOwner == true && b.isOwner == false) return -1
             if (a.isOwner == false && b.isOwner == true) return 1
