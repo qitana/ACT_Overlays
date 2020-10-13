@@ -425,7 +425,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Maximum HP, damage dealt, and HP recovered via healing magic and actions are increased.",
+        "description":  "Maximum HP, damage dealt, and potency of HP restoration actions are increased.",
         "icon":  "icon/016000/016207.png",
         "stack":  0
     },
@@ -2472,7 +2472,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Maximum HP, damage dealt, and HP recovered via healing magic and actions are increased.",
+        "description":  "Maximum HP, damage dealt, and potency of HP restoration actions are increased.",
         "icon":  "icon/016000/016207.png",
         "stack":  0
     },
@@ -20882,7 +20882,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Maximum HP, damage dealt, and HP recovered via healing magic and actions are increased.",
+        "description":  "Maximum HP, damage dealt, and potency of HP restoration actions are increased.",
         "icon":  "icon/015000/015869.png",
         "stack":  0
     },
@@ -22916,7 +22916,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Only vulnerabilities on the right side of the body remain undetected. Damage taken to the front, back, and left sides of the body will result in K.O.",
+        "description":  "Only vulnerabilities on the right side of the body remain undetected. Hits to the front, back, and left sides of the body will result in severe damage.",
         "icon":  "icon/015000/015939.png",
         "stack":  0
     },
@@ -22926,7 +22926,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Only vulnerabilities on the left side of the body remain undetected. Damage taken to the front, back, and right sides of the body will result in K.O.",
+        "description":  "Only vulnerabilities on the left side of the body remain undetected. Hits to the front, back, and right sides of the body will result in severe damage.",
         "icon":  "icon/015000/015940.png",
         "stack":  0
     },
@@ -22936,7 +22936,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Only vulnerabilities on the back of the body remain undetected. Damage taken to the front, right, and left sides of the body will result in K.O.",
+        "description":  "Only vulnerabilities on the back of the body remain undetected. Hits to the front, right, and left sides of the body will result in severe damage.",
         "icon":  "icon/015000/015941.png",
         "stack":  0
     },
@@ -27158,7 +27158,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "HP recovered via healing magic and actions is increased.",
+        "description":  "Potency of all HP restoration actions is increased.",
         "icon":  "icon/012000/012805.png",
         "stack":  0
     },
@@ -29781,12 +29781,12 @@
     },
     {
         "id":  2284,
-        "name":  "",
+        "name":  "Running Wild",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Unleashing full strength, as commanded.",
+        "icon":  "icon/015000/015255.png",
         "stack":  0
     },
     {
@@ -29951,22 +29951,22 @@
     },
     {
         "id":  2301,
-        "name":  "",
+        "name":  "Tender Anaphylaxis",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Smothered with affection. Damage taken by certain attacks is increased.",
+        "icon":  "icon/015000/015268.png",
         "stack":  0
     },
     {
         "id":  2302,
-        "name":  "",
+        "name":  "Jealous Anaphylaxis",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Smothered with possessive bitterness. Damage taken by certain attacks is increased.",
+        "icon":  "icon/015000/015269.png",
         "stack":  0
     },
     {
@@ -29991,22 +29991,22 @@
     },
     {
         "id":  2305,
-        "name":  "",
+        "name":  "Zombification",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Turned into a mindless zombie under enemy control.",
+        "icon":  "icon/015000/015559.png",
         "stack":  0
     },
     {
         "id":  2306,
-        "name":  "",
+        "name":  "Boot Camp Mode",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Boot Camp protocol is loaded.",
+        "icon":  "icon/015000/015875.png",
         "stack":  0
     },
     {
@@ -30082,392 +30082,455 @@
     },
     {
         "id":  2311,
-        "name":  "",
+        "name":  "Spirit of the Aetherweaver",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Damage dealt is increased.",
+        "icon":  "icon/016000/016660.png",
         "stack":  0
     },
     {
         "id":  2312,
-        "name":  "",
+        "name":  "Spirit of the Martialist",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Damage dealt is increased.",
+        "icon":  "icon/016000/016661.png",
         "stack":  0
     },
     {
         "id":  2313,
-        "name":  "",
+        "name":  "Spirit of the Savior",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Potency of all HP restoration actions is increased.",
+        "icon":  "icon/016000/016662.png",
         "stack":  0
     },
     {
         "id":  2314,
-        "name":  "",
+        "name":  "Spirit of the Veteran",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Maximum HP and defense are increased.",
+        "icon":  "icon/016000/016663.png",
         "stack":  0
     },
     {
         "id":  2315,
-        "name":  "",
+        "name":  "Spirit of the Platebearer",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Maximum HP and defense are increased.",
+        "icon":  "icon/016000/016664.png",
         "stack":  0
     },
     {
         "id":  2316,
-        "name":  "",
+        "name":  "Spirit of the Guardian",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Maximum HP and defense are increased.",
+        "icon":  "icon/016000/016665.png",
         "stack":  0
     },
     {
         "id":  2317,
-        "name":  "",
+        "name":  "Spirit of the Ordained",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Maximum MP, damage dealt, and potency of all HP restoration actions are increased.",
+        "icon":  "icon/016000/016666.png",
         "stack":  0
     },
     {
         "id":  2318,
-        "name":  "",
+        "name":  "Spirit of the Skirmisher",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Damage dealt and critical hit rate are increased.",
+        "icon":  "icon/016000/016667.png",
         "stack":  0
     },
     {
         "id":  2319,
-        "name":  "",
+        "name":  "Spirit of the Watcher",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Evasion is increased while maximum HP is reduced.",
+        "icon":  "icon/016000/016668.png",
         "stack":  0
     },
     {
         "id":  2320,
-        "name":  "",
+        "name":  "Spirit of the Profane",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Damage dealt is increased while potency of all HP restoration actions is reduced.",
+        "icon":  "icon/016000/016669.png",
         "stack":  0
     },
     {
         "id":  2321,
-        "name":  "",
+        "name":  "Spirit of the Irregular",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Damage dealt and taken is increased while maximum HP is reduced.",
+        "icon":  "icon/016000/016670.png",
         "stack":  0
     },
     {
         "id":  2322,
-        "name":  "",
+        "name":  "Spirit of the Breathtaker",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Evasion, movement speed, and poison resistance are increased.",
+        "icon":  "icon/016000/016671.png",
         "stack":  0
     },
     {
         "id":  2323,
-        "name":  "",
+        "name":  "Spirit of the Bloodsucker",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Damage dealt is increased, and attacks generate HP equal to a portion of damage dealt.",
+        "icon":  "icon/016000/016672.png",
         "stack":  0
     },
     {
         "id":  2324,
-        "name":  "",
+        "name":  "Spirit of the Beast",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Maximum HP and defense are increased, and attacks generate HP equal to a portion of damage dealt.",
+        "icon":  "icon/016000/016673.png",
         "stack":  0
     },
     {
         "id":  2325,
-        "name":  "",
+        "name":  "Spirit of the Templar",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Maximum HP, defense, and damage dealt are increased.",
+        "icon":  "icon/016000/016674.png",
         "stack":  0
     },
     {
         "id":  2326,
-        "name":  "",
+        "name":  "Banner of Noble Ends",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "HP recovered via most healing actions is nullified, but damage dealt is increased.",
+        "icon":  "icon/016000/016690.png",
         "stack":  0
     },
     {
         "id":  2327,
-        "name":  "",
+        "name":  "Banner of Honored Sacrifice",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Sustaining damage over time in exchange for dealing increased damage.",
+        "icon":  "icon/016000/016691.png",
         "stack":  0
     },
     {
         "id":  2328,
-        "name":  "",
+        "name":  "Banner of Tireless Conviction",
         "stackIcons":  [
 
                        ],
-        "description":  "",
+        "description":  "Damage taken is increased, but your conviction is strengthened with each attack received. At maximum stacks, take up the \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eBanner of Unyielding Defense\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e.",
         "icon":  "",
         "stack":  0
     },
     {
         "id":  2329,
-        "name":  "",
+        "name":  "Banner of Firm Resolve",
         "stackIcons":  [
 
                        ],
-        "description":  "",
+        "description":  "Damage dealt is reduced, but your resolve is strengthened with each attack received. At maximum stacks, take up the \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eBanner of Unyielding Defense\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e.",
         "icon":  "",
         "stack":  0
     },
     {
         "id":  2330,
-        "name":  "",
+        "name":  "Banner of Solemn Clarity",
         "stackIcons":  [
 
                        ],
-        "description":  "",
+        "description":  "You take a moment to still your mind, gaining clarity as time passes. At maximum stacks, take up the \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eBanner of Limitless Grace\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e.",
         "icon":  "",
         "stack":  0
     },
     {
         "id":  2331,
-        "name":  "",
+        "name":  "Banner of Honed Acuity",
         "stackIcons":  [
 
                        ],
-        "description":  "",
+        "description":  "Damage taken is increased, but your senses sharpen with each attack evaded. At maximum stacks, take up the \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eBanner of Transcendent Finesse\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e.",
         "icon":  "",
         "stack":  0
     },
     {
         "id":  2332,
-        "name":  "",
+        "name":  "Lost Font of Magic",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Increasing damage dealt while draining own MP.",
+        "icon":  "icon/016000/016675.png",
         "stack":  0
     },
     {
         "id":  2333,
-        "name":  "",
+        "name":  "Lost Protect",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Physical damage taken is reduced.",
+        "icon":  "icon/016000/016676.png",
         "stack":  0
     },
     {
         "id":  2334,
-        "name":  "",
+        "name":  "Lost Shell",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Magic damage taken is reduced.",
+        "icon":  "icon/016000/016677.png",
         "stack":  0
     },
     {
         "id":  2335,
-        "name":  "",
+        "name":  "Lost Swift",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Movement speed is increased.",
+        "icon":  "icon/016000/016678.png",
         "stack":  0
     },
     {
         "id":  2336,
-        "name":  "",
+        "name":  "Lost Stealth",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Unable to be detected. Movement speed is severely reduced.",
+        "icon":  "icon/016000/016679.png",
         "stack":  0
     },
     {
         "id":  2337,
-        "name":  "",
+        "name":  "Lost Reflect",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Reflecting magic back on its caster.",
+        "icon":  "icon/016000/016680.png",
         "stack":  0
     },
     {
         "id":  2338,
-        "name":  "",
+        "name":  "Lost Spellforge",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "All attacks deal magic damage.",
+        "icon":  "icon/016000/016696.png",
         "stack":  0
     },
     {
         "id":  2339,
-        "name":  "",
+        "name":  "Lost Steelsting",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "All attacks deal physical damage.",
+        "icon":  "icon/016000/016681.png",
         "stack":  0
     },
     {
         "id":  2340,
-        "name":  "",
+        "name":  "Lost Banish",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Damage taken is increased.",
+        "icon":  "icon/016000/016682.png",
         "stack":  0
     },
     {
         "id":  2341,
-        "name":  "",
+        "name":  "Lost Bravery",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Damage dealt is increased.",
+        "icon":  "icon/016000/016683.png",
         "stack":  0
     },
     {
         "id":  2342,
-        "name":  "",
+        "name":  "Auto-potion",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Recover HP automatically when HP falls below 50%. When triggered, there is a 50% chance the effect will end. While enlivened by the \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eSpirit of the Breathtaker\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, this chance is reduced to 10%.",
+        "icon":  "icon/016000/016684.png",
         "stack":  0
     },
     {
         "id":  2343,
-        "name":  "",
+        "name":  "Auto-ether",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Recover MP automatically when MP falls below 20%. When triggered, there is a 50% chance the effect will end. While enlivened by the \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eSpirit of the Breathtaker\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, this chance is reduced to 10%.",
+        "icon":  "icon/016000/016685.png",
         "stack":  0
     },
     {
         "id":  2344,
-        "name":  "",
+        "name":  "Auto-remedy",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "The next status ailment suffered will be cured automatically.",
+        "icon":  "icon/016000/016686.png",
         "stack":  0
     },
     {
         "id":  2345,
-        "name":  "",
+        "name":  "Lost Manawall",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Damage taken is reduced and immune to most knockback and draw-in effects.",
+        "icon":  "icon/016000/016687.png",
         "stack":  0
     },
     {
         "id":  2346,
-        "name":  "",
+        "name":  "Lost Font of Power",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Damage dealt and critical hit rate are increased.",
+        "icon":  "icon/016000/016688.png",
         "stack":  0
     },
     {
         "id":  2347,
-        "name":  "",
+        "name":  "Vulnerability Up",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/017000/017101.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/017000/017102.png",
+                               "stack":  2
+                           },
+                           {
+                               "icon":  "icon/017000/017103.png",
+                               "stack":  3
+                           },
+                           {
+                               "icon":  "icon/017000/017104.png",
+                               "stack":  4
+                           },
+                           {
+                               "icon":  "icon/017000/017105.png",
+                               "stack":  5
+                           },
+                           {
+                               "icon":  "icon/017000/017106.png",
+                               "stack":  6
+                           },
+                           {
+                               "icon":  "icon/017000/017107.png",
+                               "stack":  7
+                           },
+                           {
+                               "icon":  "icon/017000/017108.png",
+                               "stack":  8
+                           },
+                           {
+                               "icon":  "icon/017000/017109.png",
+                               "stack":  9
+                           },
+                           {
+                               "icon":  "icon/017000/017110.png",
+                               "stack":  10
+                           },
+                           {
+                               "icon":  "icon/017000/017111.png",
+                               "stack":  11
+                           },
+                           {
+                               "icon":  "icon/017000/017112.png",
+                               "stack":  12
+                           },
+                           {
+                               "icon":  "icon/017000/017113.png",
+                               "stack":  13
+                           },
+                           {
+                               "icon":  "icon/017000/017114.png",
+                               "stack":  14
+                           },
+                           {
+                               "icon":  "icon/017000/017115.png",
+                               "stack":  15
+                           },
+                           {
+                               "icon":  "icon/017000/017116.png",
+                               "stack":  16
+                           }
                        ],
-        "description":  "",
-        "icon":  "",
-        "stack":  0
+        "description":  "Damage taken is increased.",
+        "icon":  "icon/017000/017101.png",
+        "stack":  16
     },
     {
         "id":  2348,
-        "name":  "",
+        "name":  "Reminiscence",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Ruminating on the memories of the fallen. Ready to use select lost actions.",
+        "icon":  "icon/016000/016626.png",
         "stack":  0
     },
     {
         "id":  2349,
-        "name":  "",
+        "name":  "Deep Essence of the Victor",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Critical hit rate is increased, while weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay are reduced.",
+        "icon":  "icon/016000/016659.png",
         "stack":  0
     },
     {
@@ -30492,142 +30555,142 @@
     },
     {
         "id":  2352,
-        "name":  "",
+        "name":  "Banner of Unyielding Defense",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Damage taken is reduced.",
+        "icon":  "icon/016000/016692.png",
         "stack":  0
     },
     {
         "id":  2353,
-        "name":  "",
+        "name":  "Banner of Limitless Grace",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Potency of all HP restoration actions is increased while MP cost is reduced.",
+        "icon":  "icon/016000/016693.png",
         "stack":  0
     },
     {
         "id":  2354,
-        "name":  "",
+        "name":  "Banner of Transcendent Finesse",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Critical hit rate is increased while weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay are reduced.",
+        "icon":  "icon/016000/016694.png",
         "stack":  0
     },
     {
         "id":  2355,
-        "name":  "",
+        "name":  "Resistance Reraiser",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Chance of automatic revival upon KO.",
+        "icon":  "icon/016000/016695.png",
         "stack":  0
     },
     {
         "id":  2356,
-        "name":  "",
+        "name":  "Lost Incense",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Enmity is increased and damage taken is reduced.",
+        "icon":  "icon/016000/016689.png",
         "stack":  0
     },
     {
         "id":  2357,
-        "name":  "",
+        "name":  "Fully Analyzed",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "All vulnerabilities have been detected. Any damage taken will be severe.",
+        "icon":  "icon/015000/015254.png",
         "stack":  0
     },
     {
         "id":  2358,
-        "name":  "",
+        "name":  "Marching Orders",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Officially selected for priority deployment in critical engagements per Resistance leadership.",
+        "icon":  "icon/016000/016697.png",
         "stack":  0
     },
     {
         "id":  2359,
-        "name":  "",
+        "name":  "Marching Orders: Vigil for the Lost",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Officially selected for priority deployment in the Vigil for the Lost engagement per Resistance leadership.",
+        "icon":  "icon/016000/016697.png",
         "stack":  0
     },
     {
         "id":  2360,
-        "name":  "",
+        "name":  "Marching Orders: Kill It with Fire",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Officially selected for priority deployment in the Kill It with Fire engagement per Resistance leadership.",
+        "icon":  "icon/016000/016697.png",
         "stack":  0
     },
     {
         "id":  2361,
-        "name":  "",
+        "name":  "Marching Orders: The Hunt for Red Choctober",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Officially selected for priority deployment in the Hunt for Red Choctober engagement per Resistance leadership.",
+        "icon":  "icon/016000/016697.png",
         "stack":  0
     },
     {
         "id":  2362,
-        "name":  "",
+        "name":  "Marching Orders: The Final Furlong",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Officially selected for priority deployment in the Final Furlong engagement per Resistance leadership.",
+        "icon":  "icon/016000/016697.png",
         "stack":  0
     },
     {
         "id":  2363,
-        "name":  "",
+        "name":  "Marching Orders: Rise of the Robots",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Officially selected for priority deployment in the Rise of the Robots engagement per Resistance leadership.",
+        "icon":  "icon/016000/016697.png",
         "stack":  0
     },
     {
         "id":  2364,
-        "name":  "",
+        "name":  "Marching Orders: Metal Fox Chaos",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Officially selected for priority deployment in the Metal Fox Chaos engagement per Resistance leadership.",
+        "icon":  "icon/016000/016697.png",
         "stack":  0
     },
     {
         "id":  2365,
-        "name":  "",
+        "name":  "High Morale",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "A dauntless spirit guides you to victory. Mettle earned is increased.",
+        "icon":  "icon/016000/016698.png",
         "stack":  0
     },
     {
@@ -30642,52 +30705,52 @@
     },
     {
         "id":  2367,
-        "name":  "",
+        "name":  "Pall of Darkness",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Encroaching gloom is impairing your accuracy while rendering you immune to \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eDemon Eye\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e.",
+        "icon":  "icon/015000/015012.png",
         "stack":  0
     },
     {
         "id":  2368,
-        "name":  "",
+        "name":  "Warmonger",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "The thrill of battle leads you to crave only more. Damage dealt is increased while damage taken is reduced.",
+        "icon":  "icon/015000/015267.png",
         "stack":  0
     },
     {
         "id":  2369,
-        "name":  "",
+        "name":  "Physical Aversion",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Vulnerable to physical attacks.",
+        "icon":  "icon/015000/015261.png",
         "stack":  0
     },
     {
         "id":  2370,
-        "name":  "",
+        "name":  "Magical Aversion",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Vulnerable to magic attacks.",
+        "icon":  "icon/015000/015262.png",
         "stack":  0
     },
     {
         "id":  2371,
-        "name":  "",
+        "name":  "Lightning Resistance Down",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Lightning resistance is reduced.",
+        "icon":  "icon/015000/015271.png",
         "stack":  0
     },
     {
@@ -30702,13 +30765,20 @@
     },
     {
         "id":  2373,
-        "name":  "",
+        "name":  "Mark of Mortality",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/019000/019421.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/019000/019422.png",
+                               "stack":  2
+                           }
                        ],
-        "description":  "",
-        "icon":  "",
-        "stack":  0
+        "description":  "Branded with a mark of mortality. Damage dealt is reduced. Too many stacks will result in KO.",
+        "icon":  "icon/019000/019421.png",
+        "stack":  2
     },
     {
         "id":  2374,
@@ -30789,13 +30859,44 @@
     },
     {
         "id":  2378,
-        "name":  "",
+        "name":  "Haste+",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/017000/017381.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/017000/017382.png",
+                               "stack":  2
+                           },
+                           {
+                               "icon":  "icon/017000/017383.png",
+                               "stack":  3
+                           },
+                           {
+                               "icon":  "icon/017000/017384.png",
+                               "stack":  4
+                           },
+                           {
+                               "icon":  "icon/017000/017385.png",
+                               "stack":  5
+                           },
+                           {
+                               "icon":  "icon/017000/017386.png",
+                               "stack":  6
+                           },
+                           {
+                               "icon":  "icon/017000/017387.png",
+                               "stack":  7
+                           },
+                           {
+                               "icon":  "icon/017000/017388.png",
+                               "stack":  8
+                           }
                        ],
-        "description":  "",
-        "icon":  "",
-        "stack":  0
+        "description":  "Weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay are reduced. Effect cannot be nullified.",
+        "icon":  "icon/017000/017381.png",
+        "stack":  8
     },
     {
         "id":  2379,
@@ -30809,52 +30910,52 @@
     },
     {
         "id":  2380,
-        "name":  "",
+        "name":  "Warmonger",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "The thrill of battle leads you to crave only more. Damage dealt is increased while damage taken is reduced.",
+        "icon":  "icon/015000/015267.png",
         "stack":  0
     },
     {
         "id":  2381,
-        "name":  "",
+        "name":  "Forward March",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Have received the order to advance. Order will be executed when status fades.",
+        "icon":  "icon/015000/015774.png",
         "stack":  0
     },
     {
         "id":  2382,
-        "name":  "",
+        "name":  "About Face",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Have received the order to retreat. Order will be executed when status fades.",
+        "icon":  "icon/015000/015775.png",
         "stack":  0
     },
     {
         "id":  2383,
-        "name":  "",
+        "name":  "Left Face",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Have received the order to move left. Order will be executed when status fades.",
+        "icon":  "icon/015000/015776.png",
         "stack":  0
     },
     {
         "id":  2384,
-        "name":  "",
+        "name":  "Right Face",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Have received the order to move right. Order will be executed when status fades.",
+        "icon":  "icon/015000/015777.png",
         "stack":  0
     },
     {
@@ -30919,12 +31020,12 @@
     },
     {
         "id":  2391,
-        "name":  "",
+        "name":  "Heavy",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Movement speed is reduced.",
+        "icon":  "icon/015000/015002.png",
         "stack":  0
     },
     {
@@ -30969,12 +31070,12 @@
     },
     {
         "id":  2396,
-        "name":  "",
+        "name":  "At the Limit",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Unable to execute limit breaks.",
+        "icon":  "icon/015000/015275.png",
         "stack":  0
     },
     {
@@ -30989,22 +31090,22 @@
     },
     {
         "id":  2398,
-        "name":  "",
+        "name":  "Incurable",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "All HP restoration is nullified.",
+        "icon":  "icon/015000/015851.png",
         "stack":  0
     },
     {
         "id":  2399,
-        "name":  "",
+        "name":  "Bleeding",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Sustaining damage over time.",
+        "icon":  "icon/015000/015530.png",
         "stack":  0
     },
     {
@@ -31029,52 +31130,83 @@
     },
     {
         "id":  2402,
-        "name":  "",
+        "name":  "Evasion Up",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Evasion is enhanced.",
+        "icon":  "icon/015000/015062.png",
         "stack":  0
     },
     {
         "id":  2403,
-        "name":  "",
+        "name":  "Evasion Down",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Evasion is reduced.",
+        "icon":  "icon/015000/015063.png",
         "stack":  0
     },
     {
         "id":  2404,
-        "name":  "",
+        "name":  "Damage Down",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Damage dealt is reduced.",
+        "icon":  "icon/015000/015520.png",
         "stack":  0
     },
     {
         "id":  2405,
-        "name":  "",
+        "name":  "Out of Control",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/017000/017221.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/017000/017222.png",
+                               "stack":  2
+                           },
+                           {
+                               "icon":  "icon/017000/017223.png",
+                               "stack":  3
+                           },
+                           {
+                               "icon":  "icon/017000/017224.png",
+                               "stack":  4
+                           },
+                           {
+                               "icon":  "icon/017000/017225.png",
+                               "stack":  5
+                           },
+                           {
+                               "icon":  "icon/017000/017226.png",
+                               "stack":  6
+                           },
+                           {
+                               "icon":  "icon/017000/017227.png",
+                               "stack":  7
+                           },
+                           {
+                               "icon":  "icon/017000/017228.png",
+                               "stack":  8
+                           }
                        ],
-        "description":  "",
-        "icon":  "",
-        "stack":  0
+        "description":  "Separated from master and becoming increasingly agitated. The higher the stack, the more damage dealt is increased.",
+        "icon":  "icon/017000/017221.png",
+        "stack":  8
     },
     {
         "id":  2406,
-        "name":  "",
+        "name":  "Shock Spikes",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Elemental spikes are dealing lightning damage to and sometimes stunning attackers.",
+        "icon":  "icon/015000/015502.png",
         "stack":  0
     },
     {
@@ -31159,12 +31291,12 @@
     },
     {
         "id":  2415,
-        "name":  "",
+        "name":  "Duties as Assigned",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Unable to change to another class or job.",
+        "icon":  "icon/016000/016236.png",
         "stack":  0
     },
     {
