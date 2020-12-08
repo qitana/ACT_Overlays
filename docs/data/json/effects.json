@@ -1103,11 +1103,34 @@
         "id":  110,
         "name":  "Perfect Balance",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/017000/017564.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/017000/017565.png",
+                               "stack":  2
+                           },
+                           {
+                               "icon":  "icon/017000/017566.png",
+                               "stack":  3
+                           },
+                           {
+                               "icon":  "icon/017000/017567.png",
+                               "stack":  4
+                           },
+                           {
+                               "icon":  "icon/017000/017568.png",
+                               "stack":  5
+                           },
+                           {
+                               "icon":  "icon/017000/017569.png",
+                               "stack":  6
+                           }
                        ],
         "description":  "Employing all three pugilistic fighting stances─opo-opo, raptor, and coeurl.",
-        "icon":  "icon/010000/010217.png",
-        "stack":  0
+        "icon":  "icon/017000/017564.png",
+        "stack":  6
     },
     {
         "id":  111,
@@ -11014,12 +11037,12 @@
     },
     {
         "id":  757,
-        "name":  "Discerning Eye",
+        "name":  "Scrutiny",
         "stackIcons":  [
 
                        ],
-        "description":  "Item rarity increase improved on next appraisal.",
-        "icon":  "icon/011000/011009.png",
+        "description":  "Collectability increase is improved.",
+        "icon":  "icon/016000/016017.png",
         "stack":  0
     },
     {
@@ -11068,7 +11091,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Able to locate fish usually hidden.",
+        "description":  "Able to locate fish usually hidden regardless of their normal hours of activity.",
         "icon":  "icon/011000/011103.png",
         "stack":  0
     },
@@ -16476,7 +16499,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Contemplating the riddle of earth. Any damage taken triggers \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eEarth\u0027s Reply\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e.",
+        "description":  "Contemplating the riddle of earth. Damage taken is reduced and all action direction requirements are nullified.",
         "icon":  "icon/012000/012527.png",
         "stack":  0
     },
@@ -16506,7 +16529,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Grants chance to open a chakra to the monk who applied the effect when a weaponskill is used by any affected party member or self.",
+        "description":  "Grants chance to open a chakra to the monk who applied the effect when a weaponskill is used or a spell is cast by any affected party member or self.",
         "icon":  "icon/012000/012529.png",
         "stack":  0
     },
@@ -16536,7 +16559,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Physical damage dealt is increased.",
+        "description":  "Damage dealt is increased.",
         "icon":  "icon/012000/012532.png",
         "stack":  0
     },
@@ -22632,22 +22655,22 @@
     },
     {
         "id":  1679,
-        "name":  "",
+        "name":  "Spell-in-Waiting: Return IV",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Designated target of \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eReturn IV\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, which will activate when this effect expires.",
+        "icon":  "icon/015000/015331.png",
         "stack":  0
     },
     {
         "id":  1680,
-        "name":  "",
+        "name":  "Spell-in-Waiting: Flare",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Designated target of \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eFlare\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, which will activate when this effect expires.",
+        "icon":  "icon/015000/015970.png",
         "stack":  0
     },
     {
@@ -22772,32 +22795,32 @@
     },
     {
         "id":  1693,
-        "name":  "",
+        "name":  "Slashing Resistance Down",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Slashing resistance is reduced.",
+        "icon":  "icon/015000/015786.png",
         "stack":  0
     },
     {
         "id":  1694,
-        "name":  "",
+        "name":  "Piercing Resistance Down",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Piercing resistance is reduced.",
+        "icon":  "icon/015000/015065.png",
         "stack":  0
     },
     {
         "id":  1695,
-        "name":  "",
+        "name":  "Apathetic",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Unable to use HP restoration abilities while MP slowly drains. Not that you care.",
+        "icon":  "icon/015000/015843.png",
         "stack":  0
     },
     {
@@ -23272,7 +23295,7 @@
     },
     {
         "id":  1743,
-        "name":  "Doom",
+        "name":  "Sacrifice",
         "stackIcons":  [
 
                        ],
@@ -24766,7 +24789,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "The \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eEsprit Gauge\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e is increasing when you or the party member designated as your \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eDance Partner\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e successfully lands a weaponskill or spell.",
+        "description":  "The \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eEsprit Gauge\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e is increasing when you or the party member designated as your \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eDance Partner\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e executes a weaponskill or casts a spell.",
         "icon":  "icon/013000/013710.png",
         "stack":  0
     },
@@ -24776,7 +24799,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "The \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eEsprit Gauge\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e is increasing when you or a party member successfully lands a weaponskill or spell.",
+        "description":  "The \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eEsprit Gauge\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e is increasing when you or a party member executes a weaponskill or casts a spell.",
         "icon":  "icon/013000/013711.png",
         "stack":  0
     },
@@ -24916,7 +24939,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Form and \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eGreased Lightning\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e timers are suspended due to a transcendent inner calm.",
+        "description":  "Form and \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eTwin Snakes\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e timers are suspended due to a transcendent inner calm.",
         "icon":  "icon/012000/012534.png",
         "stack":  0
     },
@@ -26718,7 +26741,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "The \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eEsprit Gauge\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e is increasing when you or the party member designated as your \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eDance Partner\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e successfully lands a weaponskill or spell.",
+        "description":  "The \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eEsprit Gauge\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e is increasing when you or the party member designated as your \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eDance Partner\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e executes a weaponskill or casts a spell.",
         "icon":  "icon/013000/013710.png",
         "stack":  0
     },
@@ -26978,7 +27001,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "The \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eEsprit Gauge\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e is increasing when you or a party member successfully lands a weaponskill or spell.",
+        "description":  "The \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eEsprit Gauge\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e is increasing when you or a party member executes a weaponskill or casts a spell.",
         "icon":  "icon/013000/013711.png",
         "stack":  0
     },
@@ -28695,12 +28718,12 @@
     },
     {
         "id":  2203,
-        "name":  "",
+        "name":  "Mortal Powder Mark",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Emblazoned with a smoldering mark that will cause you to explode with a vengeance when the effect expires.",
+        "icon":  "icon/015000/015303.png",
         "stack":  0
     },
     {
@@ -29981,12 +30004,12 @@
     },
     {
         "id":  2304,
-        "name":  "",
+        "name":  "Floating Fetters",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Bound in midair and unable to move.",
+        "icon":  "icon/015000/015301.png",
         "stack":  0
     },
     {
@@ -30960,32 +30983,32 @@
     },
     {
         "id":  2385,
-        "name":  "",
+        "name":  "Hypercharged Condensation",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Inexorably drawn toward the hypercharged clouds.",
+        "icon":  "icon/015000/015283.png",
         "stack":  0
     },
     {
         "id":  2386,
-        "name":  "",
+        "name":  "Stygian Tendrils",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Sustaining damage over time from grasping tendrils.",
+        "icon":  "icon/015000/015601.png",
         "stack":  0
     },
     {
         "id":  2387,
-        "name":  "",
+        "name":  "Curse of Darkness",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Cursed to become a fell minion, unleashing \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eParticle Beam\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e when this effect expires.",
+        "icon":  "icon/015000/015284.png",
         "stack":  0
     },
     {
@@ -31321,16 +31344,86 @@
     },
     {
         "id":  2418,
-        "name":  "",
+        "name":  "Collector\u0027s Standard",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Effectiveness of brazen and meticulous actions is increased.",
+        "icon":  "icon/016000/016018.png",
         "stack":  0
     },
     {
         "id":  2419,
+        "name":  "Servant of Shadow",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Indentured to the Shadowkeeper and soon to spawn a Shadow Servant at your feet.",
+        "icon":  "icon/015000/015325.png",
+        "stack":  0
+    },
+    {
+        "id":  2420,
+        "name":  "Servant of Shadow",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Indentured to the Shadowkeeper and soon to spawn a Shadow Servant at your feet.",
+        "icon":  "icon/015000/015325.png",
+        "stack":  0
+    },
+    {
+        "id":  2421,
+        "name":  "Servant of Shadow",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Indentured to the Shadowkeeper and soon to spawn a Shadow Servant at your feet.",
+        "icon":  "icon/015000/015325.png",
+        "stack":  0
+    },
+    {
+        "id":  2422,
+        "name":  "Servant of Shadow",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Indentured to the Shadowkeeper and soon to spawn a Shadow Servant at your feet.",
+        "icon":  "icon/015000/015325.png",
+        "stack":  0
+    },
+    {
+        "id":  2423,
+        "name":  "Shadowed",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Your shadow has been claimed by the Shadowkeeper. Damage taken by your shadow will also be taken by you.",
+        "icon":  "icon/015000/015326.png",
+        "stack":  0
+    },
+    {
+        "id":  2424,
+        "name":  "Shackled Apart",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Drawing too near the ally to whom you are chained will result in increased damage taken.",
+        "icon":  "icon/015000/015327.png",
+        "stack":  0
+    },
+    {
+        "id":  2425,
+        "name":  "Shackled Together",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Drawing too far away from the ally to whom you are chained will result in increased damage taken.",
+        "icon":  "icon/015000/015328.png",
+        "stack":  0
+    },
+    {
+        "id":  2426,
         "name":  "",
         "stackIcons":  [
 
@@ -31340,7 +31433,1832 @@
         "stack":  0
     },
     {
-        "id":  2420,
+        "id":  2427,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2428,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2429,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2430,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2431,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2432,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2433,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2434,
+        "name":  "勝負師の薬",
+        "stackIcons":  [
+
+                       ],
+        "description":  "回避率が向上し、クリティカル発動率が向上し、かつダイレクトヒット発動率が向上した状態。",
+        "icon":  "icon/016000/016611.png",
+        "stack":  0
+    },
+    {
+        "id":  2435,
+        "name":  "賢者の薬",
+        "stackIcons":  [
+
+                       ],
+        "description":  "防御力が向上し、与ダメージが上昇し、かつ最大ＨＰが増加した状態。",
+        "icon":  "icon/016000/016612.png",
+        "stack":  0
+    },
+    {
+        "id":  2436,
+        "name":  "剣豪の薬",
+        "stackIcons":  [
+
+                       ],
+        "description":  "防御力が向上し、与ダメージが上昇し、かつ最大ＨＰが増加した状態。",
+        "icon":  "icon/016000/016613.png",
+        "stack":  0
+    },
+    {
+        "id":  2437,
+        "name":  "弓聖の薬",
+        "stackIcons":  [
+
+                       ],
+        "description":  "防御力が向上し、与ダメージが上昇し、かつ最大ＨＰが増加した状態。",
+        "icon":  "icon/016000/016614.png",
+        "stack":  0
+    },
+    {
+        "id":  2438,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2439,
+        "name":  "聖人の薬",
+        "stackIcons":  [
+
+                       ],
+        "description":  "防御力が向上し、与ダメージが上昇し、かつ最大ＨＰが増加した状態。",
+        "icon":  "icon/016000/016616.png",
+        "stack":  0
+    },
+    {
+        "id":  2440,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2441,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2442,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2443,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2444,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2445,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2446,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2447,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2448,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2449,
+        "name":  "蘇生制限",
+        "stackIcons":  [
+
+                       ],
+        "description":  "一部の蘇生効果を受け付けない状態。",
+        "icon":  "icon/015000/015959.png",
+        "stack":  0
+    },
+    {
+        "id":  2450,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2451,
+        "name":  "Powder Mark",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Emblazoned with a mark that will cause you to explode when the effect expires.",
+        "icon":  "icon/015000/015302.png",
+        "stack":  0
+    },
+    {
+        "id":  2452,
+        "name":  "Return",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Aetherially entwined with the temporal manifold. You will be stunned and drawn back to your aetherial trace when this effect expires.",
+        "icon":  "icon/015000/015304.png",
+        "stack":  0
+    },
+    {
+        "id":  2453,
+        "name":  "Return IV",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Aetherially entwined with the temporal manifold. \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eReturn\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e will be applied when this effect expires.",
+        "icon":  "icon/015000/015314.png",
+        "stack":  0
+    },
+    {
+        "id":  2454,
+        "name":  "Spell-in-Waiting: Unholy Darkness",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Designated target of \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eUnholy Darkness\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, which will activate when this effect expires.",
+        "icon":  "icon/015000/015983.png",
+        "stack":  0
+    },
+    {
+        "id":  2455,
+        "name":  "Spell-in-Waiting: Dark Fire III",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Designated target of \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eDark Fire III\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, which will activate when this effect expires.",
+        "icon":  "icon/015000/015984.png",
+        "stack":  0
+    },
+    {
+        "id":  2456,
+        "name":  "Spell-in-Waiting: Shadoweye",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Designated target of \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eShadoweye\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, which will activate when this effect expires.",
+        "icon":  "icon/015000/015986.png",
+        "stack":  0
+    },
+    {
+        "id":  2457,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2458,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2459,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2460,
+        "name":  "Spell-in-Waiting: Dark Eruption",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Designated target of \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eDark Eruption\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, which will activate when this effect expires.",
+        "icon":  "icon/015000/015305.png",
+        "stack":  0
+    },
+    {
+        "id":  2461,
+        "name":  "Spell-in-Waiting: Dark Water III",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Designated target of \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eDark Water III\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, which will activate when this effect expires.",
+        "icon":  "icon/015000/015306.png",
+        "stack":  0
+    },
+    {
+        "id":  2462,
+        "name":  "Spell-in-Waiting: Dark Blizzard III",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Designated target of \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eDark Blizzard III\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, which will activate when this effect expires.",
+        "icon":  "icon/015000/015307.png",
+        "stack":  0
+    },
+    {
+        "id":  2463,
+        "name":  "Spell-in-Waiting: Dark Aero III",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Designated target of \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eDark Aero III\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, which will activate when this effect expires.",
+        "icon":  "icon/015000/015308.png",
+        "stack":  0
+    },
+    {
+        "id":  2464,
+        "name":  "Spell-in-Waiting: Return",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Designated target of \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eReturn\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, which will activate when this effect expires.",
+        "icon":  "icon/015000/015313.png",
+        "stack":  0
+    },
+    {
+        "id":  2465,
+        "name":  "Ice Resistance Down II",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Ice resistance is significantly reduced.",
+        "icon":  "icon/015000/015596.png",
+        "stack":  0
+    },
+    {
+        "id":  2466,
+        "name":  "Stock Holder",
+        "stackIcons":  [
+                           {
+                               "icon":  "icon/017000/017038.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/017000/017039.png",
+                               "stack":  2
+                           }
+                       ],
+        "description":  "Holding recollections of Eden\u0027s primals ready.",
+        "icon":  "icon/017000/017038.png",
+        "stack":  2
+    },
+    {
+        "id":  2467,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2468,
+        "name":  "Junction Shiva",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Drawing strength from the memory of Shiva.",
+        "icon":  "icon/015000/015310.png",
+        "stack":  0
+    },
+    {
+        "id":  2469,
+        "name":  "Junction Titan",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Drawing strength from the memory of Titan.",
+        "icon":  "icon/015000/015311.png",
+        "stack":  0
+    },
+    {
+        "id":  2470,
+        "name":  "Junction Loghrif",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Awakened as the Oracle of Darkness.",
+        "icon":  "icon/015000/015312.png",
+        "stack":  0
+    },
+    {
+        "id":  2471,
+        "name":  "Head in the Clouds",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Perched atop a cloud and unable to be hit by attacks from below.",
+        "icon":  "icon/015000/015329.png",
+        "stack":  0
+    },
+    {
+        "id":  2472,
+        "name":  "Head in the Clouds",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Perched on a cloud and able to attack cloudtop enemies.",
+        "icon":  "icon/015000/015330.png",
+        "stack":  0
+    },
+    {
+        "id":  2473,
+        "name":  "Aetherial Depletion",
+        "stackIcons":  [
+                           {
+                               "icon":  "icon/019000/019841.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/019000/019842.png",
+                               "stack":  2
+                           },
+                           {
+                               "icon":  "icon/019000/019843.png",
+                               "stack":  3
+                           },
+                           {
+                               "icon":  "icon/019000/019844.png",
+                               "stack":  4
+                           },
+                           {
+                               "icon":  "icon/019000/019845.png",
+                               "stack":  5
+                           },
+                           {
+                               "icon":  "icon/019000/019846.png",
+                               "stack":  6
+                           },
+                           {
+                               "icon":  "icon/019000/019847.png",
+                               "stack":  7
+                           },
+                           {
+                               "icon":  "icon/019000/019848.png",
+                               "stack":  8
+                           },
+                           {
+                               "icon":  "icon/019000/019849.png",
+                               "stack":  9
+                           },
+                           {
+                               "icon":  "icon/019000/019850.png",
+                               "stack":  10
+                           }
+                       ],
+        "description":  "Aether is waning, decreasing physical ability.",
+        "icon":  "icon/019000/019841.png",
+        "stack":  10
+    },
+    {
+        "id":  2474,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2475,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2476,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2477,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2478,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2479,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2480,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2481,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2482,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2483,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2484,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2485,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2486,
+        "name":  "Sucked In",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Inexorably pulled in one direction. Unable to jump or execute actions.",
+        "icon":  "icon/015000/015285.png",
+        "stack":  0
+    },
+    {
+        "id":  2487,
+        "name":  "Mortal Powder Mark",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Emblazoned with a smoldering mark that will cause you to explode with a vengeance when the effect expires.",
+        "icon":  "icon/015000/015303.png",
+        "stack":  0
+    },
+    {
+        "id":  2488,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2489,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2490,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2491,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2492,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2493,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2494,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2495,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2496,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2497,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2498,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2499,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2500,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2501,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2502,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2503,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2504,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2505,
+        "name":  "Herbsona",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Transformed into a leafman. Unable to move or execute actions.",
+        "icon":  "icon/015000/015890.png",
+        "stack":  0
+    },
+    {
+        "id":  2506,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2507,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2508,
+        "name":  "Slashing Resistance Down",
+        "stackIcons":  [
+                           {
+                               "icon":  "icon/017000/017681.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/017000/017682.png",
+                               "stack":  2
+                           },
+                           {
+                               "icon":  "icon/017000/017683.png",
+                               "stack":  3
+                           },
+                           {
+                               "icon":  "icon/017000/017684.png",
+                               "stack":  4
+                           },
+                           {
+                               "icon":  "icon/017000/017685.png",
+                               "stack":  5
+                           },
+                           {
+                               "icon":  "icon/017000/017686.png",
+                               "stack":  6
+                           },
+                           {
+                               "icon":  "icon/017000/017687.png",
+                               "stack":  7
+                           },
+                           {
+                               "icon":  "icon/017000/017688.png",
+                               "stack":  8
+                           }
+                       ],
+        "description":  "Slashing resistance is reduced.",
+        "icon":  "icon/017000/017681.png",
+        "stack":  8
+    },
+    {
+        "id":  2509,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2510,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2511,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2512,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2513,
+        "name":  "Formless Fist",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Employing all three pugilistic fighting stances─opo-opo, raptor, and coeurl. Additional effects of actions used in these forms will also be triggered.",
+        "icon":  "icon/012000/012535.png",
+        "stack":  0
+    },
+    {
+        "id":  2514,
+        "name":  "Six-sided Star",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Movement speed is increased.",
+        "icon":  "icon/012000/012536.png",
+        "stack":  0
+    },
+    {
+        "id":  2515,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2516,
+        "name":  "Doom",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Certain death when counter reaches zero.",
+        "icon":  "icon/015000/015503.png",
+        "stack":  0
+    },
+    {
+        "id":  2517,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2518,
+        "name":  "Bind",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Unable to move.",
+        "icon":  "icon/015000/015003.png",
+        "stack":  0
+    },
+    {
+        "id":  2519,
+        "name":  "Doom",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Certain death when counter reaches zero.",
+        "icon":  "icon/015000/015503.png",
+        "stack":  0
+    },
+    {
+        "id":  2520,
+        "name":  "Infirmity",
+        "stackIcons":  [
+
+                       ],
+        "description":  "HP recovery via healing magic is reduced.",
+        "icon":  "icon/015000/015531.png",
+        "stack":  0
+    },
+    {
+        "id":  2521,
+        "name":  "HP Penalty",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Maximum HP is reduced.",
+        "icon":  "icon/015000/015076.png",
+        "stack":  0
+    },
+    {
+        "id":  2522,
+        "name":  "Damage Down",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Damage dealt is reduced.",
+        "icon":  "icon/015000/015520.png",
+        "stack":  0
+    },
+    {
+        "id":  2523,
+        "name":  "Restricted Access",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Unable to move or execute certain actions due to duty restrictions.",
+        "icon":  "icon/016000/016237.png",
+        "stack":  0
+    },
+    {
+        "id":  2524,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2525,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2526,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2527,
+        "name":  "Mortal Powder Mark",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Emblazoned with a smoldering mark that will cause you to explode with a vengeance when the effect expires.",
+        "icon":  "icon/015000/015303.png",
+        "stack":  0
+    },
+    {
+        "id":  2528,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2529,
+        "name":  "Sucked In",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Inexorably pulled in one direction. Unable to jump or execute actions.",
+        "icon":  "icon/015000/015285.png",
+        "stack":  0
+    },
+    {
+        "id":  2530,
+        "name":  "Thrice-come Ruin",
+        "stackIcons":  [
+                           {
+                               "icon":  "icon/019000/019861.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/019000/019862.png",
+                               "stack":  2
+                           },
+                           {
+                               "icon":  "icon/019000/019863.png",
+                               "stack":  3
+                           }
+                       ],
+        "description":  "Bearing signs that the end may be nigh. Too many stacks will result in \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eDoom\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e.",
+        "icon":  "icon/019000/019861.png",
+        "stack":  3
+    },
+    {
+        "id":  2531,
+        "name":  "Spell-in-Waiting: Quietus",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Designated target of \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eQuietus\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, which will activate when this effect expires.",
+        "icon":  "icon/015000/015341.png",
+        "stack":  0
+    },
+    {
+        "id":  2532,
+        "name":  "Cloying Condensation",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Unable to jump due to the Cloud of Darkness\u0027s airborne magicks.",
+        "icon":  "icon/015000/015342.png",
+        "stack":  0
+    },
+    {
+        "id":  2533,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2534,
+        "name":  "Twice-come Ruin",
+        "stackIcons":  [
+                           {
+                               "icon":  "icon/019000/019861.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/019000/019862.png",
+                               "stack":  2
+                           }
+                       ],
+        "description":  "Bearing signs that the end may be nigh. Too many stacks will result in \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eDoom\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e.",
+        "icon":  "icon/019000/019861.png",
+        "stack":  2
+    },
+    {
+        "id":  2535,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2536,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2537,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2538,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2539,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2540,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2541,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2542,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2543,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2544,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2545,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2546,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2547,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2548,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2549,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2550,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2551,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2552,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2553,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2554,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2555,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2556,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2557,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2558,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2559,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2560,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2561,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2562,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2563,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2564,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2565,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2566,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2567,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2568,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2569,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2570,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2571,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2572,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2573,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2574,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2575,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2576,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2577,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2578,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2579,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2580,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2581,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2582,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2583,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2584,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2585,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2586,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2587,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2588,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2589,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2590,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2591,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2592,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2593,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2594,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2595,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2596,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2597,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2598,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2599,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  2600,
         "name":  "",
         "stackIcons":  [
 
