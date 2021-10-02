@@ -16399,7 +16399,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Fish of a certain type are now aware of your aware of your presence and have left the area.",
+        "description":  "Fish of a certain type are now aware of your presence and have left the area.",
         "icon":  "icon/011000/011110.png",
         "stack":  0
     },
@@ -27192,7 +27192,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Potency of all HP restoration actions is increased.",
+        "description":  "Damage dealt and potency of all HP restoration actions are increased.",
         "icon":  "icon/012000/012805.png",
         "stack":  0
     },
@@ -32767,32 +32767,32 @@
     },
     {
         "id":  2541,
-        "name":  "",
+        "name":  "不浄の侵食",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "不浄に侵食されつつある状態。カウント0で不浄の恐怖状態に陥り、対象から離れようとしてしまう。",
+        "icon":  "icon/015000/015363.png",
         "stack":  0
     },
     {
         "id":  2542,
-        "name":  "",
+        "name":  "不浄の恐怖",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "不浄の恐怖で行動できなくなり、対象から離れようとしてしまう状態。",
+        "icon":  "icon/015000/015364.png",
         "stack":  0
     },
     {
         "id":  2543,
-        "name":  "",
+        "name":  "Gelatinous",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Rendered a boneless ooze unable to jump or execute actions. Movement speed is reduced.",
+        "icon":  "icon/016000/016214.png",
         "stack":  0
     },
     {
@@ -32807,12 +32807,12 @@
     },
     {
         "id":  2545,
-        "name":  "",
+        "name":  "Duel or Die",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Singled out for combat. Damage from opponent\u0027s first blow will be reduced; however, failing to receive a blow from said opponent before this effect expires will result in KO.",
+        "icon":  "icon/015000/015349.png",
         "stack":  0
     },
     {
@@ -32827,32 +32827,32 @@
     },
     {
         "id":  2547,
-        "name":  "",
+        "name":  "On Fire",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Armed with a flaming axe. Additional effects are applied to auto-attacks.",
+        "icon":  "icon/015000/015350.png",
         "stack":  0
     },
     {
         "id":  2548,
-        "name":  "",
+        "name":  "Transfiguration",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Corporeal form has been altered.",
+        "icon":  "icon/016000/016214.png",
         "stack":  0
     },
     {
         "id":  2549,
-        "name":  "",
+        "name":  "Nasty Surprise",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Gunberd is loaded with special ammo.",
+        "icon":  "icon/015000/015347.png",
         "stack":  0
     },
     {
@@ -32950,22 +32950,22 @@
     },
     {
         "id":  2553,
-        "name":  "",
+        "name":  "One Mind",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Giving and receiving support. Damage dealt is increased, while damage taken is decreased.",
+        "icon":  "icon/015000/015348.png",
         "stack":  0
     },
     {
         "id":  2554,
-        "name":  "",
+        "name":  "Lunar Defensive",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Battle tactics optimized for defense.",
+        "icon":  "icon/015000/015343.png",
         "stack":  0
     },
     {
@@ -33000,102 +33000,117 @@
     },
     {
         "id":  2558,
-        "name":  "",
+        "name":  "Lost Burst",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Damage taken is increased.",
+        "icon":  "icon/016000/016619.png",
         "stack":  0
     },
     {
         "id":  2559,
-        "name":  "",
+        "name":  "Lost Rampage",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Damage taken is increased.",
+        "icon":  "icon/016000/016622.png",
         "stack":  0
     },
     {
         "id":  2560,
-        "name":  "",
+        "name":  "Lost Chainspell",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Spells require no time to cast.",
+        "icon":  "icon/016000/016623.png",
         "stack":  0
     },
     {
         "id":  2561,
-        "name":  "",
+        "name":  "Lost Protect II",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Physical damage taken is reduced.",
+        "icon":  "icon/016000/016624.png",
         "stack":  0
     },
     {
         "id":  2562,
-        "name":  "",
+        "name":  "Lost Shell II",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Magic damage taken is reduced.",
+        "icon":  "icon/016000/016625.png",
         "stack":  0
     },
     {
         "id":  2563,
-        "name":  "",
+        "name":  "Lost Bubble",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Maximum HP is increased.",
+        "icon":  "icon/016000/016700.png",
         "stack":  0
     },
     {
         "id":  2564,
-        "name":  "",
+        "name":  "Lost Excellence",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Impervious to most attacks. Damage dealt is increased.",
+        "icon":  "icon/016000/016701.png",
         "stack":  0
     },
     {
         "id":  2565,
-        "name":  "",
+        "name":  "Memorable",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Damage dealt is increased, while damage taken is decreased.",
+        "icon":  "icon/016000/016649.png",
         "stack":  0
     },
     {
         "id":  2566,
-        "name":  "",
+        "name":  "Lost Blood Rage",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/017000/017486.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/017000/017487.png",
+                               "stack":  2
+                           },
+                           {
+                               "icon":  "icon/017000/017488.png",
+                               "stack":  3
+                           },
+                           {
+                               "icon":  "icon/017000/017489.png",
+                               "stack":  4
+                           }
                        ],
-        "description":  "",
-        "icon":  "",
-        "stack":  0
+        "description":  "Damage dealt is increased, while damage taken is decreased.",
+        "icon":  "icon/017000/017486.png",
+        "stack":  4
     },
     {
         "id":  2567,
-        "name":  "",
+        "name":  "Blood Rush",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Gradually recovering HP and MP. Damage dealt is increased and ability recast time is reduced.",
+        "icon":  "icon/016000/016702.png",
         "stack":  0
     },
     {
@@ -33130,32 +33145,32 @@
     },
     {
         "id":  2571,
-        "name":  "",
+        "name":  "Destiny Drawn",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "An arcanum is drawn from the deck per the vicissitudes of fortune.",
+        "icon":  "icon/015000/015344.png",
         "stack":  0
     },
     {
         "id":  2572,
-        "name":  "",
+        "name":  "The Scroll",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Damage dealt is increased. Auto-attack delay, as well as weaponskill and spell cast time and recast time are reduced.",
+        "icon":  "icon/015000/015345.png",
         "stack":  0
     },
     {
         "id":  2573,
-        "name":  "",
+        "name":  "Break",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Activity is severely impeded.",
+        "icon":  "icon/015000/015346.png",
         "stack":  0
     },
     {
@@ -33170,22 +33185,22 @@
     },
     {
         "id":  2575,
-        "name":  "",
+        "name":  "Right Arm Primed",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Right arm is enhanced.",
+        "icon":  "icon/015000/015352.png",
         "stack":  0
     },
     {
         "id":  2576,
-        "name":  "",
+        "name":  "Left Arm Primed",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Left arm is enhanced.",
+        "icon":  "icon/015000/015353.png",
         "stack":  0
     },
     {
@@ -33220,62 +33235,62 @@
     },
     {
         "id":  2580,
-        "name":  "",
+        "name":  "Marching Orders: Feeling the Burn",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Officially selected for priority deployment in the Feeling the Burn engagement per Resistance leadership.",
+        "icon":  "icon/016000/016697.png",
         "stack":  0
     },
     {
         "id":  2581,
-        "name":  "",
+        "name":  "Marching Orders: On Serpents\u0027 Wings",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Officially selected for priority deployment in the On Serpents\u0027 Wings engagement per Resistance leadership.",
+        "icon":  "icon/016000/016697.png",
         "stack":  0
     },
     {
         "id":  2582,
-        "name":  "",
+        "name":  "Marching Orders: Never Cry Wolf",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Officially selected for priority deployment in the Never Cry Wolf engagement per Resistance leadership.",
+        "icon":  "icon/016000/016697.png",
         "stack":  0
     },
     {
         "id":  2583,
-        "name":  "",
+        "name":  "Marching Orders: Here Comes the Cavalry",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Officially selected for priority deployment in the Here Comes the Cavalry engagement per Resistance leadership.",
+        "icon":  "icon/016000/016697.png",
         "stack":  0
     },
     {
         "id":  2584,
-        "name":  "",
+        "name":  "Marching Orders: Worn to a Shadow",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Officially selected for priority deployment in the Worn to a Shadow engagement per Resistance leadership.",
+        "icon":  "icon/016000/016697.png",
         "stack":  0
     },
     {
         "id":  2585,
-        "name":  "",
+        "name":  "Marching Orders: A Familiar Face",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Officially selected for priority deployment in the A Familiar Face engagement per Resistance leadership.",
+        "icon":  "icon/016000/016697.png",
         "stack":  0
     },
     {
@@ -33733,33 +33748,150 @@
     },
     {
         "id":  2625,
-        "name":  "",
+        "name":  "Ray of Fortitude",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/019000/019626.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/019000/019627.png",
+                               "stack":  2
+                           },
+                           {
+                               "icon":  "icon/019000/019628.png",
+                               "stack":  3
+                           },
+                           {
+                               "icon":  "icon/019000/019629.png",
+                               "stack":  4
+                           },
+                           {
+                               "icon":  "icon/019000/019630.png",
+                               "stack":  5
+                           },
+                           {
+                               "icon":  "icon/019000/019631.png",
+                               "stack":  6
+                           },
+                           {
+                               "icon":  "icon/019000/019632.png",
+                               "stack":  7
+                           },
+                           {
+                               "icon":  "icon/019000/019633.png",
+                               "stack":  8
+                           },
+                           {
+                               "icon":  "icon/019000/019634.png",
+                               "stack":  9
+                           },
+                           {
+                               "icon":  "icon/019000/019635.png",
+                               "stack":  10
+                           }
                        ],
-        "description":  "",
-        "icon":  "",
-        "stack":  0
+        "description":  "Resistance honors are granting an increase to maximum HP.",
+        "icon":  "icon/019000/019626.png",
+        "stack":  10
     },
     {
         "id":  2626,
-        "name":  "",
+        "name":  "Ray of Valor",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/019000/019606.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/019000/019607.png",
+                               "stack":  2
+                           },
+                           {
+                               "icon":  "icon/019000/019608.png",
+                               "stack":  3
+                           },
+                           {
+                               "icon":  "icon/019000/019609.png",
+                               "stack":  4
+                           },
+                           {
+                               "icon":  "icon/019000/019610.png",
+                               "stack":  5
+                           },
+                           {
+                               "icon":  "icon/019000/019611.png",
+                               "stack":  6
+                           },
+                           {
+                               "icon":  "icon/019000/019612.png",
+                               "stack":  7
+                           },
+                           {
+                               "icon":  "icon/019000/019613.png",
+                               "stack":  8
+                           },
+                           {
+                               "icon":  "icon/019000/019614.png",
+                               "stack":  9
+                           },
+                           {
+                               "icon":  "icon/019000/019615.png",
+                               "stack":  10
+                           }
                        ],
-        "description":  "",
-        "icon":  "",
-        "stack":  0
+        "description":  "Resistance honors are granting increased damage dealt.",
+        "icon":  "icon/019000/019606.png",
+        "stack":  10
     },
     {
         "id":  2627,
-        "name":  "",
+        "name":  "Ray of Succor",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/019000/019646.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/019000/019647.png",
+                               "stack":  2
+                           },
+                           {
+                               "icon":  "icon/019000/019648.png",
+                               "stack":  3
+                           },
+                           {
+                               "icon":  "icon/019000/019649.png",
+                               "stack":  4
+                           },
+                           {
+                               "icon":  "icon/019000/019650.png",
+                               "stack":  5
+                           },
+                           {
+                               "icon":  "icon/019000/019651.png",
+                               "stack":  6
+                           },
+                           {
+                               "icon":  "icon/019000/019652.png",
+                               "stack":  7
+                           },
+                           {
+                               "icon":  "icon/019000/019653.png",
+                               "stack":  8
+                           },
+                           {
+                               "icon":  "icon/019000/019654.png",
+                               "stack":  9
+                           },
+                           {
+                               "icon":  "icon/019000/019655.png",
+                               "stack":  10
+                           }
                        ],
-        "description":  "",
-        "icon":  "",
-        "stack":  0
+        "description":  "Resistance honors are granting increased healing potency.",
+        "icon":  "icon/019000/019646.png",
+        "stack":  10
     },
     {
         "id":  2628,
@@ -33793,12 +33925,12 @@
     },
     {
         "id":  2631,
-        "name":  "",
+        "name":  "Down and Out",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Quite dead, and prevented from reviving by all usual means.",
+        "icon":  "icon/015000/015366.png",
         "stack":  0
     },
     {
@@ -33843,62 +33975,62 @@
     },
     {
         "id":  2636,
-        "name":  "",
+        "name":  "Bleeding",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Sustaining damage over time.",
+        "icon":  "icon/015000/015530.png",
         "stack":  0
     },
     {
         "id":  2637,
-        "name":  "",
+        "name":  "Sacred Soil",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "A circle of sanctified earth is healing party members and reducing damage taken within its bounds.",
+        "icon":  "icon/012000/012802.png",
         "stack":  0
     },
     {
         "id":  2638,
-        "name":  "",
+        "name":  "Sacred Soil",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Damage taken is reduced.",
+        "icon":  "icon/012000/012803.png",
         "stack":  0
     },
     {
         "id":  2639,
-        "name":  "",
+        "name":  "Fixed Sign",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "An area of land has been granted protection, reducing damage taken for all who enter.",
+        "icon":  "icon/013000/013227.png",
         "stack":  0
     },
     {
         "id":  2640,
-        "name":  "",
+        "name":  "Fixed Sign",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Damage taken is reduced.",
+        "icon":  "icon/013000/013226.png",
         "stack":  0
     },
     {
         "id":  2641,
-        "name":  "",
+        "name":  "Fixed Sign",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Regenerating HP over time.",
+        "icon":  "icon/013000/013225.png",
         "stack":  0
     },
     {
@@ -33923,32 +34055,32 @@
     },
     {
         "id":  2644,
-        "name":  "",
+        "name":  "Front Unseen",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Only vulnerabilities on the front of the body remain undetected. Hits to the back, right, and left sides of the body will result in severe damage.",
+        "icon":  "icon/015000/015369.png",
         "stack":  0
     },
     {
         "id":  2645,
-        "name":  "",
+        "name":  "Prey",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Marked as prey.",
+        "icon":  "icon/015000/015026.png",
         "stack":  0
     },
     {
         "id":  2646,
-        "name":  "",
+        "name":  "Electrocution",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Sustaining lightning damage over time.",
+        "icon":  "icon/015000/015528.png",
         "stack":  0
     },
     {
@@ -33973,12 +34105,12 @@
     },
     {
         "id":  2649,
-        "name":  "",
+        "name":  "Empowered Beast",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Permitted by master to fight to the fullest extent of capabilities.",
+        "icon":  "icon/015000/015255.png",
         "stack":  0
     },
     {
@@ -34053,22 +34185,22 @@
     },
     {
         "id":  2657,
-        "name":  "",
+        "name":  "Acceleration Bomb",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "An acceleration-trigger explosive is affixed to the body. Any movement when effect wears off will result in detonation.",
+        "icon":  "icon/015000/015727.png",
         "stack":  0
     },
     {
         "id":  2658,
-        "name":  "",
+        "name":  "Deep Freeze",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Frozen solid and unable to execute actions.",
+        "icon":  "icon/015000/015637.png",
         "stack":  0
     },
     {
