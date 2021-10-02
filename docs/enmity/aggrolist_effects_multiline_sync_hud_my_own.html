@@ -1,0 +1,96 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>aggrolist</title>
+  <link rel="stylesheet" href="css/aggrolist_sync_hud.css">
+</head>
+
+<body>
+  <!-- Vue -->
+  <div id="vue" v-bind:class="{ 'resize-handle': !locked }">
+    <!-- outer -->
+    <div v-cloak class="outer" v-bind:class="[ hide ? 'hide' : '' ]">
+      <!-- innner -->
+      <div v-if="updated" class="inner">
+        <div class="background"></div>
+        <!-- Combatants Table -->
+        <table id="combatants" v-show="!collapsed">
+          <!-- Table Header -->
+          <thead class="gold">
+            <tr>
+              <!--<th class="text-center">Hate</th>-->
+              <th class="test-center">Target</th>
+              <th class="text-left pl-20px">Name</th>
+              <th class="text-left width-100pc pl-4px">Effects</th>
+            </tr>
+          </thead>
+          <!-- Table Body -->
+          <tbody class="blue" v-show="synced">
+            <!-- Vue Repeat Template -->
+            <template v-for="(combatant, index) in combatants">
+              <tr v-bind:class="[ combatant.isCurrentTarget ? '' : '' ]">
+                <!-- Hate -->
+                <!--
+                <td class="hate text-right">
+                  <div class="hate" v-bind:class="combatant | hatecolor">
+                    <span class="arrow" style="position:absolute; left:12px;">{{ combatant.isCurrentTarget ? "▶" : "" }}</span>
+                    <span>{{ combatant.HateRate }}%</span>
+                  </div>
+                </td>
+                -->
+                <!-- Target -->
+                <td class="target with-arrow text-right">
+                  <div class="target box">
+                    <span class="arrow">{{ combatant.isCurrentTarget ? "▶" : "" }}</span>
+                    <div class="upper-box" v-bind:class="combatant | hatecolor">
+                      <span class="font-12px ellipsis">{{ combatant.HateRate }}%</span>
+                    </div>
+                    <div class="lower-box" v-bind:class="combatant.Target | jobrole">
+                      <span class="font-14px ellipsis">{{ combatant.Target | jobname }}</span>
+                    </div>
+                  </div>
+                </td>
+                <!-- Name -->
+                <td class="name text-left">
+                  <div class="name box">
+                    <div class="content width-100pc">
+                      <span class="content ellipsis name-text" v-if="index > 7">{{ combatant.Name }}</span>
+                    </div>
+                    <div class="hpp-label text-right">
+                      <span class="content font-10px">{{ combatant | hppercent | round }}%</span>
+                    </div>
+                    <div class="gauge" v-bind:class="combatant | hpcolor"
+                      v-bind:style="{ width: (hppercent(combatant) * 0.53 + 1.0)+ 'px' }"></div>
+                  </div>
+                </td>
+                <!-- Effects -->
+                <td class="effects">
+                  <template v-for="effect in combatant.Effects">
+                    <div v-if="effect.isOwner" class="effects">
+                      <img v-bind:src="effect.Icon">
+                      <span class="effect-timer"
+                        v-bind:class="'isOwner-' + effect.isOwner">{{ Math.ceil(effect.Timer) }}</span>
+                    </div>
+                  </template>
+                </td>
+              </tr>
+            </template>
+            <!-- end of Vue Repeat Template -->
+          </tbody>
+        </table>
+        <!-- end of Combatant Table -->
+      </div>
+      <!-- end of inner -->
+    </div>
+    <!-- end of outer -->
+  </div>
+  <!-- end of Vue -->
+
+  <script src="https://unpkg.com/vue@2.6.10/dist/vue.min.js"></script>
+  <script src="../js/common.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/aggrolist_effects.js"></script>
+</body>
+
+</html>
