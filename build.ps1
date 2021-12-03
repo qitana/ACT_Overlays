@@ -42,7 +42,8 @@ Get-Content (Join-Path $script:saintCoinach "exd\Status.csv") `
         $name = $_.0;
         $description = $_.1
         $tex = $_.2;
-        $stack = [int]$_.3 
+        #$stack = [int]$_.3
+        $stack = 0
 
         $icon = $tex -replace "^ui/", "" -replace ".tex$", ".png"
         if ($icon) {
@@ -61,16 +62,16 @@ Get-Content (Join-Path $script:saintCoinach "exd\Status.csv") `
         }
 
         $stackIcons = @();
-        if ($icon -and $stack -gt 0) {
-            for ($i = 0; $i -lt $stack; $i++) {
-                $stackIconFileName = "{0:000000}" -f ($iconFileNumber + $i) + ".png"
-                $stackIcon = (Join-Path $iconDir $stackIconFileName).Replace("\", "/");
-                $stackIcons += New-Object PSObject -Property @{
-                    stack = ($i + 1); 
-                    icon  = $stackIcon;
-                }
-            }
-        }
+        #if ($icon -and $stack -gt 0) {
+        #    for ($i = 0; $i -lt $stack; $i++) {
+        #        $stackIconFileName = "{0:000000}" -f ($iconFileNumber + $i) + ".png"
+        #        $stackIcon = (Join-Path $iconDir $stackIconFileName).Replace("\", "/");
+        #        $stackIcons += New-Object PSObject -Property @{
+        #            stack = ($i + 1); 
+        #            icon  = $stackIcon;
+        #        }
+        #    }
+        #}
 
         $statusEntry = @{ 
             id          = $id;
