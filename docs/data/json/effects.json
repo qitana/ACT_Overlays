@@ -35209,22 +35209,22 @@
     },
     {
         "id":  2739,
-        "name":  "",
+        "name":  "Cold Spell",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Overwhelmed by the power of ice.",
+        "icon":  "icon/015000/015373.png",
         "stack":  0
     },
     {
         "id":  2740,
-        "name":  "",
+        "name":  "Hot Spell",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Overwhelmed by the power of fire.",
+        "icon":  "icon/015000/015374.png",
         "stack":  0
     },
     {
@@ -35429,13 +35429,28 @@
     },
     {
         "id":  2761,
-        "name":  "",
+        "name":  "Darkened Fire",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/017000/017551.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/017000/017552.png",
+                               "stack":  2
+                           },
+                           {
+                               "icon":  "icon/017000/017553.png",
+                               "stack":  3
+                           },
+                           {
+                               "icon":  "icon/017000/017554.png",
+                               "stack":  4
+                           }
                        ],
-        "description":  "",
-        "icon":  "",
-        "stack":  0
+        "description":  "Burning with a dark flame that nullifies damage taken. Stacks of this effect are reduced by contact with flames of an opposing nature.",
+        "icon":  "icon/017000/017551.png",
+        "stack":  4
     },
     {
         "id":  2762,
@@ -35551,12 +35566,12 @@
     },
     {
         "id":  2767,
-        "name":  "",
+        "name":  "Mark of Easy Prey",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Damage taken is greatly increased when separated from similarly marked allies.",
+        "icon":  "icon/015000/015729.png",
         "stack":  0
     },
     {
@@ -35621,12 +35636,12 @@
     },
     {
         "id":  2774,
-        "name":  "",
+        "name":  "Dropsy",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Sustaining water damage over time.",
+        "icon":  "icon/015000/015529.png",
         "stack":  0
     },
     {
@@ -35973,12 +35988,12 @@
     },
     {
         "id":  2799,
-        "name":  "",
+        "name":  "Aethersucker",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Absorbing and storing aether.",
+        "icon":  "icon/015000/015429.png",
         "stack":  0
     },
     {
@@ -36854,21 +36869,21 @@
     },
     {
         "id":  2874,
-        "name":  "時限の魔鎖",
+        "name":  "Shackles of Time",
         "stackIcons":  [
 
                        ],
-        "description":  "光属性と火属性のエーテルを宿した魔法の鎖が縛り付けられた状態。",
+        "description":  "Bound by chains containing light- and fire-aspected aether.",
         "icon":  "icon/015000/015372.png",
         "stack":  0
     },
     {
         "id":  2875,
-        "name":  "時限の魔鎖",
+        "name":  "Shackles of Time",
         "stackIcons":  [
 
                        ],
-        "description":  "光属性と火属性のエーテルを宿した魔法の鎖が縛り付けられた状態。",
+        "description":  "Bound by chains containing light- and fire-aspected aether.",
         "icon":  "icon/015000/015372.png",
         "stack":  0
     },
