@@ -32767,12 +32767,12 @@
     },
     {
         "id":  2540,
-        "name":  "",
+        "name":  "Freezing Up",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Growing colder by the moment. Failure to continue moving until this effect expires will result in \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eDeep Freeze\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e.",
+        "icon":  "icon/015000/015355.png",
         "stack":  0
     },
     {
@@ -34651,7 +34651,7 @@
     },
     {
         "id":  2690,
-        "name":  "Forked Raiju Ready",
+        "name":  "Raiju Ready",
         "stackIcons":  [
                            {
                                "icon":  "icon/017000/017597.png",
@@ -34666,7 +34666,7 @@
                                "stack":  3
                            }
                        ],
-        "description":  "Able to execute \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eForked Raiju\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e.",
+        "description":  "Able to execute \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eForked Raiju\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e and \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eFleeting Raiju\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e.",
         "icon":  "icon/017000/017597.png",
         "stack":  3
     },
@@ -35229,52 +35229,52 @@
     },
     {
         "id":  2741,
-        "name":  "",
+        "name":  "Shackles of Time",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Bound by chains containing light- and fire-aspected aether.",
+        "icon":  "icon/015000/015372.png",
         "stack":  0
     },
     {
         "id":  2742,
-        "name":  "",
+        "name":  "Shackles of Companionship",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Wrapped in chains binding you ever tighter to nearby allies.",
+        "icon":  "icon/015000/015375.png",
         "stack":  0
     },
     {
         "id":  2743,
-        "name":  "",
+        "name":  "Shackles of Loneliness",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Wrapped in chains binding you ever tighter to faraway allies.",
+        "icon":  "icon/015000/015377.png",
         "stack":  0
     },
     {
         "id":  2744,
-        "name":  "",
+        "name":  "Inescapable Companionship",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Fully bound to nearby allies.",
+        "icon":  "icon/015000/015376.png",
         "stack":  0
     },
     {
         "id":  2745,
-        "name":  "",
+        "name":  "Inescapable Loneliness",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Fully bound to faraway allies.",
+        "icon":  "icon/015000/015378.png",
         "stack":  0
     },
     {
@@ -35454,13 +35454,28 @@
     },
     {
         "id":  2762,
-        "name":  "",
+        "name":  "Death\u0027s Toll",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/017000/017556.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/017000/017557.png",
+                               "stack":  2
+                           },
+                           {
+                               "icon":  "icon/017000/017558.png",
+                               "stack":  3
+                           },
+                           {
+                               "icon":  "icon/017000/017559.png",
+                               "stack":  4
+                           }
                        ],
-        "description":  "",
-        "icon":  "",
-        "stack":  0
+        "description":  "Cursed to die. Know the pain of death or face it in sooth.",
+        "icon":  "icon/017000/017556.png",
+        "stack":  4
     },
     {
         "id":  2763,
@@ -35576,62 +35591,62 @@
     },
     {
         "id":  2768,
-        "name":  "",
+        "name":  "Mark of the Tides",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Servant to the tides. Damage to those in proximity will occur when this effect expires.",
+        "icon":  "icon/015000/015903.png",
         "stack":  0
     },
     {
         "id":  2769,
-        "name":  "",
+        "name":  "Mark of the Depths",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Servant to the deep. Damage to those in proximity will occur when this effect expires.",
+        "icon":  "icon/015000/015696.png",
         "stack":  0
     },
     {
         "id":  2770,
-        "name":  "",
+        "name":  "Fore Mark of the Tides",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Servant to the tides. Will be swept forward when this effect expires.",
+        "icon":  "icon/015000/015387.png",
         "stack":  0
     },
     {
         "id":  2771,
-        "name":  "",
+        "name":  "Rear Mark of the Tides",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Servant to the tides. Will be swept backward when this effect expires.",
+        "icon":  "icon/015000/015387.png",
         "stack":  0
     },
     {
         "id":  2772,
-        "name":  "",
+        "name":  "Left Mark of the Tides",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Servant to the tides. Will be swept leftward when this effect expires.",
+        "icon":  "icon/015000/015387.png",
         "stack":  0
     },
     {
         "id":  2773,
-        "name":  "",
+        "name":  "Right Mark of the Tides",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Servant to the tides. Will be swept rightward when this effect expires.",
+        "icon":  "icon/015000/015387.png",
         "stack":  0
     },
     {
@@ -35998,52 +36013,52 @@
     },
     {
         "id":  2800,
-        "name":  "",
+        "name":  "_rsv_2800_-1_1_C0_0Status",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_2800_-1_1_C1_0Status",
+        "icon":  "icon/015000/015430.png",
         "stack":  0
     },
     {
         "id":  2801,
-        "name":  "",
+        "name":  "_rsv_2801_-1_1_C0_0Status",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_2801_-1_1_C1_0Status",
+        "icon":  "icon/015000/015431.png",
         "stack":  0
     },
     {
         "id":  2802,
-        "name":  "",
+        "name":  "_rsv_2802_-1_1_C0_0Status",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_2802_-1_1_C1_0Status",
+        "icon":  "icon/015000/015432.png",
         "stack":  0
     },
     {
         "id":  2803,
-        "name":  "",
+        "name":  "_rsv_2803_-1_1_C0_0Status",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_2803_-1_1_C1_0Status",
+        "icon":  "icon/015000/015433.png",
         "stack":  0
     },
     {
         "id":  2804,
-        "name":  "",
+        "name":  "_rsv_2804_-1_1_C0_0Status",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_2804_-1_1_C1_0Status",
+        "icon":  "icon/015000/015386.png",
         "stack":  0
     },
     {
@@ -36438,42 +36453,42 @@
     },
     {
         "id":  2835,
-        "name":  "",
+        "name":  "Forward Bearing",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Aiming to attack in a forward direction relative to most recent lickwhip or whiplick stance.",
+        "icon":  "icon/015000/015423.png",
         "stack":  0
     },
     {
         "id":  2836,
-        "name":  "",
+        "name":  "Backward Bearing",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Aiming to attack in a backward direction relative to most recent lickwhip or whiplick stance.",
+        "icon":  "icon/015000/015424.png",
         "stack":  0
     },
     {
         "id":  2837,
-        "name":  "",
+        "name":  "Leftward Bearing",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Aiming to attack in a leftward direction relative to most recent lickwhip or whiplick stance.",
+        "icon":  "icon/015000/015425.png",
         "stack":  0
     },
     {
         "id":  2838,
-        "name":  "",
+        "name":  "Rightward Bearing",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Aiming to attack in a rightward direction relative to most recent lickwhip or whiplick stance.",
+        "icon":  "icon/015000/015426.png",
         "stack":  0
     },
     {
@@ -36623,12 +36638,12 @@
     },
     {
         "id":  2852,
-        "name":  "",
+        "name":  "HP Recovery Down",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Healing effects received are reduced.",
+        "icon":  "icon/015000/015427.png",
         "stack":  0
     },
     {
@@ -37010,62 +37025,62 @@
     },
     {
         "id":  2885,
-        "name":  "",
+        "name":  "Shackles of Companionship",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Wrapped in chains binding you ever tighter to nearby allies.",
+        "icon":  "icon/015000/015375.png",
         "stack":  0
     },
     {
         "id":  2886,
-        "name":  "",
+        "name":  "Shackles of Companionship",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Wrapped in chains binding you ever tighter to nearby allies.",
+        "icon":  "icon/015000/015375.png",
         "stack":  0
     },
     {
         "id":  2887,
-        "name":  "",
+        "name":  "Shackles of Companionship",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Wrapped in chains binding you ever tighter to nearby allies.",
+        "icon":  "icon/015000/015375.png",
         "stack":  0
     },
     {
         "id":  2888,
-        "name":  "",
+        "name":  "Shackles of Loneliness",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Wrapped in chains binding you ever tighter to faraway allies.",
+        "icon":  "icon/015000/015377.png",
         "stack":  0
     },
     {
         "id":  2889,
-        "name":  "",
+        "name":  "Shackles of Loneliness",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Wrapped in chains binding you ever tighter to faraway allies.",
+        "icon":  "icon/015000/015377.png",
         "stack":  0
     },
     {
         "id":  2890,
-        "name":  "",
+        "name":  "Shackles of Loneliness",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Wrapped in chains binding you ever tighter to faraway allies.",
+        "icon":  "icon/015000/015377.png",
         "stack":  0
     },
     {
@@ -37210,12 +37225,12 @@
     },
     {
         "id":  2905,
-        "name":  "",
+        "name":  "Revolutionary",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Fighting backward. Areas of effect are inverted.",
+        "icon":  "icon/015000/015422.png",
         "stack":  0
     },
     {
@@ -37421,72 +37436,72 @@
     },
     {
         "id":  2923,
-        "name":  "",
+        "name":  "Shackles of Companionship",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Wrapped in chains binding you ever tighter to nearby allies.",
+        "icon":  "icon/015000/015375.png",
         "stack":  0
     },
     {
         "id":  2924,
-        "name":  "",
+        "name":  "Shackles of Loneliness",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Wrapped in chains binding you ever tighter to faraway allies.",
+        "icon":  "icon/015000/015377.png",
         "stack":  0
     },
     {
         "id":  2925,
-        "name":  "",
+        "name":  "_rsv_2925_-1_1_C0_0Status",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_2925_-1_1_C1_0Status",
+        "icon":  "icon/015000/015434.png",
         "stack":  0
     },
     {
         "id":  2926,
-        "name":  "",
+        "name":  "_rsv_2926_-1_1_C0_0Status",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_2926_-1_1_C1_0Status",
+        "icon":  "icon/015000/015435.png",
         "stack":  0
     },
     {
         "id":  2927,
-        "name":  "",
+        "name":  "_rsv_2927_-1_1_C0_0Status",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_2927_-1_1_C1_0Status",
+        "icon":  "icon/015000/015436.png",
         "stack":  0
     },
     {
         "id":  2928,
-        "name":  "",
+        "name":  "Fountain of Fire",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Flames are enhancing target capabilities. Damage dealt and healing potency are increased.",
+        "icon":  "icon/015000/015383.png",
         "stack":  0
     },
     {
         "id":  2929,
-        "name":  "",
+        "name":  "Trickle of Fire",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Flames are enhancing target capabilities. Healing potency is increased.",
+        "icon":  "icon/015000/015383.png",
         "stack":  0
     },
     {
@@ -37541,12 +37556,12 @@
     },
     {
         "id":  2935,
-        "name":  "",
+        "name":  "Sustained Damage",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Sustaining damage over time.",
+        "icon":  "icon/015000/015067.png",
         "stack":  0
     },
     {
@@ -37561,12 +37576,12 @@
     },
     {
         "id":  2937,
-        "name":  "",
+        "name":  "Fire Resistance Down II",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Fire resistance is significantly reduced.",
+        "icon":  "icon/015000/015595.png",
         "stack":  0
     },
     {
@@ -38040,12 +38055,12 @@
     },
     {
         "id":  2983,
-        "name":  "",
+        "name":  "Sleep",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Overwhelming drowsiness is preventing the execution of actions.",
+        "icon":  "icon/015000/015013.png",
         "stack":  0
     },
     {
