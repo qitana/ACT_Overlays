@@ -34305,32 +34305,32 @@
     },
     {
         "id":  2660,
-        "name":  "",
+        "name":  "Brightwinged Fortitude",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Brightwings are reducing damage taken.",
+        "icon":  "icon/015000/015445.png",
         "stack":  0
     },
     {
         "id":  2661,
-        "name":  "",
+        "name":  "Skyblind",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Emblazoned with a mark that will cause you to explode when the effect expires.",
+        "icon":  "icon/015000/015446.png",
         "stack":  0
     },
     {
         "id":  2662,
-        "name":  "",
+        "name":  "Planar Imprisonment",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Shackled, reducing movement speed. Leaving the planar prison will result in instant KO.",
+        "icon":  "icon/015000/015447.png",
         "stack":  0
     },
     {
@@ -34345,12 +34345,12 @@
     },
     {
         "id":  2664,
-        "name":  "",
+        "name":  "Brightwinged Fury",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Brightwings are spurring automatic attacks against nearby enemies.",
+        "icon":  "icon/015000/015448.png",
         "stack":  0
     },
     {
@@ -35130,12 +35130,12 @@
     },
     {
         "id":  2733,
-        "name":  "",
+        "name":  "Discomposed",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Unable to maintain composure. Damage taken is increased.",
+        "icon":  "icon/015000/015449.png",
         "stack":  0
     },
     {
@@ -35283,12 +35283,12 @@
     },
     {
         "id":  2746,
-        "name":  "",
+        "name":  "Heart of Man",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Nidhogg has taken the form of a man.",
+        "icon":  "icon/015000/015731.png",
         "stack":  0
     },
     {
@@ -35303,22 +35303,22 @@
     },
     {
         "id":  2748,
-        "name":  "",
+        "name":  "_rsv_2748_-1_1_C0_0Status",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_2748_-1_1_C1_0Status",
+        "icon":  "icon/015000/015450.png",
         "stack":  0
     },
     {
         "id":  2749,
-        "name":  "",
+        "name":  "_rsv_2749_-1_1_C0_0Status",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_2749_-1_1_C1_0Status",
+        "icon":  "icon/015000/015451.png",
         "stack":  0
     },
     {
@@ -35373,52 +35373,52 @@
     },
     {
         "id":  2755,
-        "name":  "",
+        "name":  "High Jump Target",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Soon to be on the receiving end of a Dark High Jump.",
+        "icon":  "icon/015000/015389.png",
         "stack":  0
     },
     {
         "id":  2756,
-        "name":  "",
+        "name":  "Spineshatter Dive Target",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Soon to be on the receiving end of a Dark Spineshatter Dive.",
+        "icon":  "icon/015000/015390.png",
         "stack":  0
     },
     {
         "id":  2757,
-        "name":  "",
+        "name":  "Elusive Jump Target",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Soon to be on the receiving end of a Dark Elusive Jump.",
+        "icon":  "icon/015000/015391.png",
         "stack":  0
     },
     {
         "id":  2758,
-        "name":  "",
+        "name":  "_rsv_2758_-1_1_C0_0Status",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_2758_-1_1_C1_0Status",
+        "icon":  "icon/015000/015452.png",
         "stack":  0
     },
     {
         "id":  2759,
-        "name":  "",
+        "name":  "_rsv_2759_-1_1_C0_0Status",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_2759_-1_1_C1_0Status",
+        "icon":  "icon/015000/015453.png",
         "stack":  0
     },
     {
@@ -35665,32 +35665,32 @@
     },
     {
         "id":  2775,
-        "name":  "",
+        "name":  "Clawbound",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Bound in suffering to Nidhogg\u0027s left eye. Damage taken will result in damage to the left eye.",
+        "icon":  "icon/015000/015734.png",
         "stack":  0
     },
     {
         "id":  2776,
-        "name":  "",
+        "name":  "Fangbound",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Slaking the suffering of Nidhogg\u0027s right eye. Damage taken will result in healing to the right eye.",
+        "icon":  "icon/015000/015735.png",
         "stack":  0
     },
     {
         "id":  2777,
-        "name":  "",
+        "name":  "_rsv_2777_-1_1_C0_0Status",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_2777_-1_1_C1_0Status",
+        "icon":  "icon/015000/015454.png",
         "stack":  0
     },
     {
@@ -36437,22 +36437,22 @@
     },
     {
         "id":  2833,
-        "name":  "",
+        "name":  "Thunderstruck",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Body is accumulating charge. Will inflict lightning damage to those nearby when this effect expires.",
+        "icon":  "icon/015000/015597.png",
         "stack":  0
     },
     {
         "id":  2834,
-        "name":  "",
+        "name":  "Neurolink",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Under the control of an Allagan shackling device.",
+        "icon":  "icon/015000/015455.png",
         "stack":  0
     },
     {
@@ -37148,92 +37148,92 @@
     },
     {
         "id":  2895,
-        "name":  "",
+        "name":  "_rsv_2895_-1_1_C0_0Status",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_2895_-1_1_C1_0Status",
+        "icon":  "icon/015000/015456.png",
         "stack":  0
     },
     {
         "id":  2896,
-        "name":  "",
+        "name":  "_rsv_2896_-1_1_C0_0Status",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_2896_-1_1_C1_0Status",
+        "icon":  "icon/015000/015457.png",
         "stack":  0
     },
     {
         "id":  2897,
-        "name":  "",
+        "name":  "_rsv_2897_-1_1_C0_0Status",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_2897_-1_1_C1_0Status",
+        "icon":  "icon/015000/015458.png",
         "stack":  0
     },
     {
         "id":  2898,
-        "name":  "",
+        "name":  "Boiling",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Body is slowly heating up. Will become Pyretic when this effect expires.",
+        "icon":  "icon/015000/015459.png",
         "stack":  0
     },
     {
         "id":  2899,
-        "name":  "",
+        "name":  "Freezing",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Body is slowly turning to ice. Will experience a Deep Freeze when this effect expires.",
+        "icon":  "icon/015000/015238.png",
         "stack":  0
     },
     {
         "id":  2900,
-        "name":  "",
+        "name":  "Sustained Dark Damage",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Darkness is causing damage over time.",
+        "icon":  "icon/015000/015460.png",
         "stack":  0
     },
     {
         "id":  2901,
-        "name":  "",
+        "name":  "Sustained Light Damage",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Light is causing damage over time.",
+        "icon":  "icon/015000/015461.png",
         "stack":  0
     },
     {
         "id":  2902,
-        "name":  "",
+        "name":  "Fire Resistance Down II",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Fire resistance is significantly reduced.",
+        "icon":  "icon/015000/015595.png",
         "stack":  0
     },
     {
         "id":  2903,
-        "name":  "",
+        "name":  "Ice Resistance Down II",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Ice resistance is significantly reduced.",
+        "icon":  "icon/015000/015596.png",
         "stack":  0
     },
     {
@@ -38008,32 +38008,32 @@
     },
     {
         "id":  2976,
-        "name":  "",
+        "name":  "Doom",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Certain death when counter reaches zero.",
+        "icon":  "icon/015000/015503.png",
         "stack":  0
     },
     {
         "id":  2977,
-        "name":  "",
+        "name":  "_rsv_2977_-1_1_C0_0Status",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_2977_-1_1_C1_0Status",
+        "icon":  "icon/015000/015427.png",
         "stack":  0
     },
     {
         "id":  2978,
-        "name":  "",
+        "name":  "_rsv_2978_-1_1_C0_0Status",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_2978_-1_1_C1_0Status",
+        "icon":  "icon/015000/015427.png",
         "stack":  0
     },
     {
@@ -38267,12 +38267,12 @@
     },
     {
         "id":  2998,
-        "name":  "",
+        "name":  "Lightning Resistance Down II",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Lightning resistance is significantly reduced.",
+        "icon":  "icon/015000/015597.png",
         "stack":  0
     },
     {
@@ -38327,32 +38327,32 @@
     },
     {
         "id":  3004,
-        "name":  "",
+        "name":  "First in Line",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Marked as target #1.",
+        "icon":  "icon/015000/015401.png",
         "stack":  0
     },
     {
         "id":  3005,
-        "name":  "",
+        "name":  "Second in Line",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Marked as target #2.",
+        "icon":  "icon/015000/015402.png",
         "stack":  0
     },
     {
         "id":  3006,
-        "name":  "",
+        "name":  "Third in Line",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Marked as target #3.",
+        "icon":  "icon/015000/015403.png",
         "stack":  0
     },
     {
@@ -38816,7 +38816,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Damage dealt and potency of HP restoration actions are increased.",
+        "description":  "Damage dealt and potency of HP restoration actions are increased. Movement speed is also increased.",
         "icon":  "icon/013000/013601.png",
         "stack":  0
     },
@@ -39636,7 +39636,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "An area of land has been purified, protecting all party members who enter.",
+        "description":  "An area of land has been purified, nullifying damage taken for party members within and afflicting enemies who enter with damage over time.",
         "icon":  "icon/014000/014910.png",
         "stack":  0
     },
@@ -39753,52 +39753,52 @@
     },
     {
         "id":  3129,
-        "name":  "",
+        "name":  "Damage Up",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Damage dealt is increased.",
+        "icon":  "icon/015000/015519.png",
         "stack":  0
     },
     {
         "id":  3130,
-        "name":  "",
+        "name":  "Slashing Resistance Down",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Slashing resistance is reduced.",
+        "icon":  "icon/015000/015786.png",
         "stack":  0
     },
     {
         "id":  3131,
-        "name":  "",
+        "name":  "Piercing Resistance Down",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Piercing resistance is reduced.",
+        "icon":  "icon/015000/015065.png",
         "stack":  0
     },
     {
         "id":  3132,
-        "name":  "",
+        "name":  "Blunt Resistance Down",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Blunt resistance is reduced.",
+        "icon":  "icon/015000/015064.png",
         "stack":  0
     },
     {
         "id":  3133,
-        "name":  "",
+        "name":  "Suppuration",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Maximum HP is reduced and damage taken is increased.",
+        "icon":  "icon/015000/015979.png",
         "stack":  0
     },
     {
@@ -39813,23 +39813,85 @@
     },
     {
         "id":  3135,
-        "name":  "",
+        "name":  "Light Resistance Down",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/017000/017890.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/017000/017891.png",
+                               "stack":  2
+                           },
+                           {
+                               "icon":  "icon/017000/017892.png",
+                               "stack":  3
+                           },
+                           {
+                               "icon":  "icon/017000/017893.png",
+                               "stack":  4
+                           },
+                           {
+                               "icon":  "icon/017000/017894.png",
+                               "stack":  5
+                           },
+                           {
+                               "icon":  "icon/017000/017895.png",
+                               "stack":  6
+                           },
+                           {
+                               "icon":  "icon/017000/017896.png",
+                               "stack":  7
+                           },
+                           {
+                               "icon":  "icon/017000/017897.png",
+                               "stack":  8
+                           }
                        ],
-        "description":  "",
-        "icon":  "",
-        "stack":  0
+        "description":  "Light resistance is reduced.",
+        "icon":  "icon/017000/017890.png",
+        "stack":  8
     },
     {
         "id":  3136,
-        "name":  "",
+        "name":  "Dark Resistance Down",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/017000/017910.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/017000/017911.png",
+                               "stack":  2
+                           },
+                           {
+                               "icon":  "icon/017000/017912.png",
+                               "stack":  3
+                           },
+                           {
+                               "icon":  "icon/017000/017913.png",
+                               "stack":  4
+                           },
+                           {
+                               "icon":  "icon/017000/017914.png",
+                               "stack":  5
+                           },
+                           {
+                               "icon":  "icon/017000/017915.png",
+                               "stack":  6
+                           },
+                           {
+                               "icon":  "icon/017000/017916.png",
+                               "stack":  7
+                           },
+                           {
+                               "icon":  "icon/017000/017917.png",
+                               "stack":  8
+                           }
                        ],
-        "description":  "",
-        "icon":  "",
-        "stack":  0
+        "description":  "Dark resistance is reduced.",
+        "icon":  "icon/017000/017910.png",
+        "stack":  8
     },
     {
         "id":  3137,
@@ -40154,22 +40216,22 @@
     },
     {
         "id":  3165,
-        "name":  "",
+        "name":  "Down for the Count",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Unable to move or execute actions.",
+        "icon":  "icon/015000/015044.png",
         "stack":  0
     },
     {
         "id":  3166,
-        "name":  "",
+        "name":  "Damage Down",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Damage dealt is reduced.",
+        "icon":  "icon/015000/015520.png",
         "stack":  0
     },
     {
