@@ -876,7 +876,7 @@
                                "stack":  3
                            }
                        ],
-        "description":  "All weaponskill attacks are both critical and direct hits.",
+        "description":  "All weaponskill attacks are both critical and direct hits. Damage dealt when under an effect that raises critical hit rate or direct hit rate is increased.",
         "icon":  "icon/017000/017217.png",
         "stack":  3
     },
@@ -1187,7 +1187,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Next weaponskill will result in a critical hit with a portion of the resulting damage being absorbed as HP.",
+        "description":  "Next weaponskill will result in a critical hit with a portion of the resulting damage being absorbed as HP. Damage dealt when under an effect that raises critical hit rate is increased.",
         "icon":  "icon/010000/010302.png",
         "stack":  0
     },
@@ -1999,7 +1999,7 @@
 
                        ],
         "description":  "Damage taken is reduced.",
-        "icon":  "icon/016000/016401.png",
+        "icon":  "icon/016000/016306.png",
         "stack":  0
     },
     {
@@ -2009,7 +2009,7 @@
 
                        ],
         "description":  "Damage taken is reduced.",
-        "icon":  "icon/016000/016401.png",
+        "icon":  "icon/016000/016306.png",
         "stack":  0
     },
     {
@@ -2019,7 +2019,7 @@
 
                        ],
         "description":  "Damage taken is reduced.",
-        "icon":  "icon/016000/016401.png",
+        "icon":  "icon/016000/016306.png",
         "stack":  0
     },
     {
@@ -4516,7 +4516,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Invulnerable to all damage.",
+        "description":  "Impervious to most attacks.",
         "icon":  "icon/015000/015024.png",
         "stack":  0
     },
@@ -10176,7 +10176,7 @@
 
                        ],
         "description":  "An earthen barrier is nullifying damage. If the barrier retains power when the effect ends, the Blessing of Fire will be granted.",
-        "icon":  "icon/015000/015103.png",
+        "icon":  "icon/015000/015071.png",
         "stack":  0
     },
     {
@@ -10186,7 +10186,7 @@
 
                        ],
         "description":  "Damage dealt and critical hit rate are increased.",
-        "icon":  "icon/015000/015100.png",
+        "icon":  "icon/015000/015068.png",
         "stack":  0
     },
     {
@@ -12127,7 +12127,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Next weaponskill will result in a critical direct hit.",
+        "description":  "Next weaponskill will result in a critical direct hit. Damage dealt when under an effect that raises critical hit rate or direct hit rate is increased.",
         "icon":  "icon/013000/013001.png",
         "stack":  0
     },
@@ -12267,7 +12267,7 @@
 
                        ],
         "description":  "Damage taken is reduced.",
-        "icon":  "icon/016000/016401.png",
+        "icon":  "icon/016000/016306.png",
         "stack":  0
     },
     {
@@ -12277,7 +12277,7 @@
 
                        ],
         "description":  "Damage taken is reduced.",
-        "icon":  "icon/016000/016401.png",
+        "icon":  "icon/016000/016306.png",
         "stack":  0
     },
     {
@@ -12663,7 +12663,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Invulnerable to all damage.",
+        "description":  "Impervious to most attacks.",
         "icon":  "icon/015000/015024.png",
         "stack":  0
     },
@@ -16485,7 +16485,7 @@
                                "stack":  3
                            }
                        ],
-        "description":  "\u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eBeast Gauge\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e consumption for \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eFell Cleave\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e and \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eDecimate\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e is reduced to 0. Attacks with these weaponskills are guaranteed critical and direct hits.",
+        "description":  "\u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eBeast Gauge\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e consumption for \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eFell Cleave\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e and \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eDecimate\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e is reduced to 0. Attacks with these weaponskills are guaranteed critical and direct hits. Damage dealt when under an effect that raises critical hit rate or direct hit rate is increased.",
         "icon":  "icon/017000/017247.png",
         "stack":  3
     },
@@ -17812,7 +17812,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Impervious to all attacks.",
+        "description":  "Impervious to most attacks.",
         "icon":  "icon/012000/012504.png",
         "stack":  0
     },
@@ -17822,7 +17822,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "All \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eStun\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eHeavy\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eBind\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eSilence\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eHalf-asleep\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eSleep\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eDeep Freeze\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, knockback, and draw-in effects are nullified.",
+        "description":  "All \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eStun\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eHeavy\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eBind\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eSilence\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eHalf-asleep\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eSleep\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eDeep Freeze\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e, knockback, and draw-in effects are nullified. Potency of \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003ePrimal Rend\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e and \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eChaotic Cyclone\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e is also increased. Movement speed is also increased.",
         "icon":  "icon/012000/012556.png",
         "stack":  0
     },
@@ -20711,7 +20711,7 @@
 
                        ],
         "description":  "Experiencing what it is to be someone else.",
-        "icon":  "icon/015000/015111.png",
+        "icon":  "icon/016000/016401.png",
         "stack":  0
     },
     {
@@ -21495,7 +21495,7 @@
 
                        ],
         "description":  "Absorbing the light of a deepvoid torch and transforming it into mana.",
-        "icon":  "icon/015000/015100.png",
+        "icon":  "icon/015000/015068.png",
         "stack":  0
     },
     {
@@ -23156,7 +23156,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Nearly giddy with the thrill of battle, increasing damage dealt, potency of HP restoration actions, and the rate at which the adrenaline gauge fills. Effect is nullified when piloting warmachina.",
+        "description":  "Nearly giddy with the thrill of battle, increasing damage dealt, potency of HP restoration actions, and the rate at which the limit gauge fills. Effect is nullified when piloting warmachina.",
         "icon":  "icon/014000/014845.png",
         "stack":  0
     },
@@ -23962,7 +23962,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Unable to summon or ride mounts.",
+        "description":  "Unable to summon or ride mounts, or to equip fashion accessories.",
         "icon":  "icon/016000/016232.png",
         "stack":  0
     },
@@ -24897,7 +24897,7 @@
 
                        ],
         "description":  "Reduction of life-sustaining aether by concealment techniques is placing strain on the body. Failure to remove this effect will result in KO.",
-        "icon":  "icon/015000/015116.png",
+        "icon":  "icon/016000/016406.png",
         "stack":  0
     },
     {
@@ -24907,7 +24907,7 @@
 
                        ],
         "description":  "Severing the flow of life-sustaining aether in order to avoid detection has damaged the body\u0027s vital functions. Movement speed is severely decreased.",
-        "icon":  "icon/015000/015117.png",
+        "icon":  "icon/016000/016407.png",
         "stack":  0
     },
     {
@@ -25389,7 +25389,7 @@
 
                        ],
         "description":  "Having severely restricted the flow of life-sustaining aether, your presence is concealed but you are subject to the effect of \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eFading Fast\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e.",
-        "icon":  "icon/015000/015112.png",
+        "icon":  "icon/016000/016402.png",
         "stack":  0
     },
     {
@@ -25399,7 +25399,7 @@
 
                        ],
         "description":  "Overburdened body is unable to execute actions.",
-        "icon":  "icon/015000/015114.png",
+        "icon":  "icon/016000/016404.png",
         "stack":  0
     },
     {
@@ -25716,7 +25716,7 @@
 
                        ],
         "description":  "Damage taken is reduced.",
-        "icon":  "icon/016000/016401.png",
+        "icon":  "icon/016000/016306.png",
         "stack":  0
     },
     {
@@ -25781,12 +25781,12 @@
     },
     {
         "id":  1938,
-        "name":  "",
+        "name":  "Sprint",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Movement speed is increased.",
+        "icon":  "icon/010000/010101.png",
         "stack":  0
     },
     {
@@ -25855,7 +25855,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Unable to summon or ride mounts.",
+        "description":  "Unable to summon or ride mounts, or to equip fashion accessories.",
         "icon":  "icon/016000/016232.png",
         "stack":  0
     },
@@ -25985,7 +25985,7 @@
 
                        ],
         "description":  "Having severed the flow of life-sustaining aether, your presence is completely concealed but you are subject to the effects of \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eFading Fast\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e and \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eVital Sign\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e.",
-        "icon":  "icon/015000/015113.png",
+        "icon":  "icon/016000/016403.png",
         "stack":  0
     },
     {
@@ -27201,7 +27201,7 @@
 
                        ],
         "description":  "Accuracy and damage dealt are increased.",
-        "icon":  "icon/015000/015115.png",
+        "icon":  "icon/016000/016405.png",
         "stack":  0
     },
     {
@@ -30938,7 +30938,7 @@
 
                        ],
         "description":  "Operating outside the usual conditions of combat.",
-        "icon":  "icon/015000/015111.png",
+        "icon":  "icon/016000/016401.png",
         "stack":  0
     },
     {
@@ -35303,21 +35303,21 @@
     },
     {
         "id":  2748,
-        "name":  "_rsv_2748_-1_1_C0_0Status",
+        "name":  "Soul of Friendship",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_2748_-1_1_C1_0Status",
+        "description":  "A beloved friend is making it possible to attack Nidhogg\u0027s right eye.",
         "icon":  "icon/015000/015450.png",
         "stack":  0
     },
     {
         "id":  2749,
-        "name":  "_rsv_2749_-1_1_C0_0Status",
+        "name":  "Soul of Devotion",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_2749_-1_1_C1_0Status",
+        "description":  "A faithful ally is making it possible to attack Nidhogg\u0027s left eye.",
         "icon":  "icon/015000/015451.png",
         "stack":  0
     },
@@ -35403,21 +35403,21 @@
     },
     {
         "id":  2758,
-        "name":  "_rsv_2758_-1_1_C0_0Status",
+        "name":  "Spreading Flames",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_2758_-1_1_C1_0Status",
+        "description":  "Powerless against Nidhogg\u0027s desire for vengeance.",
         "icon":  "icon/015000/015452.png",
         "stack":  0
     },
     {
         "id":  2759,
-        "name":  "_rsv_2759_-1_1_C0_0Status",
+        "name":  "Entangled Flames",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_2759_-1_1_C1_0Status",
+        "description":  "Powerless against Nidhogg\u0027s desire that another share his suffering.",
         "icon":  "icon/015000/015453.png",
         "stack":  0
     },
@@ -35685,11 +35685,11 @@
     },
     {
         "id":  2777,
-        "name":  "_rsv_2777_-1_1_C0_0Status",
+        "name":  "Bound and Determined",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_2777_-1_1_C1_0Status",
+        "description":  "Unable to transition between Clawbound and Fangbound states.",
         "icon":  "icon/015000/015454.png",
         "stack":  0
     },
@@ -36422,7 +36422,7 @@
 
                        ],
         "description":  "Damage taken is reduced.",
-        "icon":  "icon/016000/016401.png",
+        "icon":  "icon/016000/016306.png",
         "stack":  0
     },
     {
@@ -36902,7 +36902,7 @@
 
                        ],
         "description":  "Executing limit break.",
-        "icon":  "icon/016000/016403.png",
+        "icon":  "icon/016000/016308.png",
         "stack":  0
     },
     {
@@ -37148,31 +37148,31 @@
     },
     {
         "id":  2895,
-        "name":  "_rsv_2895_-1_1_C0_0Status",
+        "name":  "Solemn Vow",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_2895_-1_1_C1_0Status",
+        "description":  "Recognized under the oath Hraesvelgr swore to his beloved Shiva─that he would never kill her kin.",
         "icon":  "icon/015000/015456.png",
         "stack":  0
     },
     {
         "id":  2896,
-        "name":  "_rsv_2896_-1_1_C0_0Status",
+        "name":  "Mortal Vow",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_2896_-1_1_C1_0Status",
+        "description":  "Condemned by Nidhogg\u0027s vow to avenge his brood-sister. Healing potency is decreased. Taking damage over time, and will inflict anguish on those nearby in turn when this effect expires.",
         "icon":  "icon/015000/015457.png",
         "stack":  0
     },
     {
         "id":  2897,
-        "name":  "_rsv_2897_-1_1_C0_0Status",
+        "name":  "Mortal Atonement",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_2897_-1_1_C1_0Status",
+        "description":  "No longer condemned by Nidhogg\u0027s Mortal Vow.",
         "icon":  "icon/015000/015458.png",
         "stack":  0
     },
@@ -38018,21 +38018,21 @@
     },
     {
         "id":  2977,
-        "name":  "_rsv_2977_-1_1_C0_0Status",
+        "name":  "HP Recovery Down",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_2977_-1_1_C1_0Status",
+        "description":  "HP recovery is reduced by 20%.",
         "icon":  "icon/015000/015427.png",
         "stack":  0
     },
     {
         "id":  2978,
-        "name":  "_rsv_2978_-1_1_C0_0Status",
+        "name":  "HP Recovery Down",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_2978_-1_1_C1_0Status",
+        "description":  "HP recovery is reduced by 100%.",
         "icon":  "icon/015000/015427.png",
         "stack":  0
     },
@@ -38616,7 +38616,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Struggling to keep your eyes open. Succumb to \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eSleep\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e when effect duration expires.",
+        "description":  "Struggling to keep eyes open. Will succumb to \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eSleep\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e when effect expires.",
         "icon":  "icon/014000/014888.png",
         "stack":  0
     },
@@ -38786,7 +38786,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Attacks cannot reduce your HP to less than 1. HP is restored with each weaponskill successfully delivered.",
+        "description":  "Most attacks cannot reduce your HP to less than 1. HP is restored with each weaponskill successfully delivered.",
         "icon":  "icon/013000/013124.png",
         "stack":  0
     },
@@ -38892,7 +38892,7 @@
     },
     {
         "id":  3050,
-        "name":  "Eye Gauge",
+        "name":  "Eye Gouge",
         "stackIcons":  [
 
                        ],
@@ -38916,7 +38916,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Swinging blade wildly, dealing damage over time to nearby enemies.",
+        "description":  "Swinging blade wildly, dealing damage over time to nearby enemies and deflecting a portion of damage taken.",
         "icon":  "icon/014000/014904.png",
         "stack":  0
     },
@@ -39211,12 +39211,12 @@
     },
     {
         "id":  3080,
-        "name":  "",
+        "name":  "Rhythmetic Fever",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Afflicted with the urge to dance until you drop. Sustaining damage over time.",
+        "icon":  "icon/015000/015480.png",
         "stack":  0
     },
     {
@@ -40038,7 +40038,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Able to execute \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eHeat Blast\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e.",
+        "description":  "Able to execute \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eHeat Blast\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e. Movement speed is also increased.",
         "icon":  "icon/014000/014918.png",
         "stack":  0
     },
@@ -40175,7 +40175,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "A dance of blades is dealing damage over time to nearby enemies.",
+        "description":  "Dancing blades are dealing damage over time to nearby enemies and deflecting a portion of damage taken.",
         "icon":  "icon/014000/014930.png",
         "stack":  0
     },
@@ -40210,7 +40210,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  " A magicked barrier is nullifying damage.",
+        "description":  "A magicked barrier is nullifying damage.",
         "icon":  "icon/013000/013721.png",
         "stack":  0
     },
@@ -40728,6 +40728,16 @@
     },
     {
         "id":  3212,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3213,
         "name":  "Astral Fire II",
         "stackIcons":  [
 
@@ -40737,33 +40747,23 @@
         "stack":  0
     },
     {
-        "id":  3213,
-        "name":  "Astral Fire III",
+        "id":  3214,
+        "name":  "",
         "stackIcons":  [
 
                        ],
-        "description":  "Able to execute \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eFlare\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e.",
-        "icon":  "icon/010000/010465.png",
+        "description":  "",
+        "icon":  "",
         "stack":  0
     },
     {
-        "id":  3214,
+        "id":  3215,
         "name":  "Umbral Ice II",
         "stackIcons":  [
 
                        ],
         "description":  "Able to execute \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eBlizzard IV\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e.",
         "icon":  "icon/010000/010467.png",
-        "stack":  0
-    },
-    {
-        "id":  3215,
-        "name":  "Umbral Ice III",
-        "stackIcons":  [
-
-                       ],
-        "description":  "Able to execute \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eFreeze\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e.",
-        "icon":  "icon/010000/010468.png",
         "stack":  0
     },
     {
@@ -40830,12 +40830,12 @@
     },
     {
         "id":  3220,
-        "name":  "●バースト：敵",
+        "name":  "Apocatastasis",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "icon/014000/014958.png",
+        "description":  "Damage taken is reduced.",
+        "icon":  "icon/010000/010451.png",
         "stack":  0
     },
     {
@@ -40913,11 +40913,11 @@
     },
     {
         "id":  3226,
-        "name":  "スリップストリーム",
+        "name":  "Slipstream",
         "stackIcons":  [
 
                        ],
-        "description":  "",
+        "description":  "Movement speed is increased.",
         "icon":  "icon/014000/014962.png",
         "stack":  0
     },
@@ -41263,12 +41263,12 @@
     },
     {
         "id":  3261,
-        "name":  "",
+        "name":  "Concentrated Poison",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Powerful poison is slowly draining HP, while HP recovery via healing magic is reduced.",
+        "icon":  "icon/015000/015672.png",
         "stack":  0
     },
     {
@@ -41303,12 +41303,12 @@
     },
     {
         "id":  3265,
-        "name":  "",
+        "name":  "Blood of the Dragon",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Drawing upon the unique power of the Azure Dragoon.",
+        "icon":  "icon/012000/012577.png",
         "stack":  0
     },
     {
@@ -41453,83 +41453,172 @@
     },
     {
         "id":  3280,
-        "name":  "",
+        "name":  "Blessing of Blight",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Archfiendish power is enhancing voidsent\u0027s capabilities and regenerative capacity.",
+        "icon":  "icon/015000/015467.png",
         "stack":  0
     },
     {
         "id":  3281,
-        "name":  "",
+        "name":  "Warding Scale",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Under Vrtra\u0027s protective auspices, reducing damage taken and restoring HP over time.",
+        "icon":  "icon/015000/015470.png",
         "stack":  0
     },
     {
         "id":  3282,
-        "name":  "",
+        "name":  "Brain Rot",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/018000/018181.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/018000/018182.png",
+                               "stack":  2
+                           },
+                           {
+                               "icon":  "icon/018000/018183.png",
+                               "stack":  3
+                           }
                        ],
-        "description":  "",
-        "icon":  "",
-        "stack":  0
+        "description":  "Afflicted with an accursed blight. A stack of 3 will result in zombification.",
+        "icon":  "icon/018000/018181.png",
+        "stack":  3
     },
     {
         "id":  3283,
-        "name":  "",
+        "name":  "Fetters",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Unable to move.",
+        "icon":  "icon/015000/015471.png",
         "stack":  0
     },
     {
         "id":  3284,
-        "name":  "",
+        "name":  "Tangled",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Ensnared by Barbariccia\u0027s hair, reducing movement speed and resulting in damage over time. Attempts to pull away from the tangle will result in being dragged back in, inflicting damage over time.",
+        "icon":  "icon/015000/015472.png",
         "stack":  0
     },
     {
         "id":  3285,
-        "name":  "",
+        "name":  "Awareness",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Damage taken is reduced.",
+        "icon":  "icon/013000/013916.png",
         "stack":  0
     },
     {
         "id":  3286,
-        "name":  "",
+        "name":  "Frozen",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/017000/017661.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/017000/017662.png",
+                               "stack":  2
+                           },
+                           {
+                               "icon":  "icon/017000/017663.png",
+                               "stack":  3
+                           },
+                           {
+                               "icon":  "icon/017000/017664.png",
+                               "stack":  4
+                           }
                        ],
-        "description":  "",
-        "icon":  "",
-        "stack":  0
+        "description":  "Ice has begun forming on gear. A stack of 4 will result in \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eDeep Freeze\u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003e.",
+        "icon":  "icon/017000/017661.png",
+        "stack":  4
     },
     {
         "id":  3287,
-        "name":  "",
+        "name":  "Deep Freeze",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/017000/017621.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/017000/017622.png",
+                               "stack":  2
+                           },
+                           {
+                               "icon":  "icon/017000/017623.png",
+                               "stack":  3
+                           },
+                           {
+                               "icon":  "icon/017000/017624.png",
+                               "stack":  4
+                           },
+                           {
+                               "icon":  "icon/017000/017625.png",
+                               "stack":  5
+                           },
+                           {
+                               "icon":  "icon/017000/017626.png",
+                               "stack":  6
+                           },
+                           {
+                               "icon":  "icon/017000/017627.png",
+                               "stack":  7
+                           },
+                           {
+                               "icon":  "icon/017000/017628.png",
+                               "stack":  8
+                           },
+                           {
+                               "icon":  "icon/017000/017629.png",
+                               "stack":  9
+                           },
+                           {
+                               "icon":  "icon/017000/017630.png",
+                               "stack":  10
+                           },
+                           {
+                               "icon":  "icon/017000/017631.png",
+                               "stack":  11
+                           },
+                           {
+                               "icon":  "icon/017000/017632.png",
+                               "stack":  12
+                           },
+                           {
+                               "icon":  "icon/017000/017633.png",
+                               "stack":  13
+                           },
+                           {
+                               "icon":  "icon/017000/017634.png",
+                               "stack":  14
+                           },
+                           {
+                               "icon":  "icon/017000/017635.png",
+                               "stack":  15
+                           },
+                           {
+                               "icon":  "icon/017000/017636.png",
+                               "stack":  16
+                           }
                        ],
-        "description":  "",
-        "icon":  "",
-        "stack":  0
+        "description":  "Your body is encased in ice, preventing action and dealing damage over time.",
+        "icon":  "icon/017000/017621.png",
+        "stack":  16
     },
     {
         "id":  3288,
@@ -41653,6 +41742,2013 @@
     },
     {
         "id":  3300,
+        "name":  "Medica II of the Seventh Dawn",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Regenerating HP over time.",
+        "icon":  "icon/010000/010413.png",
+        "stack":  0
+    },
+    {
+        "id":  3301,
+        "name":  "Excellence",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Impervious to most attacks.",
+        "icon":  "icon/012000/012504.png",
+        "stack":  0
+    },
+    {
+        "id":  3302,
+        "name":  "Warding Scale",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Impervious to most attacks.",
+        "icon":  "icon/012000/012504.png",
+        "stack":  0
+    },
+    {
+        "id":  3303,
+        "name":  "Supernal Guard",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Damage taken is reduced.",
+        "icon":  "icon/010000/010151.png",
+        "stack":  0
+    },
+    {
+        "id":  3304,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3305,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3306,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3307,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3308,
+        "name":  "_rsv_3308_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3308_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015109.png",
+        "stack":  0
+    },
+    {
+        "id":  3309,
+        "name":  "_rsv_3309_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3309_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015113.png",
+        "stack":  0
+    },
+    {
+        "id":  3310,
+        "name":  "_rsv_3310_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3310_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015109.png",
+        "stack":  0
+    },
+    {
+        "id":  3311,
+        "name":  "_rsv_3311_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3311_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015113.png",
+        "stack":  0
+    },
+    {
+        "id":  3312,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3313,
+        "name":  "Aetherial Exchange",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Warping the nature of the next action to be executed.",
+        "icon":  "icon/015000/015479.png",
+        "stack":  0
+    },
+    {
+        "id":  3314,
+        "name":  "Glossomorph",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Host to a glossal parasite, which will take control of body once this effect expires.",
+        "icon":  "icon/015000/015473.png",
+        "stack":  0
+    },
+    {
+        "id":  3315,
+        "name":  "_rsv_3315_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3315_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015474.png",
+        "stack":  0
+    },
+    {
+        "id":  3316,
+        "name":  "Out of Control",
+        "stackIcons":  [
+
+                       ],
+        "description":  "No longer in control of actions due to parasitic influence.",
+        "icon":  "icon/015000/015475.png",
+        "stack":  0
+    },
+    {
+        "id":  3317,
+        "name":  "Consumption",
+        "stackIcons":  [
+                           {
+                               "icon":  "icon/019000/019617.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/019000/019618.png",
+                               "stack":  2
+                           }
+                       ],
+        "description":  "Being devoured by pathogens. Will become a glossomorph should this process continue.",
+        "icon":  "icon/019000/019617.png",
+        "stack":  2
+    },
+    {
+        "id":  3318,
+        "name":  "Bodily Manipulation",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Host movement subject to complete control by resident parasite.",
+        "icon":  "icon/015000/015476.png",
+        "stack":  0
+    },
+    {
+        "id":  3319,
+        "name":  "_rsv_3319_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3319_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015477.png",
+        "stack":  0
+    },
+    {
+        "id":  3320,
+        "name":  "_rsv_3320_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3320_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015478.png",
+        "stack":  0
+    },
+    {
+        "id":  3321,
+        "name":  "_rsv_3321_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3321_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015770.png",
+        "stack":  0
+    },
+    {
+        "id":  3322,
+        "name":  "Glossomorph",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Host to a glossal parasite, which will take control of body once this effect expires.",
+        "icon":  "icon/015000/015473.png",
+        "stack":  0
+    },
+    {
+        "id":  3323,
+        "name":  "Dark Resistance Down II",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Dark resistance is significantly reduced.",
+        "icon":  "icon/015000/015485.png",
+        "stack":  0
+    },
+    {
+        "id":  3324,
+        "name":  "Fetters",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Unable to execute actions.",
+        "icon":  "icon/015000/015545.png",
+        "stack":  0
+    },
+    {
+        "id":  3325,
+        "name":  "_rsv_3325_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3325_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015486.png",
+        "stack":  0
+    },
+    {
+        "id":  3326,
+        "name":  "_rsv_3326_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3326_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015487.png",
+        "stack":  0
+    },
+    {
+        "id":  3327,
+        "name":  "_rsv_3327_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3327_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015488.png",
+        "stack":  0
+    },
+    {
+        "id":  3328,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3329,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3330,
+        "name":  "_rsv_3330_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3330_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015489.png",
+        "stack":  0
+    },
+    {
+        "id":  3331,
+        "name":  "_rsv_3331_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3331_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015490.png",
+        "stack":  0
+    },
+    {
+        "id":  3332,
+        "name":  "_rsv_3332_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3332_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015491.png",
+        "stack":  0
+    },
+    {
+        "id":  3333,
+        "name":  "_rsv_3333_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3333_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015492.png",
+        "stack":  0
+    },
+    {
+        "id":  3334,
+        "name":  "_rsv_3334_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3334_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015493.png",
+        "stack":  0
+    },
+    {
+        "id":  3335,
+        "name":  "_rsv_3335_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3335_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015494.png",
+        "stack":  0
+    },
+    {
+        "id":  3336,
+        "name":  "_rsv_3336_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3336_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015495.png",
+        "stack":  0
+    },
+    {
+        "id":  3337,
+        "name":  "_rsv_3337_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3337_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015496.png",
+        "stack":  0
+    },
+    {
+        "id":  3338,
+        "name":  "_rsv_3338_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3338_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015497.png",
+        "stack":  0
+    },
+    {
+        "id":  3339,
+        "name":  "_rsv_3339_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3339_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015498.png",
+        "stack":  0
+    },
+    {
+        "id":  3340,
+        "name":  "_rsv_3340_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3340_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015499.png",
+        "stack":  0
+    },
+    {
+        "id":  3341,
+        "name":  "_rsv_3341_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3341_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015500.png",
+        "stack":  0
+    },
+    {
+        "id":  3342,
+        "name":  "_rsv_3342_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3342_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015101.png",
+        "stack":  0
+    },
+    {
+        "id":  3343,
+        "name":  "_rsv_3343_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3343_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015102.png",
+        "stack":  0
+    },
+    {
+        "id":  3344,
+        "name":  "_rsv_3344_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3344_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015103.png",
+        "stack":  0
+    },
+    {
+        "id":  3345,
+        "name":  "_rsv_3345_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3345_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015104.png",
+        "stack":  0
+    },
+    {
+        "id":  3346,
+        "name":  "_rsv_3346_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3346_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015105.png",
+        "stack":  0
+    },
+    {
+        "id":  3347,
+        "name":  "_rsv_3347_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3347_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015106.png",
+        "stack":  0
+    },
+    {
+        "id":  3348,
+        "name":  "Targeting",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Target of incoming attack. Will be bound when this effect expires.",
+        "icon":  "icon/015000/015026.png",
+        "stack":  0
+    },
+    {
+        "id":  3349,
+        "name":  "_rsv_3349_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3349_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015107.png",
+        "stack":  0
+    },
+    {
+        "id":  3350,
+        "name":  "_rsv_3350_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3350_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015108.png",
+        "stack":  0
+    },
+    {
+        "id":  3351,
+        "name":  "_rsv_3351_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3351_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015587.png",
+        "stack":  0
+    },
+    {
+        "id":  3352,
+        "name":  "_rsv_3352_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3352_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015588.png",
+        "stack":  0
+    },
+    {
+        "id":  3353,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3354,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3355,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3356,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3357,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3358,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3359,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3360,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3361,
+        "name":  "Vulnerability Up",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Damage taken is increased.",
+        "icon":  "icon/015000/015020.png",
+        "stack":  0
+    },
+    {
+        "id":  3362,
+        "name":  "Out of Control",
+        "stackIcons":  [
+
+                       ],
+        "description":  "No longer in control of actions due to parasitic influence.",
+        "icon":  "icon/015000/015475.png",
+        "stack":  0
+    },
+    {
+        "id":  3363,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3364,
+        "name":  "Doom",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Certain death when counter reaches zero.",
+        "icon":  "icon/015000/015503.png",
+        "stack":  0
+    },
+    {
+        "id":  3365,
+        "name":  "Holosakos",
+        "stackIcons":  [
+
+                       ],
+        "description":  "A magicked barrier is nullifying damage.",
+        "icon":  "icon/012000/012972.png",
+        "stack":  0
+    },
+    {
+        "id":  3366,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3367,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3368,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3369,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3370,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3371,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3372,
+        "name":  "Earth Resistance Down II",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Earth resistance is significantly reduced.",
+        "icon":  "icon/015000/015722.png",
+        "stack":  0
+    },
+    {
+        "id":  3373,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3374,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3375,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3376,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3377,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3378,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3379,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3380,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3381,
+        "name":  "Astral Fire III",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Able to execute \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eFlare\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e.",
+        "icon":  "icon/010000/010465.png",
+        "stack":  0
+    },
+    {
+        "id":  3382,
+        "name":  "Umbral Ice III",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Able to execute \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eFreeze\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e.",
+        "icon":  "icon/010000/010468.png",
+        "stack":  0
+    },
+    {
+        "id":  3383,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3384,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3385,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3386,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3387,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3388,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3389,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3390,
+        "name":  "Poison",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Toxins are causing damage over time.",
+        "icon":  "icon/015000/015007.png",
+        "stack":  0
+    },
+    {
+        "id":  3391,
+        "name":  "_rsv_3391_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3391_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015110.png",
+        "stack":  0
+    },
+    {
+        "id":  3392,
+        "name":  "_rsv_3392_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3392_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015111.png",
+        "stack":  0
+    },
+    {
+        "id":  3393,
+        "name":  "_rsv_3393_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3393_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015112.png",
+        "stack":  0
+    },
+    {
+        "id":  3394,
+        "name":  "_rsv_3394_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3394_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015114.png",
+        "stack":  0
+    },
+    {
+        "id":  3395,
+        "name":  "_rsv_3395_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3395_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015115.png",
+        "stack":  0
+    },
+    {
+        "id":  3396,
+        "name":  "_rsv_3396_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3396_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015116.png",
+        "stack":  0
+    },
+    {
+        "id":  3397,
+        "name":  "_rsv_3397_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3397_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015110.png",
+        "stack":  0
+    },
+    {
+        "id":  3398,
+        "name":  "_rsv_3398_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3398_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015114.png",
+        "stack":  0
+    },
+    {
+        "id":  3399,
+        "name":  "Poison",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Toxins are causing damage over time.",
+        "icon":  "icon/015000/015007.png",
+        "stack":  0
+    },
+    {
+        "id":  3400,
+        "name":  "Glossomorph",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Host to a glossal parasite, which will take control of body once this effect expires.",
+        "icon":  "icon/015000/015473.png",
+        "stack":  0
+    },
+    {
+        "id":  3401,
+        "name":  "HP Penalty",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Maximum HP is reduced.",
+        "icon":  "icon/015000/015076.png",
+        "stack":  0
+    },
+    {
+        "id":  3402,
+        "name":  "The Arrow",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Weaponskill and spell cast and recast time are reduced. Movement speed is also increased.",
+        "icon":  "icon/013000/013206.png",
+        "stack":  0
+    },
+    {
+        "id":  3403,
+        "name":  "Bole Drawn",
+        "stackIcons":  [
+
+                       ],
+        "description":  "The \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eBole\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e card is drawn.",
+        "icon":  "icon/013000/013230.png",
+        "stack":  0
+    },
+    {
+        "id":  3404,
+        "name":  "Arrow Drawn",
+        "stackIcons":  [
+
+                       ],
+        "description":  "The \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eArrow\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e card is drawn.",
+        "icon":  "icon/013000/013231.png",
+        "stack":  0
+    },
+    {
+        "id":  3405,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3406,
+        "name":  "_rsv_3406_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3406_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015117.png",
+        "stack":  0
+    },
+    {
+        "id":  3407,
+        "name":  "Toxicosis",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Toxins are causing damage over time.",
+        "icon":  "icon/015000/015517.png",
+        "stack":  0
+    },
+    {
+        "id":  3408,
+        "name":  "Stun",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Unable to execute actions.",
+        "icon":  "icon/015000/015004.png",
+        "stack":  0
+    },
+    {
+        "id":  3409,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3410,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3411,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3412,
+        "name":  "_rsv_3412_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "stackIcons":  [
+
+                       ],
+        "description":  "_rsv_3412_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015272.png",
+        "stack":  0
+    },
+    {
+        "id":  3413,
+        "name":  "Bravery of the Seventh Dawn",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Damage dealt is increased.",
+        "icon":  "icon/016000/016683.png",
+        "stack":  0
+    },
+    {
+        "id":  3414,
+        "name":  "Magic Vulnerability Up",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Magic damage taken is increased.",
+        "icon":  "icon/015000/015057.png",
+        "stack":  0
+    },
+    {
+        "id":  3415,
+        "name":  "Physical Vulnerability Up",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Physical damage taken is increased.",
+        "icon":  "icon/015000/015053.png",
+        "stack":  0
+    },
+    {
+        "id":  3416,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3417,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3418,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3419,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3420,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3421,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3422,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3423,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3424,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3425,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3426,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3427,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3428,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3429,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3430,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3431,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3432,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3433,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3434,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3435,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3436,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3437,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3438,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3439,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3440,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3441,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3442,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3443,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3444,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3445,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3446,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3447,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3448,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3449,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3450,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3451,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3452,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3453,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3454,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3455,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3456,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3457,
+        "name":  "Bind",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Unable to move.",
+        "icon":  "icon/015000/015003.png",
+        "stack":  0
+    },
+    {
+        "id":  3458,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3459,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3460,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3461,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3462,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3463,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3464,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3465,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3466,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3467,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3468,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3469,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3470,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3471,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3472,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3473,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3474,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3475,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3476,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3477,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3478,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3479,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3480,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3481,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3482,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3483,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3484,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3485,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3486,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3487,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3488,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3489,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3490,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3491,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3492,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3493,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3494,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3495,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3496,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3497,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3498,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3499,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3500,
         "name":  "",
         "stackIcons":  [
 
