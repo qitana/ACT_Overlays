@@ -41273,12 +41273,12 @@
     },
     {
         "id":  3262,
-        "name":  "",
+        "name":  "Liftoff",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Cast into the air.",
+        "icon":  "icon/015000/015225.png",
         "stack":  0
     },
     {
@@ -41333,122 +41333,122 @@
     },
     {
         "id":  3268,
-        "name":  "",
+        "name":  "First Brand",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Branded with a cryptic spark that will grow into the \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eFirst Flame\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e when this effect expires.",
+        "icon":  "icon/016000/016711.png",
         "stack":  0
     },
     {
         "id":  3269,
-        "name":  "",
+        "name":  "Second Brand",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Branded with a cryptic spark that will grow into the \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eSecond Flame\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e when this effect expires.",
+        "icon":  "icon/016000/016712.png",
         "stack":  0
     },
     {
         "id":  3270,
-        "name":  "",
+        "name":  "Third Brand",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Branded with a cryptic spark that will grow into the \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eThird Flame\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e when this effect expires.",
+        "icon":  "icon/016000/016713.png",
         "stack":  0
     },
     {
         "id":  3271,
-        "name":  "",
+        "name":  "Fourth Brand",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Branded with a cryptic spark that will grow into the \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eFourth Flame\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e when this effect expires.",
+        "icon":  "icon/016000/016714.png",
         "stack":  0
     },
     {
         "id":  3272,
-        "name":  "",
+        "name":  "First Flame",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Imbued with a cryptic flame that will erupt when this effect expires. Curse can be removed by touching the appropriate infern brand.",
+        "icon":  "icon/016000/016715.png",
         "stack":  0
     },
     {
         "id":  3273,
-        "name":  "",
+        "name":  "Second Flame",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Imbued with a cryptic flame that will erupt when this effect expires. Curse can be removed by touching the appropriate infern brand.",
+        "icon":  "icon/016000/016716.png",
         "stack":  0
     },
     {
         "id":  3274,
-        "name":  "",
+        "name":  "Third Flame",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Imbued with a cryptic flame that will erupt when this effect expires. Curse can be removed by touching the appropriate infern brand.",
+        "icon":  "icon/016000/016717.png",
         "stack":  0
     },
     {
         "id":  3275,
-        "name":  "",
+        "name":  "Fourth Flame",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Imbued with a cryptic flame that will erupt when this effect expires. Curse can be removed by touching the appropriate infern brand.",
+        "icon":  "icon/016000/016718.png",
         "stack":  0
     },
     {
         "id":  3276,
-        "name":  "",
+        "name":  "Call of the Portal",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Cursed to take heavy damage when this effect expires. Passing through a portal will remove the curse.",
+        "icon":  "icon/016000/016719.png",
         "stack":  0
     },
     {
         "id":  3277,
-        "name":  "",
+        "name":  "Rite of Passage",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Cursed to travel in specified direction. \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eStun\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e followed by forced teleportation will occur when this effect expires.",
+        "icon":  "icon/016000/016720.png",
         "stack":  0
     },
     {
         "id":  3278,
-        "name":  "",
+        "name":  "Forbidden Passage",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Cannot travel via portal.",
+        "icon":  "icon/016000/016721.png",
         "stack":  0
     },
     {
         "id":  3279,
-        "name":  "",
+        "name":  "Forbidden Passage",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Cannot travel via portal.",
+        "icon":  "icon/016000/016721.png",
         "stack":  0
     },
     {
@@ -41642,102 +41642,116 @@
     },
     {
         "id":  3290,
-        "name":  "",
+        "name":  "Echo of the Fallen",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "The \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eCurse of the Fallen\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e resonates within, causing an explosion when this effect expires.",
+        "icon":  "icon/016000/016706.png",
         "stack":  0
     },
     {
         "id":  3291,
-        "name":  "",
+        "name":  "Scream of the Fallen",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "The \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eCurse of the Fallen\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e resonates within, causing an expansive explosion when this effect expires.",
+        "icon":  "icon/016000/016707.png",
         "stack":  0
     },
     {
         "id":  3292,
-        "name":  "",
+        "name":  "Lingering Echoes",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "The \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eCurse of the Fallen\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e resonates within, causing a chain of explosions at current position when this effect expires.",
+        "icon":  "icon/016000/016708.png",
         "stack":  0
     },
     {
         "id":  3293,
-        "name":  "",
+        "name":  "Thunderous Echo",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "The \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eCurse of the Fallen\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e resonates within, causing an intense explosion when this effect expires.",
+        "icon":  "icon/016000/016709.png",
         "stack":  0
     },
     {
         "id":  3294,
-        "name":  "",
+        "name":  "Chains of Resentment",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Bound by hateful chains, causing damage over time.",
+        "icon":  "icon/016000/016710.png",
         "stack":  0
     },
     {
         "id":  3295,
-        "name":  "",
+        "name":  "Gilded Fate",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/017000/017118.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/017000/017119.png",
+                               "stack":  2
+                           }
                        ],
-        "description":  "",
-        "icon":  "",
-        "stack":  0
+        "description":  "Cursed to perish when this effect expires. Curse can be cleansed by golden flames.",
+        "icon":  "icon/017000/017118.png",
+        "stack":  2
     },
     {
         "id":  3296,
-        "name":  "",
+        "name":  "Silvered Fate",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/017000/017138.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/017000/017139.png",
+                               "stack":  2
+                           }
                        ],
-        "description":  "",
-        "icon":  "",
-        "stack":  0
+        "description":  "Cursed to perish when this effect expires. Curse can be cleansed by silver flames.",
+        "icon":  "icon/017000/017138.png",
+        "stack":  2
     },
     {
         "id":  3297,
-        "name":  "",
+        "name":  "Bracing Suds",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Awash in wind-aspected soap suds.",
+        "icon":  "icon/016000/016703.png",
         "stack":  0
     },
     {
         "id":  3298,
-        "name":  "",
+        "name":  "Chilling Suds",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Awash in ice-aspected soap suds.",
+        "icon":  "icon/016000/016704.png",
         "stack":  0
     },
     {
         "id":  3299,
-        "name":  "",
+        "name":  "Fizzling Suds",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Awash in lightning-aspected soap suds.",
+        "icon":  "icon/016000/016705.png",
         "stack":  0
     },
     {
@@ -41792,32 +41806,32 @@
     },
     {
         "id":  3305,
-        "name":  "",
+        "name":  "Bracing Suds",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Awash in wind-aspected soap suds.",
+        "icon":  "icon/016000/016703.png",
         "stack":  0
     },
     {
         "id":  3306,
-        "name":  "",
+        "name":  "Chilling Suds",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Awash in ice-aspected soap suds.",
+        "icon":  "icon/016000/016704.png",
         "stack":  0
     },
     {
         "id":  3307,
-        "name":  "",
+        "name":  "Fizzling Suds",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Awash in lightning-aspected soap suds.",
+        "icon":  "icon/016000/016705.png",
         "stack":  0
     },
     {
@@ -42329,32 +42343,32 @@
     },
     {
         "id":  3358,
-        "name":  "",
+        "name":  "Enmity Up",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Enmity generation is increased.",
+        "icon":  "icon/016000/016722.png",
         "stack":  0
     },
     {
         "id":  3359,
-        "name":  "",
+        "name":  "Sustained Damage",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Sustaining damage over time.",
+        "icon":  "icon/016000/016723.png",
         "stack":  0
     },
     {
         "id":  3360,
-        "name":  "",
+        "name":  "Vulnerability Down",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Damage taken is reduced.",
+        "icon":  "icon/016000/016724.png",
         "stack":  0
     },
     {
@@ -42419,22 +42433,22 @@
     },
     {
         "id":  3367,
-        "name":  "",
+        "name":  "Rehabilitation",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Regenerating HP over time.",
+        "icon":  "icon/015000/015532.png",
         "stack":  0
     },
     {
         "id":  3368,
-        "name":  "",
+        "name":  "Sewer-dweller",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Damage dealt is significantly increased, while damage taken is significantly decreased.",
+        "icon":  "icon/015000/015574.png",
         "stack":  0
     },
     {
@@ -42549,12 +42563,12 @@
     },
     {
         "id":  3380,
-        "name":  "",
+        "name":  "Resurrection Restricted",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Resurrection by certain means is impossible.",
+        "icon":  "icon/015000/015959.png",
         "stack":  0
     },
     {
@@ -42799,12 +42813,12 @@
     },
     {
         "id":  3405,
-        "name":  "",
+        "name":  "Damage Barrier",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "A barrier is nullifying damage.",
+        "icon":  "icon/015000/015119.png",
         "stack":  0
     },
     {
