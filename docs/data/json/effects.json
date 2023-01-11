@@ -765,7 +765,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Physical damage dealt is increased.",
+        "description":  "Damage dealt is increased.",
         "icon":  "icon/010000/010155.png",
         "stack":  0
     },
@@ -775,7 +775,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Block rate is increased.",
+        "description":  "Blocking incoming attacks.",
         "icon":  "icon/010000/010156.png",
         "stack":  0
     },
@@ -5347,7 +5347,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Shrunk to a fraction of your normal size. Damage dealt is reduced and damage taken is increased.",
+        "description":  "Shrunk to a fraction of your normal size. Movement speed and damage dealt is reduced while damage taken is increased.",
         "icon":  "icon/015000/015581.png",
         "stack":  0
     },
@@ -5367,7 +5367,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Shrunk to a fraction of your normal size. Damage dealt is reduced and damage taken is increased.",
+        "description":  "Shrunk to a fraction of your normal size. Movement speed and damage dealt is reduced while damage taken is increased.",
         "icon":  "icon/016000/016211.png",
         "stack":  0
     },
@@ -16503,22 +16503,11 @@
         "id":  1179,
         "name":  "Riddle of Earth",
         "stackIcons":  [
-                           {
-                               "icon":  "icon/017000/017271.png",
-                               "stack":  1
-                           },
-                           {
-                               "icon":  "icon/017000/017272.png",
-                               "stack":  2
-                           },
-                           {
-                               "icon":  "icon/017000/017273.png",
-                               "stack":  3
-                           }
+
                        ],
         "description":  "Contemplating the riddle of earth. Damage taken is reduced.",
-        "icon":  "icon/017000/017271.png",
-        "stack":  3
+        "icon":  "icon/012000/012527.png",
+        "stack":  0
     },
     {
         "id":  1180,
@@ -16526,7 +16515,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Damage taken is reduced and all action direction requirements are nullified.",
+        "description":  "Regenerating HP over time.",
         "icon":  "icon/012000/012531.png",
         "stack":  0
     },
@@ -18482,12 +18471,12 @@
     },
     {
         "id":  1362,
-        "name":  "",
+        "name":  "Divine Veil",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "A holy barrier is nullifying damage.",
+        "icon":  "icon/012000/012509.png",
         "stack":  0
     },
     {
@@ -18559,15 +18548,11 @@
                            {
                                "icon":  "icon/018000/018348.png",
                                "stack":  4
-                           },
-                           {
-                               "icon":  "icon/018000/018349.png",
-                               "stack":  5
                            }
                        ],
-        "description":  "Potency of \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eHoly Spirit\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e and \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eHoly Circle\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e is increased and spells require no time to cast.",
+        "description":  "Potency of certain actions is increased and spells require no time to cast.",
         "icon":  "icon/018000/018345.png",
-        "stack":  5
+        "stack":  4
     },
     {
         "id":  1369,
@@ -24866,7 +24851,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Blocking incoming attacks.",
+        "description":  "Damage taken is reduced.",
         "icon":  "icon/012000/012510.png",
         "stack":  0
     },
@@ -27596,28 +27581,13 @@
     },
     {
         "id":  2108,
-        "name":  "",
+        "name":  "Shake It Off (Over Time)",
         "stackIcons":  [
-                           {
-                               "icon":  "icon/018000/018921.png",
-                               "stack":  1
-                           },
-                           {
-                               "icon":  "icon/018000/018922.png",
-                               "stack":  2
-                           },
-                           {
-                               "icon":  "icon/018000/018923.png",
-                               "stack":  3
-                           },
-                           {
-                               "icon":  "icon/018000/018924.png",
-                               "stack":  4
-                           }
+
                        ],
-        "description":  "",
-        "icon":  "icon/018000/018921.png",
-        "stack":  4
+        "description":  "Regenerating HP over time.",
+        "icon":  "icon/012000/012567.png",
+        "stack":  0
     },
     {
         "id":  2109,
@@ -32309,7 +32279,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Shrunk to a fraction of your normal size. Damage dealt is reduced and damage taken is increased.",
+        "description":  "Shrunk to a fraction of your normal size. Movement speed and damage dealt is reduced while damage taken is increased.",
         "icon":  "icon/015000/015581.png",
         "stack":  0
     },
@@ -34466,32 +34436,13 @@
     },
     {
         "id":  2673,
-        "name":  "",
+        "name":  "Divine Might",
         "stackIcons":  [
-                           {
-                               "icon":  "icon/017000/017521.png",
-                               "stack":  1
-                           },
-                           {
-                               "icon":  "icon/017000/017522.png",
-                               "stack":  2
-                           },
-                           {
-                               "icon":  "icon/017000/017523.png",
-                               "stack":  3
-                           },
-                           {
-                               "icon":  "icon/017000/017524.png",
-                               "stack":  4
-                           },
-                           {
-                               "icon":  "icon/017000/017525.png",
-                               "stack":  5
-                           }
+
                        ],
-        "description":  "",
-        "icon":  "icon/017000/017521.png",
-        "stack":  5
+        "description":  "Next \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eHoly Spirit\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e or \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eHoly Circle\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e will deal increased damage and require no cast time.",
+        "icon":  "icon/012000/012521.png",
+        "stack":  0
     },
     {
         "id":  2674,
@@ -34499,7 +34450,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Blocking incoming attacks.",
+        "description":  "Damage taken is reduced.",
         "icon":  "icon/012000/012515.png",
         "stack":  0
     },
@@ -34635,13 +34586,32 @@
     },
     {
         "id":  2688,
-        "name":  "竜眼蒼穹実行可",
+        "name":  "Overheated",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/018000/018385.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/018000/018386.png",
+                               "stack":  2
+                           },
+                           {
+                               "icon":  "icon/018000/018387.png",
+                               "stack":  3
+                           },
+                           {
+                               "icon":  "icon/018000/018388.png",
+                               "stack":  4
+                           },
+                           {
+                               "icon":  "icon/018000/018389.png",
+                               "stack":  5
+                           }
                        ],
-        "description":  "竜眼蒼穹を実行できる状態。",
-        "icon":  "",
-        "stack":  0
+        "description":  "\u003cIf(Equal(PlayerParameter(68),31))\u003e\u003cIf(GreaterThanOrEqualTo(PlayerParameter(72),35))\u003ePotency of single-target weaponskills is increased. Able to execute \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eHeat Blast\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e\u003cIf(Equal(PlayerParameter(68),31))\u003e\u003cIf(GreaterThanOrEqualTo(PlayerParameter(72),52))\u003e and \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eAuto Crossbow\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e\u003cElse/\u003e\u003c/If\u003e\u003cElse/\u003e\u003c/If\u003e\u003cElse/\u003ePotency of single-target weaponskills is increased\u003c/If\u003e\u003cElse/\u003ePotency of single-target weaponskills is increased\u003c/If\u003e.",
+        "icon":  "icon/018000/018385.png",
+        "stack":  5
     },
     {
         "id":  2689,
@@ -38519,12 +38489,12 @@
     },
     {
         "id":  3019,
-        "name":  "Blade of Faith Ready",
+        "name":  "Confiteor Ready",
         "stackIcons":  [
 
                        ],
-        "description":  "Able to execute \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eBlade of Faith\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e.",
-        "icon":  "icon/012000/012519.png",
+        "description":  "Able to execute \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eConfiteor\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e.",
+        "icon":  "icon/012000/012520.png",
         "stack":  0
     },
     {
@@ -38945,7 +38915,7 @@
                                "stack":  5
                            }
                        ],
-        "description":  "Damage taken is increased.",
+        "description":  "Damage dealt is reduced and damage taken is increased.",
         "icon":  "icon/018000/018046.png",
         "stack":  5
     },
@@ -39969,7 +39939,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Weaponskill cast and recast times are reduced while increasing movement speed.",
+        "description":  "Weaponskill cast and recast times are reduced while increasing movement speed. Increasing damage dealt by self and nearby party members while also gradually filling the limit gauge.",
         "icon":  "icon/014000/014914.png",
         "stack":  0
     },
@@ -41077,7 +41047,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Damage taken from the red mage who applied this effect is increased while damge dealt to said red mage is reduced.",
+        "description":  "Damage taken from the red mage who applied this effect is increased while damage dealt to said red mage is reduced.",
         "icon":  "icon/014000/014822.png",
         "stack":  0
     },
@@ -41703,7 +41673,7 @@
                                "stack":  2
                            }
                        ],
-        "description":  "Cursed to perish when this effect expires. Curse can be cleansed by golden flames.",
+        "description":  "Cursed to perish when this effect expires. Curse can be cleansed by silver flames.",
         "icon":  "icon/017000/017118.png",
         "stack":  2
     },
@@ -41720,7 +41690,7 @@
                                "stack":  2
                            }
                        ],
-        "description":  "Cursed to perish when this effect expires. Curse can be cleansed by silver flames.",
+        "description":  "Cursed to perish when this effect expires. Curse can be cleansed by golden flames.",
         "icon":  "icon/017000/017138.png",
         "stack":  2
     },
@@ -41836,41 +41806,41 @@
     },
     {
         "id":  3308,
-        "name":  "_rsv_3308_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Inviolate Winds",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3308_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Ensnared by wind magicks that will be unleashed in the surrounding area when this effect expires.",
         "icon":  "icon/015000/015109.png",
         "stack":  0
     },
     {
         "id":  3309,
-        "name":  "_rsv_3309_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Holy Bonds",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3309_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Ensnared by light magicks that will be unleashed in the surrounding area when this effect expires.",
         "icon":  "icon/015000/015113.png",
         "stack":  0
     },
     {
         "id":  3310,
-        "name":  "_rsv_3310_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Purgatory Winds",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3310_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Ensnared by punishing wind magicks that will be unleashed in the surrounding area when this effect expires, and leave a timed sigil in their wake.",
         "icon":  "icon/015000/015109.png",
         "stack":  0
     },
     {
         "id":  3311,
-        "name":  "_rsv_3311_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Holy Purgation",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3311_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Ensnared by punishing wind magicks that will be unleashed in the surrounding area when this effect expires, and leave a timed sigil in their wake.",
         "icon":  "icon/015000/015113.png",
         "stack":  0
     },
@@ -41906,11 +41876,11 @@
     },
     {
         "id":  3315,
-        "name":  "_rsv_3315_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Chelomorph",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3315_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Host to a chelic parasite, which will take control of body once this effect expires.",
         "icon":  "icon/015000/015474.png",
         "stack":  0
     },
@@ -41953,31 +41923,31 @@
     },
     {
         "id":  3319,
-        "name":  "_rsv_3319_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Glossal Resistance Down",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3319_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Resistance to attacks by glossal parasites is reduced.",
         "icon":  "icon/015000/015477.png",
         "stack":  0
     },
     {
         "id":  3320,
-        "name":  "_rsv_3320_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Chelic Resistance Down",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3320_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Resistance to attacks by chelic parasites is reduced.",
         "icon":  "icon/015000/015478.png",
         "stack":  0
     },
     {
         "id":  3321,
-        "name":  "_rsv_3321_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Aetheronecrosis",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3321_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Infected with aetherially activated cells, which will burst explosively when this effect expires.",
         "icon":  "icon/015000/015770.png",
         "stack":  0
     },
@@ -42013,231 +41983,231 @@
     },
     {
         "id":  3325,
-        "name":  "_rsv_3325_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Conceptual Mastery",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3325_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Primed with powerful magicks.",
         "icon":  "icon/015000/015486.png",
         "stack":  0
     },
     {
         "id":  3326,
-        "name":  "_rsv_3326_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Blood of the Gorgon",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3326_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Cursed to unleash poison in the surrounding area when this effect expires.",
         "icon":  "icon/015000/015487.png",
         "stack":  0
     },
     {
         "id":  3327,
-        "name":  "_rsv_3327_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Breath of the Gorgon",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3327_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Cursed to unleash poison in the surrounding area when this effect expires.",
         "icon":  "icon/015000/015488.png",
         "stack":  0
     },
     {
         "id":  3328,
-        "name":  "",
+        "name":  "Spring Tide",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "A greater cursed tide will be upon you when this effect expires.",
+        "icon":  "icon/015000/015120.png",
         "stack":  0
     },
     {
         "id":  3329,
-        "name":  "",
+        "name":  "Neap Tide",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "A lesser cursed tide will be upon you when this effect expires.",
+        "icon":  "icon/015000/015121.png",
         "stack":  0
     },
     {
         "id":  3330,
-        "name":  "_rsv_3330_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Imperfection: Alpha",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3330_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Imbued with a concept incompatible with this form, which will cause an explosive reaction and influence self and nearby concepts when this effect expires.",
         "icon":  "icon/015000/015489.png",
         "stack":  0
     },
     {
         "id":  3331,
-        "name":  "_rsv_3331_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Imperfection: Beta",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3331_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Imbued with a concept incompatible with this form, which will cause an explosive reaction and influence self and nearby concepts when this effect expires.",
         "icon":  "icon/015000/015490.png",
         "stack":  0
     },
     {
         "id":  3332,
-        "name":  "_rsv_3332_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Imperfection: Gamma",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3332_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Imbued with a concept incompatible with this form, which will cause an explosive reaction and influence self and nearby concepts when this effect expires.",
         "icon":  "icon/015000/015491.png",
         "stack":  0
     },
     {
         "id":  3333,
-        "name":  "_rsv_3333_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Perfection: Alpha",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3333_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "The perfect vessel for a perfect concept. Drawing near to other perfect concepts will result in mutual influence.",
         "icon":  "icon/015000/015492.png",
         "stack":  0
     },
     {
         "id":  3334,
-        "name":  "_rsv_3334_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Perfection: Beta",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3334_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "The perfect vessel for a perfect concept. Drawing near to other perfect concepts will result in mutual influence.",
         "icon":  "icon/015000/015493.png",
         "stack":  0
     },
     {
         "id":  3335,
-        "name":  "_rsv_3335_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Perfection: Gamma",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3335_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "The perfect vessel for a perfect concept. Drawing near to other perfect concepts will result in mutual influence.",
         "icon":  "icon/015000/015494.png",
         "stack":  0
     },
     {
         "id":  3336,
-        "name":  "_rsv_3336_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Inconceivable",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3336_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Unable to draw upon perfect concepts until this effect expires.",
         "icon":  "icon/015000/015495.png",
         "stack":  0
     },
     {
         "id":  3337,
-        "name":  "_rsv_3337_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Winged Conception",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3337_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Realizing an airborne concept. Resistance to certain wind magicks is increased until this effect expires.",
         "icon":  "icon/015000/015496.png",
         "stack":  0
     },
     {
         "id":  3338,
-        "name":  "_rsv_3338_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Aquatic Conception",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3338_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Realizing an aquatic concept. Resistance to certain water magicks is increased until this effect expires.",
         "icon":  "icon/015000/015497.png",
         "stack":  0
     },
     {
         "id":  3339,
-        "name":  "_rsv_3339_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Shocking Conception",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3339_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Realizing a levin-wielding concept. Resistance to certain lightning magicks is increased until this effect expires.",
         "icon":  "icon/015000/015498.png",
         "stack":  0
     },
     {
         "id":  3340,
-        "name":  "_rsv_3340_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Fiery Conception",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3340_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Realizing a burning concept, causing damage over time until this effect expires.",
         "icon":  "icon/015000/015499.png",
         "stack":  0
     },
     {
         "id":  3341,
-        "name":  "_rsv_3341_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Toxic Conception",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3341_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Realizing a poisonous concept, causing damage over time until this effect expires.",
         "icon":  "icon/015000/015500.png",
         "stack":  0
     },
     {
         "id":  3342,
-        "name":  "_rsv_3342_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Growing Conception",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3342_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Realizing a plantlike concept, causing damage over time until this effect expires.",
         "icon":  "icon/015000/015101.png",
         "stack":  0
     },
     {
         "id":  3343,
-        "name":  "_rsv_3343_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Immortal Spark",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3343_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Conceiving of the Phoenix in part. Together, four such sparks will give birth to a legendary bird.",
         "icon":  "icon/015000/015102.png",
         "stack":  0
     },
     {
         "id":  3344,
-        "name":  "_rsv_3344_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Immortal Conception",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3344_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Realizing a Phoenix concept.",
         "icon":  "icon/015000/015103.png",
         "stack":  0
     },
     {
         "id":  3345,
-        "name":  "_rsv_3345_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Solosplice",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3345_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Self-concept is being warped beyond recognition, resulting in an adverse reaction determined by nearby influences when this effect expires.",
         "icon":  "icon/015000/015104.png",
         "stack":  0
     },
     {
         "id":  3346,
-        "name":  "_rsv_3346_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Multisplice",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3346_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Self-concept is being warped beyond recognition, resulting in an adverse reaction determined by nearby influences when this effect expires.",
         "icon":  "icon/015000/015105.png",
         "stack":  0
     },
     {
         "id":  3347,
-        "name":  "_rsv_3347_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Supersplice",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3347_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Self-concept is being warped beyond recognition, resulting in an adverse reaction determined by nearby influences when this effect expires.",
         "icon":  "icon/015000/015106.png",
         "stack":  0
     },
@@ -42253,41 +42223,41 @@
     },
     {
         "id":  3349,
-        "name":  "_rsv_3349_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Inverse Magicks",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3349_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "The order of forcible magicks to be cast is inverted.",
         "icon":  "icon/015000/015107.png",
         "stack":  0
     },
     {
         "id":  3350,
-        "name":  "_rsv_3350_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Soul Stranded",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3350_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Physical and spiritual forms have been separated.",
         "icon":  "icon/015000/015108.png",
         "stack":  0
     },
     {
         "id":  3351,
-        "name":  "_rsv_3351_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Eye of the Gorgon",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3351_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Cursed to unleash a petrifying attack in the direction of gaze when this effect expires.",
         "icon":  "icon/015000/015587.png",
         "stack":  0
     },
     {
         "id":  3352,
-        "name":  "_rsv_3352_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Crown of the Gorgon",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3352_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Cursed to unleash a petrifying light upon those nearby when this effect expires.",
         "icon":  "icon/015000/015588.png",
         "stack":  0
     },
@@ -42393,12 +42363,12 @@
     },
     {
         "id":  3363,
-        "name":  "",
+        "name":  "Seduced",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Enthralled by an irresistible force and unable to act of your own volition.",
+        "icon":  "icon/015000/015552.png",
         "stack":  0
     },
     {
@@ -42423,12 +42393,12 @@
     },
     {
         "id":  3366,
-        "name":  "",
+        "name":  "Vulnerability Up",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Damage taken is increased.",
+        "icon":  "icon/015000/015020.png",
         "stack":  0
     },
     {
@@ -42593,72 +42563,72 @@
     },
     {
         "id":  3383,
-        "name":  "",
+        "name":  "Arcane Triumph",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Fated by the Spinner to emerge victorious when this effect expires.",
+        "icon":  "icon/015000/015152.png",
         "stack":  0
     },
     {
         "id":  3384,
-        "name":  "",
+        "name":  "Arcane Triumph",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Fated by the Spinner to emerge victorious when this effect expires.",
+        "icon":  "icon/015000/015152.png",
         "stack":  0
     },
     {
         "id":  3385,
-        "name":  "",
+        "name":  "Arcane Attraction",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Fated by the Spinner to be \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eSeduced\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e if gazing at Nymeia when this effect expires.",
+        "icon":  "icon/015000/015153.png",
         "stack":  0
     },
     {
         "id":  3386,
-        "name":  "",
+        "name":  "Attraction Reversed",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Fated by the Spinner to be \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eSeduced\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e if looking away from Nymeia when this effect expires.",
+        "icon":  "icon/015000/015154.png",
         "stack":  0
     },
     {
         "id":  3387,
-        "name":  "",
+        "name":  "Arcane Fever",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Fated by the Spinner to become \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003ePyretic\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e when this effect expires.",
+        "icon":  "icon/015000/015155.png",
         "stack":  0
     },
     {
         "id":  3388,
-        "name":  "",
+        "name":  "Fever Reversed",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Fated by the Spinner to begin \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eFreezing Up\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e when this effect expires, resulting in \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eDeep Freeze\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e if not continuously in motion.",
+        "icon":  "icon/015000/015156.png",
         "stack":  0
     },
     {
         "id":  3389,
-        "name":  "",
+        "name":  "Sibling Revelry",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Combat capabilities increase when Althyk and Nymeia are nearby one another.",
+        "icon":  "icon/015000/015157.png",
         "stack":  0
     },
     {
@@ -42673,81 +42643,81 @@
     },
     {
         "id":  3391,
-        "name":  "_rsv_3391_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Purgatory Winds",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3391_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Ensnared by punishing wind magicks that will be unleashed in the surrounding area when this effect expires, and leave a timed sigil in their wake.",
         "icon":  "icon/015000/015110.png",
         "stack":  0
     },
     {
         "id":  3392,
-        "name":  "_rsv_3392_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Purgatory Winds",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3392_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Ensnared by punishing wind magicks that will be unleashed in the surrounding area when this effect expires, and leave a timed sigil in their wake.",
         "icon":  "icon/015000/015111.png",
         "stack":  0
     },
     {
         "id":  3393,
-        "name":  "_rsv_3393_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Purgatory Winds",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3393_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Ensnared by punishing wind magicks that will be unleashed in the surrounding area when this effect expires, and leave a timed sigil in their wake.",
         "icon":  "icon/015000/015112.png",
         "stack":  0
     },
     {
         "id":  3394,
-        "name":  "_rsv_3394_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Holy Purgation",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3394_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Ensnared by punishing wind magicks that will be unleashed in the surrounding area when this effect expires, and leave a timed sigil in their wake.",
         "icon":  "icon/015000/015114.png",
         "stack":  0
     },
     {
         "id":  3395,
-        "name":  "_rsv_3395_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Holy Purgation",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3395_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Ensnared by punishing wind magicks that will be unleashed in the surrounding area when this effect expires, and leave a timed sigil in their wake.",
         "icon":  "icon/015000/015115.png",
         "stack":  0
     },
     {
         "id":  3396,
-        "name":  "_rsv_3396_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Holy Purgation",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3396_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Ensnared by punishing wind magicks that will be unleashed in the surrounding area when this effect expires, and leave a timed sigil in their wake.",
         "icon":  "icon/015000/015116.png",
         "stack":  0
     },
     {
         "id":  3397,
-        "name":  "_rsv_3397_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Inviolate Winds",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3397_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Ensnared by wind magicks that will be unleashed in the surrounding area when this effect expires.",
         "icon":  "icon/015000/015110.png",
         "stack":  0
     },
     {
         "id":  3398,
-        "name":  "_rsv_3398_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Holy Bonds",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3398_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Ensnared by light magicks that will be unleashed in the surrounding area when this effect expires.",
         "icon":  "icon/015000/015114.png",
         "stack":  0
     },
@@ -42823,11 +42793,11 @@
     },
     {
         "id":  3406,
-        "name":  "_rsv_3406_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Everburn",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3406_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Calling upon the power of a Phoenix concept. Damage dealt is increased.",
         "icon":  "icon/015000/015117.png",
         "stack":  0
     },
@@ -42883,11 +42853,11 @@
     },
     {
         "id":  3412,
-        "name":  "_rsv_3412_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+        "name":  "Natural Alignment",
         "stackIcons":  [
 
                        ],
-        "description":  "_rsv_3412_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "description":  "Graven with a sigil and sustaining damage over time. Taking damage from certain actions caused by Twist Nature will result in a destructive forcible failure.",
         "icon":  "icon/015000/015272.png",
         "stack":  0
     },
@@ -42973,12 +42943,12 @@
     },
     {
         "id":  3421,
-        "name":  "",
+        "name":  "Fetters",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Unable to execute actions.",
+        "icon":  "icon/015000/015545.png",
         "stack":  0
     },
     {
@@ -43353,22 +43323,22 @@
     },
     {
         "id":  3459,
-        "name":  "",
+        "name":  "Blooming Blue",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Resistant to blueblossom aether.",
+        "icon":  "icon/015000/015124.png",
         "stack":  0
     },
     {
         "id":  3460,
-        "name":  "",
+        "name":  "Blooming Gold",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Resistant to goldblossom aether.",
+        "icon":  "icon/015000/015125.png",
         "stack":  0
     },
     {
@@ -43383,122 +43353,153 @@
     },
     {
         "id":  3462,
-        "name":  "",
+        "name":  "Poison",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/017000/017001.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/017000/017002.png",
+                               "stack":  2
+                           },
+                           {
+                               "icon":  "icon/017000/017003.png",
+                               "stack":  3
+                           },
+                           {
+                               "icon":  "icon/017000/017004.png",
+                               "stack":  4
+                           },
+                           {
+                               "icon":  "icon/017000/017005.png",
+                               "stack":  5
+                           },
+                           {
+                               "icon":  "icon/017000/017006.png",
+                               "stack":  6
+                           },
+                           {
+                               "icon":  "icon/017000/017007.png",
+                               "stack":  7
+                           },
+                           {
+                               "icon":  "icon/017000/017008.png",
+                               "stack":  8
+                           }
                        ],
-        "description":  "",
-        "icon":  "",
-        "stack":  0
+        "description":  "Toxins are causing damage over time.",
+        "icon":  "icon/017000/017001.png",
+        "stack":  8
     },
     {
         "id":  3463,
-        "name":  "",
+        "name":  "Dirty Claw",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Deadened nerves are sometimes preventing the execution of actions.",
+        "icon":  "icon/015000/015006.png",
         "stack":  0
     },
     {
         "id":  3464,
-        "name":  "",
+        "name":  "Slow",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay are increased.",
+        "icon":  "icon/015000/015009.png",
         "stack":  0
     },
     {
         "id":  3465,
-        "name":  "",
+        "name":  "Stun",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Unable to execute actions.",
+        "icon":  "icon/015000/015004.png",
         "stack":  0
     },
     {
         "id":  3466,
-        "name":  "",
+        "name":  "Sleep",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Overwhelming drowsiness is preventing the execution of actions",
+        "icon":  "icon/015000/015013.png",
         "stack":  0
     },
     {
         "id":  3467,
-        "name":  "",
+        "name":  "Vegetal Vapours",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Overcome and quite unable to act.",
+        "icon":  "icon/015000/015147.png",
         "stack":  0
     },
     {
         "id":  3468,
-        "name":  "",
+        "name":  "Frontal Blaster Charge",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Hybrid blaster is crackling with charged energy.",
+        "icon":  "icon/015000/015148.png",
         "stack":  0
     },
     {
         "id":  3469,
-        "name":  "",
+        "name":  "Rear Blaster Charge",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Hybrid blaster is crackling with charged energy.",
+        "icon":  "icon/015000/015149.png",
         "stack":  0
     },
     {
         "id":  3470,
-        "name":  "",
+        "name":  "Left Blaster Charge",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Hybrid blaster is crackling with charged energy.",
+        "icon":  "icon/015000/015150.png",
         "stack":  0
     },
     {
         "id":  3471,
-        "name":  "",
+        "name":  "Right Blaster Charge",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Hybrid blaster is crackling with charged energy.",
+        "icon":  "icon/015000/015151.png",
         "stack":  0
     },
     {
         "id":  3472,
-        "name":  "",
+        "name":  "Heavy",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Movement speed is reduced.",
+        "icon":  "icon/015000/015002.png",
         "stack":  0
     },
     {
         "id":  3473,
-        "name":  "",
+        "name":  "Heavy",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Movement speed is reduced.",
+        "icon":  "icon/015000/015002.png",
         "stack":  0
     },
     {
@@ -43513,32 +43514,32 @@
     },
     {
         "id":  3475,
-        "name":  "",
+        "name":  "Penance",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Humbled by Rubicante. \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003ePenitent\u0027s Shackles\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e will be applied when this effect expires.",
+        "icon":  "icon/015000/015158.png",
         "stack":  0
     },
     {
         "id":  3476,
-        "name":  "",
+        "name":  "Penitent\u0027s Shackles",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Fettered and unable to move.",
+        "icon":  "icon/015000/015159.png",
         "stack":  0
     },
     {
         "id":  3477,
-        "name":  "",
+        "name":  "Penance",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Humbled by Rubicante. \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003ePenitent\u0027s Shackles\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e will be applied when this effect expires.",
+        "icon":  "icon/015000/015158.png",
         "stack":  0
     },
     {
@@ -43593,62 +43594,100 @@
     },
     {
         "id":  3483,
-        "name":  "",
+        "name":  "Blooming Welt",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "A scathing curse lingers on your skin, resulting in a radiating explosion when this effect expires.",
+        "icon":  "icon/015000/015165.png",
         "stack":  0
     },
     {
         "id":  3484,
-        "name":  "",
+        "name":  "Furious Welt",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "A scathing curse lingers on your skin, resulting in an intense explosion when this effect expires.",
+        "icon":  "icon/015000/015166.png",
         "stack":  0
     },
     {
         "id":  3485,
-        "name":  "",
+        "name":  "Stinging Welt",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "A scathing curse lingers on your skin, resulting in an explosion when this effect expires.",
+        "icon":  "icon/015000/015167.png",
         "stack":  0
     },
     {
         "id":  3486,
-        "name":  "",
+        "name":  "Flamespire",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/019000/019564.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/019000/019565.png",
+                               "stack":  2
+                           },
+                           {
+                               "icon":  "icon/019000/019566.png",
+                               "stack":  3
+                           },
+                           {
+                               "icon":  "icon/019000/019567.png",
+                               "stack":  4
+                           },
+                           {
+                               "icon":  "icon/019000/019568.png",
+                               "stack":  5
+                           }
                        ],
-        "description":  "",
-        "icon":  "",
-        "stack":  0
+        "description":  "Taking heavy damage from each blow of Flamespire Claw. Accumulating 5 stacks will result in a massive explosion.",
+        "icon":  "icon/019000/019564.png",
+        "stack":  5
     },
     {
         "id":  3487,
-        "name":  "",
+        "name":  "Flamespire",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/019000/019564.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/019000/019565.png",
+                               "stack":  2
+                           },
+                           {
+                               "icon":  "icon/019000/019566.png",
+                               "stack":  3
+                           },
+                           {
+                               "icon":  "icon/019000/019567.png",
+                               "stack":  4
+                           },
+                           {
+                               "icon":  "icon/019000/019568.png",
+                               "stack":  5
+                           }
                        ],
-        "description":  "",
-        "icon":  "",
-        "stack":  0
+        "description":  "Taking heavy damage from each blow of Flamespire Claw. Accumulating 5 stacks will result in a massive explosion.",
+        "icon":  "icon/019000/019564.png",
+        "stack":  5
     },
     {
         "id":  3488,
-        "name":  "",
+        "name":  "Mark of the Harvest",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Damage taken from the reaper who applied this effect is increased.",
+        "icon":  "icon/016000/016412.png",
         "stack":  0
     },
     {
@@ -43703,12 +43742,12 @@
     },
     {
         "id":  3494,
-        "name":  "",
+        "name":  "Blind",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Encroaching darkness is lowering accuracy.",
+        "icon":  "icon/015000/015012.png",
         "stack":  0
     },
     {
@@ -43763,6 +43802,506 @@
     },
     {
         "id":  3500,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3501,
+        "name":  "Down for the Count",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Unable to move or execute actions.",
+        "icon":  "icon/015000/015044.png",
+        "stack":  0
+    },
+    {
+        "id":  3502,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3503,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3504,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3505,
+        "name":  "Burning Chains",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Fiery bonds are forming, resulting in enchainment to another player when this effect expires.",
+        "icon":  "icon/015000/015170.png",
+        "stack":  0
+    },
+    {
+        "id":  3506,
+        "name":  "Ancient Frost",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Enveloped by ice magicks, which will impart the chill of \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eAncient Frost\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e when this effect expires.",
+        "icon":  "icon/015000/015168.png",
+        "stack":  0
+    },
+    {
+        "id":  3507,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3508,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3509,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3510,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3511,
+        "name":  "Glassy-eyed",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Become another of Galatea\u0027s puppets. When this effect expires, body will be possessed and unleash a petrifying attack in all directions.",
+        "icon":  "icon/015000/015986.png",
+        "stack":  0
+    },
+    {
+        "id":  3512,
+        "name":  "Moonspore Spurred",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Movement speed is increased due to inhalation of moonspores.",
+        "icon":  "icon/015000/015169.png",
+        "stack":  0
+    },
+    {
+        "id":  3513,
+        "name":  "Concussion",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Suffering severe head trauma. Unable to act and taking increased damage.",
+        "icon":  "icon/015000/015712.png",
+        "stack":  0
+    },
+    {
+        "id":  3514,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3515,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3516,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3517,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3518,
+        "name":  "Mini",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Shrunk to a fraction of your normal size. Damage dealt and movement speed are reduced, while damage taken is increased.",
+        "icon":  "icon/015000/015581.png",
+        "stack":  0
+    },
+    {
+        "id":  3519,
+        "name":  "Deep Freeze",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Your body is encased in ice, preventing action and dealing damage over time.",
+        "icon":  "icon/015000/015637.png",
+        "stack":  0
+    },
+    {
+        "id":  3520,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3521,
+        "name":  "Concussion",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Wounds dealt by a blunt weapon are causing damage over time.",
+        "icon":  "icon/015000/015523.png",
+        "stack":  0
+    },
+    {
+        "id":  3522,
+        "name":  "Pyretic",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Fire-aspected damage is taken with every action.",
+        "icon":  "icon/015000/015647.png",
+        "stack":  0
+    },
+    {
+        "id":  3523,
+        "name":  "Freezing Up",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Growing colder by the moment. Failure to continue moving until this effect expires will result in \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eDeep Freeze\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e.",
+        "icon":  "icon/015000/015355.png",
+        "stack":  0
+    },
+    {
+        "id":  3524,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3525,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3526,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3527,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3528,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3529,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3530,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3531,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3532,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3533,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3534,
+        "name":  "Ancient Circle",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Fell darkness spreads out from where you stand. The \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eAncient Circle\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e will activate when this effect expires.",
+        "icon":  "icon/015000/015770.png",
+        "stack":  0
+    },
+    {
+        "id":  3535,
+        "name":  "Dark Whispers",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Cursed by tongues of stygian flame, which will unleash a dark attack when this effect expires.",
+        "icon":  "icon/015000/015305.png",
+        "stack":  0
+    },
+    {
+        "id":  3536,
+        "name":  "Magic Vulnerability Up",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Magic damage taken is increased.",
+        "icon":  "icon/015000/015057.png",
+        "stack":  0
+    },
+    {
+        "id":  3537,
+        "name":  "Burns",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Sustaining fire damage over time.",
+        "icon":  "icon/015000/015524.png",
+        "stack":  0
+    },
+    {
+        "id":  3538,
+        "name":  "Forward March",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Have received the order to advance. Order will be executed when status fades.",
+        "icon":  "icon/015000/015774.png",
+        "stack":  0
+    },
+    {
+        "id":  3539,
+        "name":  "About Face",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Have received the order to retreat. Order will be executed when status fades.",
+        "icon":  "icon/015000/015775.png",
+        "stack":  0
+    },
+    {
+        "id":  3540,
+        "name":  "Left Face",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Have received the order to move left. Order will be executed when status fades.",
+        "icon":  "icon/015000/015776.png",
+        "stack":  0
+    },
+    {
+        "id":  3541,
+        "name":  "Right Face",
+        "stackIcons":  [
+
+                       ],
+        "description":  "Have received the order to move right. Order will be executed when status fades.",
+        "icon":  "icon/015000/015777.png",
+        "stack":  0
+    },
+    {
+        "id":  3542,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3543,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3544,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3545,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3546,
+        "name":  "Radiant Veil",
+        "stackIcons":  [
+
+                       ],
+        "description":  "A magicked barrier is nullifying damage.",
+        "icon":  "icon/012000/012509.png",
+        "stack":  0
+    },
+    {
+        "id":  3547,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3548,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3549,
+        "name":  "",
+        "stackIcons":  [
+
+                       ],
+        "description":  "",
+        "icon":  "",
+        "stack":  0
+    },
+    {
+        "id":  3550,
         "name":  "",
         "stackIcons":  [
 
