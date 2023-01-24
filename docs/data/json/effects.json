@@ -42973,213 +42973,224 @@
     },
     {
         "id":  3424,
-        "name":  "",
+        "name":  "Guided Missile Kyrios Incoming",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Target of a missile kyrios launch. Designated attack will occur when this effect expires.",
+        "icon":  "icon/015000/015126.png",
         "stack":  0
     },
     {
         "id":  3425,
-        "name":  "",
+        "name":  "Sniper Cannon Fodder",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Designated target of a sniper cannon, which will fire when this effect expires.",
+        "icon":  "icon/015000/015127.png",
         "stack":  0
     },
     {
         "id":  3426,
-        "name":  "",
+        "name":  "High-powered Sniper Cannon Fodder",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Designated target of a high-powered sniper cannon, which will fire when this effect expires.",
+        "icon":  "icon/015000/015128.png",
         "stack":  0
     },
     {
         "id":  3427,
-        "name":  "",
+        "name":  "_rsv_3427_-1_1_0_0_S74CFC3B0_E74CFC3B0",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_3427_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015129.png",
         "stack":  0
     },
     {
         "id":  3428,
-        "name":  "",
+        "name":  "_rsv_3428_-1_1_0_0_S74CFC3B0_E74CFC3B0",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_3428_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015130.png",
         "stack":  0
     },
     {
         "id":  3429,
-        "name":  "",
+        "name":  "_rsv_3429_-1_1_0_0_S74CFC3B0_E74CFC3B0",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_3429_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015131.png",
         "stack":  0
     },
     {
         "id":  3430,
-        "name":  "",
+        "name":  "Synchronization Debugger",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Invulnerable to critical synchronization bugs.",
+        "icon":  "icon/015000/015918.png",
         "stack":  0
     },
     {
         "id":  3431,
-        "name":  "",
+        "name":  "Overflow Debugger",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Invulnerable to critical overflow bugs.",
+        "icon":  "icon/015000/015919.png",
         "stack":  0
     },
     {
         "id":  3432,
-        "name":  "",
+        "name":  "Underflow Debugger",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Invulnerable to critical underflow bugs.",
+        "icon":  "icon/015000/015920.png",
         "stack":  0
     },
     {
         "id":  3433,
-        "name":  "",
+        "name":  "_rsv_3433_-1_1_0_0_S74CFC3B0_E74CFC3B0",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_3433_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015132.png",
         "stack":  0
     },
     {
         "id":  3434,
-        "name":  "",
+        "name":  "Latent Synchronization Bug",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Affected by a hidden error that will cause explosive damage when the effect ends. Effect canceled upon being hit by a certain action.",
+        "icon":  "icon/015000/015133.png",
         "stack":  0
     },
     {
         "id":  3435,
-        "name":  "",
+        "name":  "_rsv_3435_-1_1_0_0_S74CFC3B0_E74CFC3B0",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_3435_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015134.png",
         "stack":  0
     },
     {
         "id":  3436,
-        "name":  "",
+        "name":  "Synchronization Code Smell",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Hints of faulty programming are arising. Issues will manifest as a \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eCritical Synchronization Bug\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e when this effect expires.",
+        "icon":  "icon/015000/015135.png",
         "stack":  0
     },
     {
         "id":  3437,
-        "name":  "",
+        "name":  "Overflow Code Smell",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Hints of faulty programming are arising. Issues will manifest as a \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eCritical Overflow Bug\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e when this effect expires.",
+        "icon":  "icon/015000/015136.png",
         "stack":  0
     },
     {
         "id":  3438,
-        "name":  "",
+        "name":  "Underflow Code Smell",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Hints of faulty programming are arising. Issues will manifest as a \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eCritical Underflow Bug\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e when this effect expires.",
+        "icon":  "icon/015000/015137.png",
         "stack":  0
     },
     {
         "id":  3439,
-        "name":  "",
+        "name":  "_rsv_3439_-1_1_0_0_S74CFC3B0_E74CFC3B0",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_3439_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015138.png",
         "stack":  0
     },
     {
         "id":  3440,
-        "name":  "",
+        "name":  "Local Code Smell",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Hints of corrupted programming are arising. Issues will manifest as \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eLocal Regression\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e when this effect expires.",
+        "icon":  "icon/015000/015139.png",
         "stack":  0
     },
     {
         "id":  3441,
-        "name":  "",
+        "name":  "Remote Code Smell",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Hints of corrupted programming are arising. Issues will manifest as \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eRemote Regression\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e when this effect expires.",
+        "icon":  "icon/015000/015140.png",
         "stack":  0
     },
     {
         "id":  3442,
-        "name":  "",
+        "name":  "_rsv_3442_-1_1_0_0_S74CFC3B0_E74CFC3B0",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_3442_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015141.png",
         "stack":  0
     },
     {
         "id":  3443,
-        "name":  "",
+        "name":  "_rsv_3443_-1_1_0_0_S74CFC3B0_E74CFC3B0",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_3443_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015142.png",
         "stack":  0
     },
     {
         "id":  3444,
-        "name":  "",
+        "name":  "_rsv_3444_-1_1_0_0_S74CFC3B0_E74CFC3B0",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/019000/019657.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/019000/019658.png",
+                               "stack":  2
+                           },
+                           {
+                               "icon":  "icon/019000/019659.png",
+                               "stack":  3
+                           }
                        ],
-        "description":  "",
-        "icon":  "",
-        "stack":  0
+        "description":  "_rsv_3444_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/019000/019657.png",
+        "stack":  3
     },
     {
         "id":  3445,
@@ -43193,112 +43204,112 @@
     },
     {
         "id":  3446,
-        "name":  "",
+        "name":  "_rsv_3446_-1_1_0_0_S74CFC3B0_E74CFC3B0",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_3446_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015143.png",
         "stack":  0
     },
     {
         "id":  3447,
-        "name":  "",
+        "name":  "_rsv_3447_-1_1_0_0_S74CFC3B0_E74CFC3B0",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_3447_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015144.png",
         "stack":  0
     },
     {
         "id":  3448,
-        "name":  "",
+        "name":  "_rsv_3448_-1_1_0_0_S74CFC3B0_E74CFC3B0",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_3448_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015145.png",
         "stack":  0
     },
     {
         "id":  3449,
-        "name":  "",
+        "name":  "Omega",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Inscrutable.",
+        "icon":  "icon/015000/015909.png",
         "stack":  0
     },
     {
         "id":  3450,
-        "name":  "",
+        "name":  "Infinite Limit",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Actions transcending standard limits.",
+        "icon":  "icon/015000/015910.png",
         "stack":  0
     },
     {
         "id":  3451,
-        "name":  "",
+        "name":  "Fourth in Line",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Marked as target #4.",
+        "icon":  "icon/015000/015118.png",
         "stack":  0
     },
     {
         "id":  3452,
-        "name":  "",
+        "name":  "_rsv_3452_-1_1_0_0_S74CFC3B0_E74CFC3B0",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_3452_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015146.png",
         "stack":  0
     },
     {
         "id":  3453,
-        "name":  "",
+        "name":  "_rsv_3453_-1_1_0_0_S74CFC3B0_E74CFC3B0",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_3453_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015146.png",
         "stack":  0
     },
     {
         "id":  3454,
-        "name":  "",
+        "name":  "Omega-M",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Mimicking the male form.",
+        "icon":  "icon/015000/015925.png",
         "stack":  0
     },
     {
         "id":  3455,
-        "name":  "",
+        "name":  "Superfluid",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "In a transitional liquid state.",
+        "icon":  "icon/015000/015927.png",
         "stack":  0
     },
     {
         "id":  3456,
-        "name":  "",
+        "name":  "Looper",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Corrupted by Omega\u0027s program loop.",
+        "icon":  "icon/015000/015892.png",
         "stack":  0
     },
     {
@@ -43752,32 +43763,32 @@
     },
     {
         "id":  3495,
-        "name":  "",
+        "name":  "Guided Missile Kyrios Incoming",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Target of a missile kyrios launch. Designated attack will occur when this effect expires.",
+        "icon":  "icon/015000/015126.png",
         "stack":  0
     },
     {
         "id":  3496,
-        "name":  "",
+        "name":  "Guided Missile Kyrios Incoming",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Target of a missile kyrios launch. Designated attack will occur when this effect expires.",
+        "icon":  "icon/015000/015126.png",
         "stack":  0
     },
     {
         "id":  3497,
-        "name":  "",
+        "name":  "Guided Missile Kyrios Incoming",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Target of a missile kyrios launch. Designated attack will occur when this effect expires.",
+        "icon":  "icon/015000/015126.png",
         "stack":  0
     },
     {
@@ -43792,22 +43803,22 @@
     },
     {
         "id":  3499,
-        "name":  "",
+        "name":  "Packet Filter M",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Firewall is preventing the dealing of damage to Omega-M.",
+        "icon":  "icon/015000/015911.png",
         "stack":  0
     },
     {
         "id":  3500,
-        "name":  "",
+        "name":  "Packet Filter F",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Firewall is preventing the dealing of damage to Omega-F.",
+        "icon":  "icon/015000/015912.png",
         "stack":  0
     },
     {
@@ -43832,22 +43843,22 @@
     },
     {
         "id":  3503,
-        "name":  "",
+        "name":  "Local Code Smell",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Hints of corrupted programming are arising. Issues will manifest as \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eLocal Regression\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e when this effect expires.",
+        "icon":  "icon/015000/015139.png",
         "stack":  0
     },
     {
         "id":  3504,
-        "name":  "",
+        "name":  "Remote Code Smell",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Hints of corrupted programming are arising. Issues will manifest as \u003cUIForeground\u003eF201FA\u003c/UIForeground\u003e\u003cUIGlow\u003eF201FB\u003c/UIGlow\u003eRemote Regression\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e when this effect expires.",
+        "icon":  "icon/015000/015140.png",
         "stack":  0
     },
     {
@@ -43872,42 +43883,42 @@
     },
     {
         "id":  3507,
-        "name":  "",
+        "name":  "Condensed Wave Cannon Kyrios",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Designated target of the condensed wave cannon kyrios, which will fire when this effect expires.",
+        "icon":  "icon/015000/015026.png",
         "stack":  0
     },
     {
         "id":  3508,
-        "name":  "",
+        "name":  "Condensed Wave Cannon Kyrios",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Designated target of the condensed wave cannon kyrios, which will fire when this effect expires.",
+        "icon":  "icon/015000/015026.png",
         "stack":  0
     },
     {
         "id":  3509,
-        "name":  "",
+        "name":  "Condensed Wave Cannon Kyrios",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Designated target of the condensed wave cannon kyrios, which will fire when this effect expires.",
+        "icon":  "icon/015000/015026.png",
         "stack":  0
     },
     {
         "id":  3510,
-        "name":  "",
+        "name":  "Condensed Wave Cannon Kyrios",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Designated target of the condensed wave cannon kyrios, which will fire when this effect expires.",
+        "icon":  "icon/015000/015026.png",
         "stack":  0
     },
     {
@@ -43962,13 +43973,76 @@
     },
     {
         "id":  3516,
-        "name":  "",
+        "name":  "Magic Vulnerability Up",
         "stackIcons":  [
-
+                           {
+                               "icon":  "icon/018000/018021.png",
+                               "stack":  1
+                           },
+                           {
+                               "icon":  "icon/018000/018022.png",
+                               "stack":  2
+                           },
+                           {
+                               "icon":  "icon/018000/018023.png",
+                               "stack":  3
+                           },
+                           {
+                               "icon":  "icon/018000/018024.png",
+                               "stack":  4
+                           },
+                           {
+                               "icon":  "icon/018000/018025.png",
+                               "stack":  5
+                           },
+                           {
+                               "icon":  "icon/018000/018026.png",
+                               "stack":  6
+                           },
+                           {
+                               "icon":  "icon/018000/018027.png",
+                               "stack":  7
+                           },
+                           {
+                               "icon":  "icon/018000/018028.png",
+                               "stack":  8
+                           },
+                           {
+                               "icon":  "icon/018000/018029.png",
+                               "stack":  9
+                           },
+                           {
+                               "icon":  "icon/018000/018030.png",
+                               "stack":  10
+                           },
+                           {
+                               "icon":  "icon/018000/018031.png",
+                               "stack":  11
+                           },
+                           {
+                               "icon":  "icon/018000/018032.png",
+                               "stack":  12
+                           },
+                           {
+                               "icon":  "icon/018000/018033.png",
+                               "stack":  13
+                           },
+                           {
+                               "icon":  "icon/018000/018034.png",
+                               "stack":  14
+                           },
+                           {
+                               "icon":  "icon/018000/018035.png",
+                               "stack":  15
+                           },
+                           {
+                               "icon":  "icon/018000/018036.png",
+                               "stack":  16
+                           }
                        ],
-        "description":  "",
-        "icon":  "",
-        "stack":  0
+        "description":  "Magic damage taken is increased.",
+        "icon":  "icon/018000/018021.png",
+        "stack":  16
     },
     {
         "id":  3517,
@@ -44042,72 +44116,72 @@
     },
     {
         "id":  3524,
-        "name":  "",
+        "name":  "Critical Synchronization Bug",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Affected by a critical error. Data corruption will cause explosive damage and spread when the effect ends.",
+        "icon":  "icon/015000/015915.png",
         "stack":  0
     },
     {
         "id":  3525,
-        "name":  "",
+        "name":  "Critical Overflow Bug",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Affected by a critical error. Data corruption will cause explosive damage and spread when the effect ends.",
+        "icon":  "icon/015000/015916.png",
         "stack":  0
     },
     {
         "id":  3526,
-        "name":  "",
+        "name":  "Critical Underflow Bug",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Affected by a critical error. Coming in contact with allies will cause data corruption to spread. Corruption will cause explosive damage when the effect ends.",
+        "icon":  "icon/015000/015917.png",
         "stack":  0
     },
     {
         "id":  3527,
-        "name":  "",
+        "name":  "Latent Defect",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Affected by a hidden error that will cause explosive damage when the effect ends. Effect canceled upon being hit by a certain action.",
+        "icon":  "icon/015000/015921.png",
         "stack":  0
     },
     {
         "id":  3528,
-        "name":  "",
+        "name":  "Cascading Latent Defect",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Affected by a hidden error that will cause explosive damage when the effect ends. Effect canceled upon being hit by a certain action.",
+        "icon":  "icon/015000/015922.png",
         "stack":  0
     },
     {
         "id":  3529,
-        "name":  "",
+        "name":  "Local Regression",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Affected by a patch error. Data corruption will cause damage when in close proximity to others affected by the same error, or when the effect ends.",
+        "icon":  "icon/015000/015923.png",
         "stack":  0
     },
     {
         "id":  3530,
-        "name":  "",
+        "name":  "Remote Regression",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Affected by a patch error. Data corruption will cause damage when out of range of others affected by the same error, or when the effect ends.",
+        "icon":  "icon/015000/015924.png",
         "stack":  0
     },
     {
@@ -44122,12 +44196,12 @@
     },
     {
         "id":  3532,
-        "name":  "",
+        "name":  "_rsv_3532_-1_1_0_0_S74CFC3B0_E74CFC3B0",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "_rsv_3532_-1_1_1_0_S74CFC3B0_E74CFC3B0",
+        "icon":  "icon/015000/015171.png",
         "stack":  0
     },
     {
