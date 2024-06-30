@@ -42,6 +42,8 @@ let jobEnumToName = {
   38: 'DNC',
   39: 'RPR',
   40: 'SGE',
+  41: 'VPR',
+  42: 'PCT',
 };
 
 let jobNameToRole = {
@@ -76,6 +78,8 @@ let jobNameToRole = {
   BLU: 'DPS',
   DNC: 'DPS',
   RPR: 'DPS',
+  VPR: 'DPS',
+  PCT: 'DPS',
 };
 
 let isPet = (entity) => {
