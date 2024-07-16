@@ -46123,7 +46123,7 @@
         "stackIcons":  [
 
                        ],
-        "description":  "Able to execute \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eSubtractive Palette\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e.",
+        "description":  "Able to execute \u003cUIForeground\u003eF201F4\u003c/UIForeground\u003e\u003cUIGlow\u003eF201F5\u003c/UIGlow\u003eSubtractive Palette\u003cUIGlow\u003e01\u003c/UIGlow\u003e\u003cUIForeground\u003e01\u003c/UIForeground\u003e without cost.",
         "icon":  "icon/013000/013813.png",
         "stack":  0
     },
@@ -47501,12 +47501,12 @@
     },
     {
         "id":  3808,
-        "name":  "",
+        "name":  "Directional Disregard",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "All action direction requirements are nullified.",
+        "icon":  "icon/014000/014224.png",
         "stack":  0
     },
     {
@@ -48047,7 +48047,7 @@
     },
     {
         "id":  3853,
-        "name":  "Tengetsu",
+        "name":  "Tengentsu",
         "stackIcons":  [
 
                        ],
@@ -48057,7 +48057,7 @@
     },
     {
         "id":  3854,
-        "name":  "Tengetsu\u0027s Foresight",
+        "name":  "Tengentsu\u0027s Foresight",
         "stackIcons":  [
 
                        ],
@@ -48696,12 +48696,12 @@
     },
     {
         "id":  3915,
-        "name":  "",
+        "name":  "Lovely Poison",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Weapon has been lovingly coated with venom.",
+        "icon":  "icon/014000/014138.png",
         "stack":  0
     },
     {
@@ -48716,42 +48716,42 @@
     },
     {
         "id":  3917,
-        "name":  "",
+        "name":  "Infatuated",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Suffering minor heart palpitations due to a growing fondness for Honey B. Lovely. Taking damage over time.",
+        "icon":  "icon/014000/014140.png",
         "stack":  0
     },
     {
         "id":  3918,
-        "name":  "",
+        "name":  "Head Over Heels",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Suffering heart palpitations due to an attraction to Honey B. Lovely. Taking damage over time.",
+        "icon":  "icon/014000/014141.png",
         "stack":  0
     },
     {
         "id":  3919,
-        "name":  "",
+        "name":  "Hopeless Devotion",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Suffering severe heart palpitations due to undying affection for Honey B. Lovely. Taking damage over time.",
+        "icon":  "icon/014000/014142.png",
         "stack":  0
     },
     {
         "id":  3920,
-        "name":  "",
+        "name":  "Fatal Attraction",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Honey B. Lovely has taken your heart prisoner.",
+        "icon":  "icon/014000/014147.png",
         "stack":  0
     },
     {
@@ -48896,12 +48896,12 @@
     },
     {
         "id":  3935,
-        "name":  "",
+        "name":  "Poison Resistance Down II",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Poison resistance is significantly reduced.",
+        "icon":  "icon/014000/014152.png",
         "stack":  0
     },
     {
@@ -50092,12 +50092,12 @@
     },
     {
         "id":  4021,
-        "name":  "",
+        "name":  "Doped",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "A performance-enhancing compound is amplifying physical strength. Damage dealt is increased.",
+        "icon":  "icon/014000/014134.png",
         "stack":  0
     },
     {
@@ -51393,12 +51393,12 @@
     },
     {
         "id":  4143,
-        "name":  "",
+        "name":  "Top of the Hive",
         "stackIcons":  [
 
                        ],
-        "description":  "",
-        "icon":  "",
+        "description":  "Honey B. Lovely is stealing the spotlight.",
+        "icon":  "icon/014000/014222.png",
         "stack":  0
     },
     {
