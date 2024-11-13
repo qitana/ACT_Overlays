@@ -1,7 +1,7 @@
 1. Start SaintCoinach.Cmd and run following subcommands:
 
 - exd Status
-- ui 010000 029999
+- ui 210000 219999
 
 2. copy "exd" and "ui" here
 
